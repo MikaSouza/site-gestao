@@ -1,0 +1,35 @@
+/*// **********************************/
+/*// Error Global (jQuery Validate)*/
+/*// **********************************/
+.form-group{
+	position: relative;
+}
+
+ /*Error (jQuery Validate)*/
+label.error{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	background-color: red;
+	padding: 2px 8px;
+	color: #fff;
+	font-size: 12px;
+}
+
+/*Dentro de btn-group*/
+.btn-group label.error{
+	top: -23px;
+	left: 0;
+}
+
+/*Dentro de input-group*/
+.input-group label.error{
+	top: -28px;
+	left: 0;
+}
+
+input.error,
+select.error,
+textarea.error{
+	border: 1px solid red;
+}

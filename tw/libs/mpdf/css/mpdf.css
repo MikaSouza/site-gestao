@@ -1,0 +1,44 @@
+/*header*/
+th {
+    font-size: 12pt;
+    margin-top: 2pt;
+    margin-bottom: 5pt;
+    border-collapse: collapse;
+}
+/*body*/
+td {
+    font-size: 9pt;
+    margin-top: 2pt;
+    margin-bottom: 5pt;
+    border-collapse: collapse;
+}
+/* Adicionado por Francisco Jr. em 08/05/2015 */
+td {
+    font-size: 9pt;
+    margin-top: 2pt;
+    margin-bottom: 5pt;
+    border-collapse: collapse;
+}
+.cp { 
+    font: bold 10px Arial; 
+    color: black;
+}
+.ti { 
+    font: 9px Arial, Helvetica, sans-serif;
+}
+.ld { 
+    font: bold 15px Arial; 
+    color: #000000;
+}
+.ct { 
+    font: 9px "Arial Narrow"; 
+    color: #000033;
+}
+.cn { 
+    font: 9px Arial; 
+    color: black; 
+}
+.bc { 
+    font: bold 22px Arial; 
+    color: #000000; 
+}
