@@ -531,20 +531,3 @@ Array.prototype.max = function() {
 Array.prototype.min = function() {
   return Math.min.apply(null, this);
 };
-
-function copyClipboard(text){
-  $("#copyOfClipboard").remove();
-  var target = document.createElement("textarea");
-  target.id = 'copyOfClipboard'; 
-  target.value = text; 
-  document.body.appendChild(target); 
-  target.focus(); 
-  target.setSelectionRange(0, target.value.length); 
-  var result = document.execCommand("copy"); 
-  target.remove(); 
-  if (result) {
-    sweetAlert("", "Copiado para a área de trânsferência!", "success");
-  } else {
-    sweetAlert("Oops", "Houve uma falha ao copiar para a área de trânsferência!", "error");
-  }
-}

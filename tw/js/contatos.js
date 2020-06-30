@@ -1,4 +1,4 @@
-$('form[name=formContato]').validate({
+$('form[name=formContatos]').validate({
 	rules: {
 		vSCONNOME: { required: true },
 		vSCONEMAIL: { required: true, email: true},

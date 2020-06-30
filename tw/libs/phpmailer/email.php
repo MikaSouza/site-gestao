@@ -100,7 +100,7 @@ function emailCabecalho($pSTitulo) {
 	$vSTexto .= '<thead>';
 	$vSTexto .= '<tr style="width: 100%;">';
 	$vSTexto .= '<th colspan="2" align="left" style="padding: 5px 20px;" data-cms-node="2">';
-	$vSTexto .= '<img src="'.cSUrlSiteEmpresa.'tw/imagens/'.cSLogoMarca.'" width="145px" height="auto" alt="" style="max-width: 200px; max-height: 80px;" data-cms-node="3">';
+	$vSTexto .= '<img src="'.cSUrlSiteEmpresa.'/tw/imagens/'.cSLogoMarca.'" width="145px" height="auto" alt="" style="max-width: 200px; max-height: 80px;" data-cms-node="3">';
 	$vSTexto .= '</th>';
 	$vSTexto .= '<th colspan="2" align="right" style="padding: 5px 20px;" data-cms-node="5"><span class="color2" style="color: #444;" data-cms-node="6"><a href="'.cSUrlSiteEmpresa.'">'.cSSiteEmpresa.'</a><br />Telefone: <strong data-cms-node="7">'.cSTelefone1.'</strong></span></th>';
 	$vSTexto .= '</tr>';

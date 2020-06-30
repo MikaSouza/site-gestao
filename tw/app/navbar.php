@@ -9,52 +9,10 @@
 */
 	$menus = array(
 		array(
-			'namePage' => 'blog',
-			'url'      => 'listBlog.php',
-			'submenu'  => array(
-				array(
-					'namePage' => 'blog',
-				),
-				array(
-					'namePage' => 'categorias',
-					'titlePage' => 'categorias',
-					'url' 	    => 'listCategorias.php'
-				),
-			)
-		),
-		array(
-			'namePage' => 'cases',
-			'url'      => 'listCases.php',
-			'submenu'  => array(
-				array(
-					'namePage' => 'cases',
-				),
-				array(
-					'namePage' => 'categoriasCases',
-					'titlePage' => 'categorias',
-					'url' 	    => 'listCategoriasCases.php'
-				),
-			)
-		),
-		array(
-			'namePage' => 'faq',
-			'url'      => 'listFaq.php',
-			'submenu'  => array(
-				array(
-					'namePage' => 'faq',
-				),
-				array(
-					'namePage' => 'categoriasFaq',
-					'titlePage' => 'categoriasFaq',
-					'url' 	    => 'listCategoriasFaq.php'
-				),
-			)
+			'namePage' => 'banners'
 		),
 		array(
 			'namePage' => 'contatos'
-		),
-		array(
-			'namePage' => 'carreiras'
 		),
 		array(
 			'namePage' => 'parceiros'
@@ -66,10 +24,6 @@
 				array(
 					'namePage' => 'config',
 					'url'      => 'cadConfig.php?oid=1'
-				),
-				array(
-					'namePage'  => 'bancoImagens',
-					'titlePage' => 'Banco de Imagens'
 				),
 				array(
 					'namePage'  => 'usuarios',

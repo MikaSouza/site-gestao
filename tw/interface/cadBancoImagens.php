@@ -20,7 +20,7 @@ require_once '../app/header.php';
 					<input type="file" name="vFBAIIMAGEM" id="vFBAIIMAGEM" class="form-control" placeholder="Imagem" title="Imagem">
 				</div>
 			<?php else: ?>
-				<?= visualizarImagem($namePage, $fill['BAIIMAGEM'], $fill['BAICODIGO'], 'BANCOIMAGENS', 'BAI', 'BAIIMAGEM'); ?>
+				<?= visualizarImagem($namePage, $fill['BAIIMAGEM'], $fill['BAICODIGO'], 'BAINERS', 'BAI', 'BAIIMAGEM'); ?>
 			<?php endif; ?>
 			<div class="row">
 				<div class="col-md-12 text-right">

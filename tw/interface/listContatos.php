@@ -18,7 +18,6 @@ require_once '../app/header.php';
 							<th>Nome</th>
 							<th>E-mail</th>
 							<th>Telefone</th>
-							<th>Assunto</th>
 							<th>Ações</th>
 						</tr>
 					</thead>
