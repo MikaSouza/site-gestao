@@ -417,7 +417,7 @@ $this->defaultCSS = array(
 		'MARGIN-BOTTOM' => '1.12em',
 	),
 	'A' => array(
-		'COLOR' => '#161647',
+		'COLOR' => '#0000FF',
 		'TEXT-DECORATION' => 'underline',
 	),
 	'UL' => array(

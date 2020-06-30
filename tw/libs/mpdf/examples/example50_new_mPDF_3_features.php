@@ -335,7 +335,7 @@ This is only recommended in non-HTML headers and footers. Although the text is a
 
      </td><td>blue
 
-     </td><td class="c" style="background-color: #FFFFFF; ">#161647
+     </td><td class="c" style="background-color: #FFFFFF; ">#0000ff
 
      </td><td class="c" style="background-color: #FFFFFF; ">0,0,255
 

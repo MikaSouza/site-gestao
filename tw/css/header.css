@@ -34,14 +34,14 @@
         box-shadow: none;
     }
 
-    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:hover, 
     .navbar-default .navbar-toggle:focus {
         color: #fff;
         background: #333;
     }
 
-    .navbar-default .navbar-nav>.open>a,
-    .navbar-default .navbar-nav>.open>a:hover,
+    .navbar-default .navbar-nav>.open>a, 
+    .navbar-default .navbar-nav>.open>a:hover, 
     .navbar-default .navbar-nav>.open>a:focus {
         background-color: #000;
         color: #555;
@@ -83,15 +83,15 @@
         background-color: red;
     }
 
-    .navbar-default .navbar-nav > .active > a,
-    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a, 
+    .navbar-default .navbar-nav > .active > a:hover, 
     .navbar-default .navbar-nav > .active > a:focus {
         color: #fff !important;
         background-color: rgb(0,0,0) !important;
     }
 
 
-    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:hover, 
     .navbar-default .navbar-nav > li > a:focus {
         color: #fff;
         font-weight: 600;
@@ -228,7 +228,7 @@
         display: block;
     }
 /*@media only screen and (min-width : 768px) {
-     Make Navigation Toggle on Desktop Hover
+     Make Navigation Toggle on Desktop Hover 
     .dropdown:hover .dropdown-menu {
         display: block;
     }
@@ -602,7 +602,7 @@
     }
 
 
-    .container > .navbar-header,
+    .container > .navbar-header, 
     .container > .navbar-collapse {
         margin-right: 0;
         margin-left: 0;
@@ -612,12 +612,12 @@
         background: #000;
     }
 
-
+    
     .navbar li.dropdown:hover > ul {
         display: block;
     }
 
-    .navbar-collapse,
+    .navbar-collapse, 
     .navbar-collapse.in {
         width: 100%;
         overflow: hidden;
@@ -704,8 +704,8 @@
         display: block !important;
     }
 
-    .navbar .nav li a,
-    .navbar ul.dropdown-menu li a,
+    .navbar .nav li a, 
+    .navbar ul.dropdown-menu li a, 
     .navbar ul.dropdown-menu li.dropdown-submenu >ul.dropdown-menu li a {
         padding: 5px;
         line-height: 30px;
@@ -762,7 +762,7 @@
         color: #fff;
     }
 
-    .nav li.dropdown ul.dropdown-menu li:first-child a,
+    .nav li.dropdown ul.dropdown-menu li:first-child a, 
     .nav li:first-child a {
         border-top: none;
     }
@@ -781,8 +781,8 @@
         background: transparent;
     }
 
-    .nav ul.dropdown-menu >li> a, .nav a,
-    .nav li.dropdown a,
+    .nav ul.dropdown-menu >li> a, .nav a, 
+    .nav li.dropdown a, 
     .nav li.active a {
         /*background: transparent !important;*/
     }
@@ -797,7 +797,7 @@
         float: none;
     }
 
-    .nav ul.dropdown-menu,
+    .nav ul.dropdown-menu,    
     .nav ul.dropdown-menu.right > li.dropdown-submenu >.dropdown-menu {
         position: static;
         clear: both;
@@ -890,7 +890,7 @@
 }
 #divGrid > div > ul > li.active > a{
     background-color: rgb(0,0,0) !important;
-    border-color: rgb(0,0,0) !important;
+    border-color: rgb(0,0,0) !important; 
 }
 .pagination>li.active a{
     background: rgb(0,0,0) !important;

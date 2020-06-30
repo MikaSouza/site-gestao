@@ -64,8 +64,6 @@ function insertUpdate($dados){
 										'filtro' => $tipoFiltro,
 									);
 		}
-		
-		if ($dados['debug'] == 'S') pre($dados);
 
 		//Removendo o prefixo
 		$fields = array_combine(array_map('removePrefix', array_keys($dados['fields'])), $dados['fields']);
@@ -127,8 +125,6 @@ function insertUpdate($dados){
 		//Preparando a query
 		$query = $db->prepare($sql);
 		
-		if ($dados['debug'] == 'S') echo $sql;
-		
 		//Filtrando os valores
 		foreach ($fields as $field => $opcoes) {
 			$query->BindValue(':'.strtolower($field), $opcoes['valor'], $opcoes['filtro']);
@@ -143,7 +139,6 @@ function insertUpdate($dados){
 		else
 			return $fields[$dados['prefixo'].'CODIGO']['valor'];
 	}catch(PDOException $e){
-		if ($dados['debug'] == 'S') {echo $e; return;} 
 		return $e;
 	}
 }

@@ -15,12 +15,12 @@ require_once '../app/header.php';
 				<input type="text" name="vSCONNOME" id="vSCONNOME" class="form-control" value="<?= $fill['CONNOME'] ?>" placeholder="Nome" required>
 			</div>
 			<div class="form-group">
-				<label for="vSCONEMAIL">E-mail</label>
-				<input type="email" name="vSCONEMAIL" id="vSCONEMAIL" class="form-control" value="<?= $fill['CONEMAIL'] ?>" placeholder="E-mail" required>
-			</div>
-			<div class="form-group">
 				<label for="vSCONTELEFONE">Telefone</label>
 				<input type="text" name="vSCONTELEFONE" id="vSCONTELEFONE" class="form-control telefone" value="<?= $fill['CONTELEFONE'] ?>" placeholder="Telefone" required>
+			</div>
+			<div class="form-group">
+				<label for="vSCONEMAIL">E-mail</label>
+				<input type="email" name="vSCONEMAIL" id="vSCONEMAIL" class="form-control" value="<?= $fill['CONEMAIL'] ?>" placeholder="E-mail" required>
 			</div>
 			<div class="form-group">
 				<label for="vSCONMENSAGEM">Mensagem</label>
