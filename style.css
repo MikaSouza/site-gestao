@@ -9,13 +9,13 @@
 
 -----------------------------------------------------------------------------------*/
 
-    /*-----------------------------------------------------------------------------------  
+    /*-----------------------------------------------------------------------------------
      CSS INDEX
     ===================
 
     1. Theme Default CSS (body, link color, section etc)
     2. Header top Area
-    2.1 Header Bottom Area 
+    2.1 Header Bottom Area
     2.2. Sticky Header Area
     2.3. Mobile Menu Area
     3. Intro Area
@@ -45,7 +45,7 @@
     27. Project Details page
     28. Login and Register
 
-    
+
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
 /*  Google Fonts
@@ -101,33 +101,33 @@ h1, h2, h3, h4, h5, h6 {
 h1{
 	font-size: 48px;
 	line-height: 52px;
-		
+
 }
 h2{
 	font-size: 42px;
 	line-height:46px;
-		
+
 }
 h3{
 	font-size: 34px;
 	line-height: 40px;
     font-weight: 500;
-		
+
 }
 h4{
 	font-size: 26px;
 	line-height: 32px;
-		
+
 }
 h5{
 	font-size: 20px;
 	line-height: 28px;
-		
+
 }
 h6{
 	font-size: 16px;
 	line-height: 26px;
-		
+
 }
 a {
 	transition: all 0.3s ease 0s;
@@ -187,10 +187,10 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
-div#preloader { 
+div#preloader {
 	position: fixed;
-	left: 0; 
-	top: 0; 
+	left: 0;
+	top: 0;
 	z-index: 99999;
 	width: 100%;
 	height: 100%;
@@ -248,7 +248,7 @@ div#preloader {
     text-align: left;
 }
 .white-headline h3{
-   color:#fff; 
+   color:#fff;
 }
 .section-headline p {
     max-width: 560px;
@@ -274,7 +274,7 @@ div#preloader {
     background: #fff;
 }
 .bg-gray{
-   background: #FDFCFC; 
+   background: #FDFCFC;
 }
 .color {
     color: #3078fb;
@@ -329,7 +329,7 @@ div#preloader {
 	opacity: 1;
 }
 /*----------------------------------------*/
-/*  2.1 Header Bottom Area 
+/*  2.1 Header Bottom Area
 /*----------------------------------------*/
 .header-one {
     position: absolute;
@@ -1190,7 +1190,7 @@ div#preloader {
 .single-awesome-project:hover .project-dec h4 {
     color:#3078fb;
 }
-.project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+.project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev,
 .project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
     color: #fff;
     font-size: 18px;
@@ -1404,6 +1404,7 @@ div#preloader {
 .blog-content {
     padding: 30px;
     position: relative;
+    height: auto;
     z-index: 1;
     transition: 0.5s;
     overflow: hidden;
@@ -1519,7 +1520,7 @@ div#preloader {
     font-weight: 600;
     text-transform: capitalize;
     font-size: 20px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 }
 .active.center .single-testi .testi-text p,
 .active.center .single-testi .guest-rev,
@@ -1753,7 +1754,7 @@ div#preloader {
     margin: 0 auto;
     margin-top: -80px;
 }
-.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev,
 .intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
     color: #fff;
     font-size: 20px;
@@ -1976,7 +1977,7 @@ div#preloader {
     top:0;
     width:100%;
     height:100%;
-    background: rgba(4,23,46, 0.70) none repeat scroll 0 0; 
+    background: rgba(4,23,46, 0.70) none repeat scroll 0 0;
     content:"";
 }
 .intro-area-3 .slider-content {
@@ -2015,7 +2016,7 @@ div#preloader {
 .header-area-3.stick .logo a.black-logo {
     display: block;
 }
-.intro-area-3 .intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+.intro-area-3 .intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev,
 .intro-area-3 .intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
     margin-top: -20px;
 }
@@ -2332,7 +2333,7 @@ span.q-text {
 }
 .left-blog .post-img a {
     display: block;
-    border:1px solid #fafafa; 
+    border:1px solid #fafafa;
 }
 .left-blog .post-img a img {
     border-radius: 4px;
@@ -2399,7 +2400,7 @@ span.q-text {
     margin: 10px 0 0px;
     border-radius: 4px;
 }
-.pagination>li>a, 
+.pagination>li>a,
 .pagination>li>span {
     position: relative;
     float: left;
@@ -2416,11 +2417,11 @@ span.q-text {
     display: inline-block;
     margin: 0px 3px 0px 0px;
 }
-.pagination>.active>a, 
-.pagination>.active>span, 
-.pagination>.active>a:hover, 
-.pagination>.active>span:hover, 
-.pagination>.active>a:focus, 
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
 .pagination>.active>span:focus{
     z-index: 3;
     color: #fff;
@@ -2456,7 +2457,7 @@ span.q-text {
     float: left;
     margin-right: 15px;
 	border-radius: 50%;
-	
+
 }
 .comments-list-img img {
     border-radius: 3px;
@@ -3139,7 +3140,7 @@ span.email-notes{
     position: relative;
     margin: 0px 0px 20px;
 }
-.signup-page .login-image, 
+.signup-page .login-image,
 .signup-page .log-inner img {
     height: 100%;
     max-height: 588px;
@@ -3238,3 +3239,40 @@ span.email-notes{
 /*--------------------------------*/
 /* .End CSS
 /*--------------------------------*/
+#palavraPesquisada {
+    color: #3078fb;
+}
+
+#ajusteMenu {
+    font-size: 12.8px;
+}
+
+#ajusteMenu:hover {
+    color: #3078fb;
+}
+
+#center {
+    text-align: center;
+}
+
+.blue {
+    background-color: #3078fb;
+    border-radius: 2px;
+    padding: 15px;
+    height: 290px;
+}
+
+@media all and (max-width: 800px) {
+    .blue {
+        height: auto;
+    }
+}
+
+.blue p {
+    color: whitesmoke;
+    text-align: left;
+}
+
+#justifica {
+    text-align: justify;
+}

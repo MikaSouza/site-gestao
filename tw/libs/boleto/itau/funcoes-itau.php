@@ -230,8 +230,8 @@
 		src=imagens/p.gif width=<?=$largo?> height=<?=$altura?> border=0><img
 		src=imagens/b.gif width=<?=$fino?> height=<?=$altura?> border=0><img
 		src=imagens/p.gif width=<?=1?> height=<?=$altura?> border=0><?
-	} //Fim da função
-	
+	} //Fim da funï¿½ï¿½o
+
 	function fbarcodepdf($valor){
 
 		$fino = 1 ;
@@ -264,7 +264,7 @@
                     src=/admin/libs/boleto/itau/imagens/p.gif width='.$fino.' height='.$altura.' border=0><img
                     src=/admin/libs/boleto/itau/imagens/b.gif width='.$fino.' height='.$altura.' border=0><img
                     ';
-		
+
 		$texto = $valor ;
 		if((strlen($texto) % 2) <> 0){
 			$texto = "0" . $texto;
@@ -281,21 +281,21 @@
 				}else{
 					$f1 = $largo ;
 				}
-				$retorno .= 'src=/admin/libs/boleto/itau/imagens/p.gif width='.$f1.' height='.$altura.' border=0><img ';				
+				$retorno .= 'src=/admin/libs/boleto/itau/imagens/p.gif width='.$f1.' height='.$altura.' border=0><img ';
 				if (substr($f,$i,1) == "0") {
 					$f2 = $fino ;
 				}else{
 					$f2 = $largo ;
 				}
-				$retorno .= 'src=/admin/libs/boleto/itau/imagens/b.gif width='.$f2.' height='.$altura.' border=0><img ';				
+				$retorno .= 'src=/admin/libs/boleto/itau/imagens/b.gif width='.$f2.' height='.$altura.' border=0><img ';
 			}
 		}
 		// Draw guarda final
 		$retorno .= 'src=/admin/libs/boleto/itau/imagens/p.gif width='.$largo.' height='.$altura.' border=0><img
                     src=/admin/libs/boleto/itau/imagens/b.gif width='.$fino.' height='.$altura.' border=0><img
-                    src=/admin/libs/boleto/itau/imagens/p.gif width='. 1 .' height='.$altura.' border=0>';		
+                    src=/admin/libs/boleto/itau/imagens/p.gif width='. 1 .' height='.$altura.' border=0>';
 		return $retorno;
-	} //Fim da função
+	} //Fim da funï¿½ï¿½o
 
 	function esquerda($entra,$comp){
 		return substr($entra,0,$comp);

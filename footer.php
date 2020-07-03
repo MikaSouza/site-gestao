@@ -24,22 +24,14 @@
                         <div class="col-md-4 col-sm-3 col-xs-12">
                             <div class="footer-content">
                                 <div class="footer-head">
-                                    <h4>Services Link</h4>
+                                    <h4>Links Rápidos</h4>
                                     <ul class="footer-list">
-                                        <li><a href="#">Business</a></li>
-                                        <li><a href="#">Agency </a></li>
-                                        <li><a href="#">Social media</a></li>
-                                        <li><a href="#">Branding</a></li>
-                                        <li><a href="#">Design </a></li>
-                                        <li><a href="#">Data science </a></li>
-                                    </ul>
-                                    <ul class="footer-list hidden-sm">
-                                        <li><a href="#">Search engine</a></li>
-                                        <li><a href="#">Online support</a></li>
-                                        <li><a href="#">Development</a></li>
-                                        <li><a href="#">Pay per click</a></li>
-                                        <li><a href="#">Event activation</a></li>
-                                        <li><a href="#">Automotion</a></li>
+                                        <li><a href="#">A Empresa</a></li>
+                                        <li><a href="#">Controle Interno </a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Capacitação</a></li>
+                                        <li><a href="#">Outras Atividades </a></li>
+                                        <li><a href="#">Contato </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -48,11 +40,15 @@
                         <div class="col-md-3 col-sm-4 col-xs-12">
                             <div class="footer-content last-content">
                                 <div class="footer-head">
-                                    <h4>Information</h4>
+                                    <h4>Informações</h4>
                                     <div class="footer-contacts">
-                                        <p><span>Location :</span> House- 65/4, Zonson street-3/5, London, UK</p>
-                                        <p><span>Tel :</span> +0890-564-5644</p>
-                                        <p><span>Email :</span> info@randerc3.com</p>
+                                        <p><span>Endereço :</span><br>
+                                            Rua João Bayer, 744<br>
+                                            Bairro Petrópolis - Taquara/RS<br>
+                                            CEP: 95607-008</p>
+                                        <p><span>Telefone :</span> (51) 3541-3355</p>
+                                        <p><span>WhatsApp :</span> (51) 9 8443-2097</p>
+                                        <p><span>E-mail :</span> gestao@gestao.srv.br</p>
                                     </div>
                                     <div class="footer-icons">
                                         <ul>

@@ -7,10 +7,10 @@ $arquivo    = $parametros[0];
 
 if($arquivo != ''){
 
-	if ($arquivo == 'noticias' && !empty($parametros[1])) {
-		require_once 'noticias.php';
-	} elseif($arquivo == 'blog' && !empty($parametros[1])){
-		require_once 'noticia-detalhe.php';
+	if ($arquivo == 'blog' && !empty($parametros[1])) {
+		require_once 'blog.php';
+	} elseif($arquivo == 'blog-detalhe' && !empty($parametros[1])){
+		require_once 'blog-detalhe.php';
 	}
 	elseif(is_file($arquivo.'.php')){
 		require_once $arquivo.'.php';

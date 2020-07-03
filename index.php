@@ -4,10 +4,10 @@ $vSTitulo = 'Inteligência em Adminstração Pública';
 $vSName = 'home';
 require_once 'header.php';
 require_once 'tw/includes/constantes.php';
+require_once 'tw/transaction/transactionBlog.php';
 
 ?>
 
-<!-- Start Slider Area -->
 <div class="intro-area intro-area-3">
     <div class="intro-carousel">
         <div class="intro-content-2">
@@ -20,18 +20,15 @@ require_once 'tw/includes/constantes.php';
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <!-- layer 1 -->
                                     <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Transforming into digital software company.</h2>
+                                        <h2 class="title2">Inteligência focada na Administração Pública</h2>
                                     </div>
-                                    <!-- layer 2 -->
                                     <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                        <p>We develop effective plans to move your customers behaviour.</p>
+                                        <p>Controle Interno eficiente e menos burocrático</p>
                                     </div>
-                                    <!-- layer 3 -->
-                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
-                                        <a href="#" class="ready-btn left-btn ">Our Services</a>
-                                        <a href="#" class="ready-btn right-btn">Contact us</a>
+                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
+                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
+                                        <a href="contato" class="ready-btn right-btn">Contato</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,18 +47,66 @@ require_once 'tw/includes/constantes.php';
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <!-- layer 1 -->
                                     <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Transforming into digital software company.</h2>
+                                        <h2 class="title2">Práticas de Compliance no âmbito da Administração Pública</h2>
                                     </div>
-                                    <!-- layer 2 -->
                                     <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                        <p>We develop effective plans to move your customers behaviour.</p>
+                                        <p>Experiência que ultrapassa 20 anos de assessoria à Órgãos Públicos</p>
                                     </div>
-                                    <!-- layer 3 -->
-                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
-                                        <a href="#" class="ready-btn left-btn ">Our Services</a>
-                                        <a href="#" class="ready-btn right-btn">Contact us</a>
+                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
+                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
+                                        <a href="contato" class="ready-btn right-btn">Contato</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-content-2 slide-2">
+            <div class="slider-images">
+                <img src="img/slider/h4.jpg" alt="">
+            </div>
+            <div class="slider-content">
+                <div class="display-table">
+                    <div class="display-table-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
+                                        <h2 class="title2">Software desenvolvido para otimizar as atividades de Controle Interno</h2>
+                                    </div>
+                                    <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
+                                        <p>Emissão de Orientações Técnicas periódicas e exclusiva aos parceiros, refletindo em capacitação e atualização constante</p>
+                                    </div>
+                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
+                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
+                                        <a href="contato" class="ready-btn right-btn">Contato</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-content-2 slide-2">
+            <div class="slider-images">
+                <img src="img/slider/h4.jpg" alt="">
+            </div>
+            <div class="slider-content">
+                <div class="display-table">
+                    <div class="display-table-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
+                                        <h2 class="title2">Canal de atendimento entre a consultoria x parceiro</h2>
+                                    </div>
+                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
+                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
+                                        <a href="contato" class="ready-btn right-btn">Contato</a>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +117,7 @@ require_once 'tw/includes/constantes.php';
         </div>
     </div>
 </div>
-<!-- End Slider Area -->
-<!-- Start service area -->
+
 <div class="service-area service-area-2 bg-color area-padding-2">
     <div class="container">
         <div class="row">
@@ -86,7 +130,6 @@ require_once 'tw/includes/constantes.php';
         </div>
         <div class="row">
             <div class="all-services">
-                <!-- single dervices -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-icon">
@@ -101,7 +144,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- single dervices -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-icon">
@@ -116,7 +158,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- single dervices -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-icon">
@@ -131,7 +172,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- single dervices -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-icon">
@@ -146,7 +186,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- single dervices -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-icon">
@@ -161,7 +200,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- single dervices -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-service wow fadeInUp" data-wow-delay="0.7s">
                         <div class="service-icon">
@@ -176,13 +214,11 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- single dervices -->
             </div>
         </div>
     </div>
 </div>
-<!-- End service area -->
-<!-- about-area start -->
+
 <div class="about-area about-2 fix">
     <div class="container-full">
         <div class="row">
@@ -195,7 +231,6 @@ require_once 'tw/includes/constantes.php';
                     </div>
                 </div>
             </div>
-            <!-- column end -->
             <div class="col-md-7 col-sm-8 col-xs-12">
                 <div class="support-all about-content">
                     <div class="section-headline right-headline white-headline">
@@ -216,12 +251,10 @@ require_once 'tw/includes/constantes.php';
                     </div>
                 </div>
             </div>
-            <!-- column end -->
         </div>
     </div>
 </div>
-<!-- about-area end -->
-<!-- Start Counter area -->
+
 <div class="counter-area fix area-padding">
     <div class="container">
         <div class="row">
@@ -237,7 +270,6 @@ require_once 'tw/includes/constantes.php';
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="fun-text-all">
-                    <!-- single counter  -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="fun_text wow fadeInUp" data-wow-delay="0.2s">
                             <span class="counter-icon"><i class="ti-layers"></i></span>
@@ -245,7 +277,6 @@ require_once 'tw/includes/constantes.php';
                             <h4>Total projects</h4>
                         </div>
                     </div>
-                    <!-- single counter  -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="fun_text wow fadeInUp" data-wow-delay="0.3s">
                             <span class="counter-icon"><i class="ti-world"></i></span>
@@ -253,7 +284,6 @@ require_once 'tw/includes/constantes.php';
                             <h4>Worldwide</h4>
                         </div>
                     </div>
-                    <!-- single counter  -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="fun_text wow fadeInUp" data-wow-delay="0.4s">
                             <span class="counter-icon"><i class="ti-cup"></i></span>
@@ -261,7 +291,6 @@ require_once 'tw/includes/constantes.php';
                             <h4>Awards win</h4>
                         </div>
                     </div>
-                    <!-- single counter  -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="fun_text wow fadeInUp" data-wow-delay="0.5s">
                             <span class="counter-icon"><i class="ti-user"></i></span>
@@ -269,14 +298,12 @@ require_once 'tw/includes/constantes.php';
                             <h4>Team member</h4>
                         </div>
                     </div>
-                    <!-- single counter  -->
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- End Counter area -->
-<!-- Start Team Banner area -->
+
 <div class="banner-area fix area-padding">
     <div class="container">
         <div class="row">
@@ -292,14 +319,12 @@ require_once 'tw/includes/constantes.php';
         </div>
     </div>
 </div>
-<!-- End Team Banner area -->
-<!-- Start Tab Area -->
+
 <div class="tab-area bg-color fix area-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="tab-menu">
-                    <!-- Start Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="active">
                             <a href="#p-view-1" role="tab" data-toggle="tab">
@@ -322,12 +347,10 @@ require_once 'tw/includes/constantes.php';
                             </a>
                         </li>
                     </ul>
-                    <!-- End Nav tabs -->
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="tab-content">
-                    <!--Start Tab Content -->
                     <div class="tab-pane active" id="p-view-1">
                         <div class="tab-inner">
                             <div class="single-machine row">
@@ -351,7 +374,6 @@ require_once 'tw/includes/constantes.php';
                             </div>
                         </div>
                     </div>
-                    <!--Start Tab Content -->
                     <div class="tab-pane" id="p-view-2">
                         <div class="tab-inner">
                             <div class="single-machine row">
@@ -375,7 +397,6 @@ require_once 'tw/includes/constantes.php';
                             </div>
                         </div>
                     </div>
-                    <!--Start Tab Content -->
                     <div class="tab-pane" id="p-view-3">
                         <div class="tab-inner">
                             <div class="single-machine row">
@@ -399,7 +420,6 @@ require_once 'tw/includes/constantes.php';
                             </div>
                         </div>
                     </div>
-                    <!--Start Tab Content -->
                     <div class="tab-pane" id="p-view-4">
                         <div class="tab-inner">
                             <div class="single-machine row">
@@ -423,15 +443,12 @@ require_once 'tw/includes/constantes.php';
                             </div>
                         </div>
                     </div>
-                    <!--Start Tab Content -->
                 </div>
             </div>
         </div>
-        <!-- end Row -->
     </div>
 </div>
-<!-- End Tab end -->
-<!-- Start digital-services area -->
+
 <div class="digital-services-area area-padding-2">
     <div class="container">
         <div class="row">
@@ -444,7 +461,6 @@ require_once 'tw/includes/constantes.php';
         </div>
         <div class="row">
             <div class="we-services">
-                <!-- digital-services -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="digital-services">
                         <div class="digital-wel s1-item">
@@ -457,7 +473,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- digital-services -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="digital-services">
                         <div class="digital-wel s2-item">
@@ -470,7 +485,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- digital-services -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="digital-services">
                         <div class="digital-wel s4-item">
@@ -483,7 +497,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- digital-services -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="digital-services">
                         <div class="digital-wel s3-item">
@@ -496,7 +509,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- digital-services -->
                 <div class="col-md-offset-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="digital-services">
                         <div class="digital-wel s5-item">
@@ -509,7 +521,6 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- digital-services -->
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <div class="digital-services">
                         <div class="digital-wel s5-item">
@@ -522,13 +533,11 @@ require_once 'tw/includes/constantes.php';
                         </div>
                     </div>
                 </div>
-                <!-- digital-services -->
             </div>
         </div>
     </div>
 </div>
-<!-- End digital-servicesarea -->
-<!-- Start Blog Area-->
+
 <div class="blog-area fix bg-color area-padding-2">
     <div class="container">
         <div class="row">
@@ -541,186 +550,27 @@ require_once 'tw/includes/constantes.php';
         </div>
         <div class="row">
             <div class="blog-grid home-blog">
-                <!-- Start single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-image">
-                            <a class="image-scale" href="#">
-                                <img src="img/blog/b1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    20 july, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    13
-                                </span>
+                <?php
+                $blogs = comboBlog(0, 3);
+                foreach ($blogs['dados'] as $blog) : ?>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-blog">
+                            <div class="blog-image">
+                                <a class="image-scale" href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                    <img src="tw/uploads/blog/thumbnail/<?= $blog['BLOIMAGEM']; ?>" alt="">
+                                </a>
                             </div>
-                            <a href="#">
-                                <h4>Creative design clients response is better</h4>
-                            </a>
+                            <div class="blog-content">
+                                <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                    <h4><?= $blog['BLOTITULO']; ?></h4>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- End single blog -->
-                <!-- Start single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    13 may, 2018
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    16
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>Web development is a best work in future world</h4>
-                            </a>
-                        </div>
-                        <div class="blog-image">
-                            <a class="image-scale" href="#">
-                                <img src="img/blog/b2.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-image">
-                            <a class="image-scale" href="#">
-                                <img src="img/blog/b3.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    24 april, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    07
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>You can trust me and business with together</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    28 june, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    32
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>business man want to be benifit any way</h4>
-                            </a>
-                        </div>
-                        <div class="blog-image">
-                            <a class="image-scale" href="#">
-                                <img src="img/blog/b4.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-image">
-                            <a class="image-scale" href="#">
-                                <img src="img/blog/b5.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    28 june, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    32
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>business man want to be benifit any way</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-blog">
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="admin-type">
-                                    <i class="fa fa-user"></i>
-                                    Admin
-                                </span>
-                                <span class="date-type">
-                                    <i class="fa fa-calendar"></i>
-                                    28 june, 2019
-                                </span>
-                                <span class="comments-type">
-                                    <i class="fa fa-comment-o"></i>
-                                    32
-                                </span>
-                            </div>
-                            <a href="#">
-                                <h4>business man want to be benifit any way</h4>
-                            </a>
-                        </div>
-                        <div class="blog-image">
-                            <a class="image-scale" href="#">
-                                <img src="img/blog/b6.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- End single blog -->
+                <?php endforeach; ?>
             </div>
         </div>
-        <!-- End row -->
     </div>
 </div>
-<!-- End Blog Area-->
 
 <?php require_once 'footer.php' ?>

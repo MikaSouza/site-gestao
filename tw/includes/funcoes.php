@@ -1804,3 +1804,29 @@
 
 	    return $file_ary;
 	}
+
+	function saveImage($namePage, $id, $urlImage)
+	{
+		$image = file_get_contents($urlImage);
+
+		$arrImage = explode('/', $urlImage);
+		$formato = strrchr(end($arrImage), '.');
+
+		$imgSave = '../uploads/'.$namePage.'/'.$id.$formato;
+
+		$fp = fopen($imgSave, "w+");
+		fwrite($fp, $image);
+		fclose($fp);
+
+		return $id.$formato;
+	}
+
+	function escape_aspas_inputs($texto, $tipo){
+		$texto_escape = "";
+		if($tipo == "input"){
+			$texto_escape = htmlspecialchars(stripslashes($texto));
+		}else if($tipo == "textarea"){
+			$texto_escape = stripslashes($texto);
+		}
+		return $texto_escape;
+	}
