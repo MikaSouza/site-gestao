@@ -17,11 +17,11 @@ require_once 'tw/includes/constantes.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>contact</h3>
+                        <h3>Contato</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Home</li>
-                        <li>Contact</li>
+                        <li>Contato</li>
                     </ul>
                 </div>
             </div>
@@ -40,8 +40,8 @@ require_once 'tw/includes/constantes.php';
                         <div class="single-icon">
                             <i class="ti-mobile"></i>
                             <p>
-                                Call : +0011-564-543<br>
-                                <span>Monday-Friday (10am-18pm)</span>
+                                Ligue : (51) 3541-3355<br>
+                                <span>Seg - Sex: 08:00 - 17:00</span>
                             </p>
                         </div>
                     </div>
@@ -52,8 +52,8 @@ require_once 'tw/includes/constantes.php';
                         <div class="single-icon">
                             <i class="ti-email"></i>
                             <p>
-                                Email : Ragner3@gmail.com<br>
-                                <span>Web: www.rockstheme.com</span>
+                                E-mail : gestao@gestao.srv.br<br>
+                                <span>Web: www.gestaoltda.com.br</span>
                             </p>
                         </div>
                     </div>
@@ -64,8 +64,8 @@ require_once 'tw/includes/constantes.php';
                         <div class="single-icon">
                             <i class="ti-location-pin"></i>
                             <p>
-                                Location : Newyork city<br>
-                                <span>23 house/3 Road</span>
+                                Endereço : Taquara/RS<br>
+                                <span>Rua João Bayer, 744</span>
                             </p>
                         </div>
                     </div>
