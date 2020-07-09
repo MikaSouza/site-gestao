@@ -89,10 +89,10 @@
                     <div class="col-md-3 col-sm-3">
                         <div class="logo">
                             <a class="navbar-brand page-scroll white-logo" href="index">
-                                <img src="img/logo/logo2.png" alt="">
+                                <img src="img/logo/novaLogo2.png" alt="">
                             </a>
                             <a class="navbar-brand page-scroll black-logo" href="index.html">
-                                <img src="img/logo/logo.png" alt="">
+                            <img src="img/logo/novaLogo2.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -117,7 +117,13 @@
                                         <li><a id="ajusteMenu" href="#">Controle<br>Interno</a></li>
                                         <li><a id="ajusteMenu" href="blog">Blog</a></li>
                                         <li><a id="ajusteMenu" href="#">Capacitação</a></li>
-                                        <li><a id="ajusteMenu" href="#">Outras<br>Atividades</a></li>
+                                        <li><a id="ajusteMenu" href="outras-atividades">Outras<br>Atividades</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
+                                                <li><a href="auditorias">Auditorias</a></li>
+                                                <li><a href="acessorias">Acessorias</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a id="ajusteMenu" href="contato">Contato</a></li>
                                     </ul>
                                 </div>
@@ -141,7 +147,13 @@
                                     <li><a href="#">Controle<br>Interno</a></li>
                                     <li><a href="blog">Blog</a></li>
                                     <li><a href="#">Capacitação</a></li>
-                                    <li><a href="#">Outras<br>Atividades</a></li>
+                                    <li><a href="outras-atividades">Outras<br>Atividades</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
+                                            <li><a href="auditorias">Auditorias</a></li>
+                                            <li><a href="acessorias">Acessorias</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="contato">Contato</a></li>
                                 </ul>
                             </nav>

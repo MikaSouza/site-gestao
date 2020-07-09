@@ -6,10 +6,12 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                        <a href="#"><img src="img/logo/logo.png" alt=""></a>
+                                        <a href="index"><img src="img/logo/novaLogo2.png" alt=""></a>
                                     </div>
                                     <p>
-                                        Are you looking for professional advice for your new business. Are you looking for professional advice for your new business. Are you looking for professional advice for your new business.
+                                        A Gestão atua especificamente no segmento de Administração Pública Municipal desde o ano 2000.
+                                        São 19 anos vivenciando a realidade dos municípios brasileiros. Durante esse período, muitas
+                                        soluções foram encontradas para aumentar a eficiência dos órgãos públicos.
                                     </p>
                                     <div class="subs-feilds">
                                         <div class="suscribe-input">
@@ -32,6 +34,11 @@
                                         <li><a href="#">Capacitação</a></li>
                                         <li><a href="#">Outras Atividades </a></li>
                                         <li><a href="#">Contato </a></li>
+                                    </ul>
+                                    <ul class="footer-list hidden-sm">
+                                        <li><a href="controle-patrimonial">Controle<br> Patrimonial</a></li>
+                                        <li><a href="auditorias">Auditorias</a></li>
+                                        <li><a href="acessorias">Acessorias</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -92,8 +99,8 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="copyright">
                                 <p>
-                                    Copyright © 2020
-                                    <a href="#">randerc</a> All Rights Reserved
+                                    Copyright <?php echo date('Y');?><a href="index"><?php echo cSNomeEmpresa;?></a> Todos direitos reservados<br>
+                                    Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img src="assets/imgs/icon-tw.svg" width="33px" alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware Soluções em Software e Internet LTDA</a>.
                                 </p>
                             </div>
                         </div>
