@@ -12,7 +12,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- all css here -->
 
@@ -48,6 +64,9 @@
     <link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
     <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
 
+    <!-- Constantes do PHP -->
+    <?php require_once 'tw/includes/constantes.php'; ?>
+
 </head>
 
 <body>
@@ -66,6 +85,7 @@
                             <ul>
                                 <li><a href="#"><i class="fa fa-envelope"></i> gestao@gestao.srv.br</a></li>
                                 <li><a href="#"><i class="fa fa-phone-square"></i> (51) 3541-3355</a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i> (51) 9 8443-2097</a></li>
                                 <li><a href="#"><i class="fa fa-clock-o"></i> Seg - Sex: 08:00 - 17:00</a></li>
                             </ul>
                         </div>
@@ -83,20 +103,17 @@
                 </div>
             </div>
         </div>
-        <div id="sticker" class="header-area header-area-3 hidden-xs">
+        <div id="sticker" class="header-area hidden-xs">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-3">
                         <div class="logo">
-                            <a class="navbar-brand page-scroll white-logo" href="index">
-                                <img src="img/logo/novaLogo2.png" alt="">
-                            </a>
-                            <a class="navbar-brand page-scroll black-logo" href="index.html">
-                            <img src="img/logo/novaLogo2.png" alt="">
+                            <a class="navbar-brand page-scroll black-logo" href="index">
+                                <img src="img/logo/teste.jpg" alt="Gestão LTDA">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-9 col-sm-9">
+                    <div class="col-md-9 col-sm-9 ajustaMenu">
                         <div class="header-right-link">
                             <div class="search-inner">
                                 <form action="#">
@@ -107,24 +124,38 @@
                                     <a class="main-search" href="#"><i class="fa fa-search"></i></a>
                                 </form>
                             </div>
-                            <a class="s-menu" href="login.html">It Consultant</a>
+                            <a class="s-menu" href="login">Área Cliente</a>
                         </div>
                         <nav class="navbar navbar-default">
-                            <div class="collapse navbar-collapse" id="navbar-example">
+                            <div class="collapse navbar-collapse alinha" id="navbar-example">
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li><a id="ajusteMenu" href="empresa">A Empresa</a></li>
-                                        <li><a id="ajusteMenu" href="#">Controle<br>Interno</a></li>
-                                        <li><a id="ajusteMenu" href="blog">Blog</a></li>
-                                        <li><a id="ajusteMenu" href="#">Capacitação</a></li>
-                                        <li><a id="ajusteMenu" href="outras-atividades">Outras<br>Atividades</a>
+                                        <li>
+                                            <a href="index">Início</a>
+                                        </li>
+                                        <li>
+                                            <a class="pages" href="empresa">A Gestão</a>
                                             <ul class="sub-menu">
-                                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                                <li><a href="auditorias">Auditorias</a></li>
-                                                <li><a href="acessorias">Acessorias</a></li>
+                                                <li><a href="empresa">A Empresa</a></li>
+                                                <!-- <li><a href="equipe">Equipe</a></li> -->
                                             </ul>
                                         </li>
-                                        <li><a id="ajusteMenu" href="contato">Contato</a></li>
+                                        <li>
+                                            <a class="pages" href="servicos">Serviços</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="controle-interno">Controle Interno Municipal</a></li>
+                                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
+                                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                                                <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                                <li><a href="outros-servicos">Outros Serviços</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="blog">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="contato">Contato</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -139,22 +170,36 @@
                     <div class="col-md-12">
                         <div class="mobile-menu">
                             <div class="logo">
-                                <a href="index.html"><img src="img/logo/logo.png" alt="" /></a>
+                                <a href="index"><img src="img/logo/teste.jpg" alt="Gestão LTDA"></a>
                             </div>
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="empresa">A Empresa</a></li>
-                                    <li><a href="#">Controle<br>Interno</a></li>
-                                    <li><a href="blog">Blog</a></li>
-                                    <li><a href="#">Capacitação</a></li>
-                                    <li><a href="outras-atividades">Outras<br>Atividades</a>
+                                    <li>
+                                        <a href="index">Início</a>
+                                    </li>
+                                    <li>
+                                        <a class="pages" href="empresa">A Gestão</a>
                                         <ul class="sub-menu">
-                                            <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                            <li><a href="auditorias">Auditorias</a></li>
-                                            <li><a href="acessorias">Acessorias</a></li>
+                                            <li><a href="empresa">A Empresa</a></li>
+                                            <!-- <li><a href="equipe">Equipe</a></li> -->
                                         </ul>
                                     </li>
-                                    <li><a href="contato">Contato</a></li>
+                                    <li>
+                                        <a class="pages" href="servicos">Serviços</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="controle-interno">Controle Interno Municipal</a></li>
+                                            <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
+                                            <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                                            <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                            <li><a href="outros-servicos">Outros Serviços</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="blog">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="contato">Contato</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>

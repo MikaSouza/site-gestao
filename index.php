@@ -3,223 +3,17 @@
 $vSTitulo = 'Inteligência em Adminstração Pública';
 $vSName = 'home';
 require_once 'header.php';
-require_once 'tw/includes/constantes.php';
 require_once 'tw/transaction/transactionBlog.php';
 
 ?>
 
-<div class="intro-area intro-area-3">
-    <div class="intro-carousel">
-        <div class="intro-content-2">
-            <div class="slider-images">
-                <img src="img/slider/h3.jpg" alt="">
-            </div>
-            <div class="slider-content">
-                <div class="display-table">
-                    <div class="display-table-cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Inteligência focada na Administração Pública</h2>
-                                    </div>
-                                    <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                        <p>Controle Interno eficiente e menos burocrático</p>
-                                    </div>
-                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
-                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
-                                        <a href="contato" class="ready-btn right-btn">Contato</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="intro-content-2 slide-2">
-            <div class="slider-images">
-                <img src="img/slider/h4.jpg" alt="">
-            </div>
-            <div class="slider-content">
-                <div class="display-table">
-                    <div class="display-table-cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Práticas de Compliance no âmbito da Administração Pública</h2>
-                                    </div>
-                                    <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                        <p>Experiência que ultrapassa 20 anos de assessoria à Órgãos Públicos</p>
-                                    </div>
-                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
-                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
-                                        <a href="contato" class="ready-btn right-btn">Contato</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="intro-content-2 slide-2">
-            <div class="slider-images">
-                <img src="img/slider/h4.jpg" alt="">
-            </div>
-            <div class="slider-content">
-                <div class="display-table">
-                    <div class="display-table-cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Software desenvolvido para otimizar as atividades de Controle Interno</h2>
-                                    </div>
-                                    <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                        <p>Emissão de Orientações Técnicas periódicas e exclusiva aos parceiros, refletindo em capacitação e atualização constante</p>
-                                    </div>
-                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
-                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
-                                        <a href="contato" class="ready-btn right-btn">Contato</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="intro-content-2 slide-2">
-            <div class="slider-images">
-                <img src="img/slider/h4.jpg" alt="">
-            </div>
-            <div class="slider-content">
-                <div class="display-table">
-                    <div class="display-table-cell">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Canal de atendimento entre a consultoria x parceiro</h2>
-                                    </div>
-                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.5s">
-                                        <a href="empresa" class="ready-btn left-btn ">A Empresa</a>
-                                        <a href="contato" class="ready-btn right-btn">Contato</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php require_once 'banner.php' ?>
 
-<div class="service-area service-area-2 bg-color area-padding-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="section-headline text-center">
-                    <h3>Professional services</h3>
-                    <p>We help agencies to define their new business objectives and then create the road map</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="all-services">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-icon">
-                            <span class="flaticon-052-project-plan"></span>
-                        </div>
-                        <div class="service-inner">
-                            <div class="service-content">
-                                <h4>Product Design</h4>
-                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands.</p>
-                                <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-icon">
-                            <span class="flaticon-031-financial"></span>
-                        </div>
-                        <div class="service-inner">
-                            <div class="service-content">
-                                <h4>It management</h4>
-                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands.</p>
-                                <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-icon">
-                            <span class="flaticon-057-statistics"></span>
-                        </div>
-                        <div class="service-inner">
-                            <div class="service-content">
-                                <h4>Data security</h4>
-                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands.</p>
-                                <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-icon">
-                            <span class="flaticon-012-business"></span>
-                        </div>
-                        <div class="service-inner">
-                            <div class="service-content">
-                                <h4>It consultancy</h4>
-                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands.</p>
-                                <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-icon">
-                            <span class="flaticon-041-network"></span>
-                        </div>
-                        <div class="service-inner">
-                            <div class="service-content">
-                                <h4>Cloude services</h4>
-                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands.</p>
-                                <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-icon">
-                            <span class="flaticon-002-analysis"></span>
-                        </div>
-                        <div class="service-inner">
-                            <div class="service-content">
-                                <h4>It support helpdesk</h4>
-                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands.</p>
-                                <a class="service-btn" href="#"><i class="ti-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php require_once 'servicosIndex.php' ?>
 
-<div class="about-area about-2 fix">
+<?//php require_once 'clientes.php' ?>
+
+<!-- <div class="about-area about-2 fix">
     <div class="container-full">
         <div class="row">
             <div class="col-md-5 col-sm-4 col-xs-12">
@@ -253,58 +47,9 @@ require_once 'tw/transaction/transactionBlog.php';
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="counter-area fix area-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="counter-image">
-                    <div class="rotmate-image rotateme">
-                        <img src="img/about/circle.png" alt="">
-                    </div>
-                    <div class="top-img">
-                        <img src="img/about/self.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="fun-text-all">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="fun_text wow fadeInUp" data-wow-delay="0.2s">
-                            <span class="counter-icon"><i class="ti-layers"></i></span>
-                            <span class="counter">510</span>
-                            <h4>Total projects</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="fun_text wow fadeInUp" data-wow-delay="0.3s">
-                            <span class="counter-icon"><i class="ti-world"></i></span>
-                            <span class="counter">120</span>
-                            <h4>Worldwide</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="fun_text wow fadeInUp" data-wow-delay="0.4s">
-                            <span class="counter-icon"><i class="ti-cup"></i></span>
-                            <span class="counter">40</span>
-                            <h4>Awards win</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="fun_text wow fadeInUp" data-wow-delay="0.5s">
-                            <span class="counter-icon"><i class="ti-user"></i></span>
-                            <span class="counter">210</span>
-                            <h4>Team member</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="banner-area fix area-padding">
+<!-- <div class="banner-area fix area-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -318,9 +63,9 @@ require_once 'tw/transaction/transactionBlog.php';
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="tab-area bg-color fix area-padding">
+<!-- <div class="tab-area bg-color fix area-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -447,21 +192,20 @@ require_once 'tw/transaction/transactionBlog.php';
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="blog-area fix bg-color area-padding-2">
+<!-- <div class="blog-area fix bg-color area-padding-2">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="section-headline text-center">
-                    <h3>Global investment plan news</h3>
-                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                    <h3>Últimos Cursos</h3>
+                    <p>Confira nossos Últimos Cursos!</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="blog-grid home-blog">
-                <!-- Start single blog -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-blog">
                         <div class="blog-image">
@@ -490,8 +234,6 @@ require_once 'tw/transaction/transactionBlog.php';
                         </div>
                     </div>
                 </div>
-                <!-- End single blog -->
-                <!-- Start single blog -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-blog">
                         <div class="blog-content">
@@ -548,7 +290,6 @@ require_once 'tw/transaction/transactionBlog.php';
                         </div>
                     </div>
                 </div>
-                <!-- End single blog -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-blog">
                         <div class="blog-content">
@@ -577,7 +318,6 @@ require_once 'tw/transaction/transactionBlog.php';
                         </div>
                     </div>
                 </div>
-                <!-- End single blog -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-blog">
                         <div class="blog-image">
@@ -606,7 +346,6 @@ require_once 'tw/transaction/transactionBlog.php';
                         </div>
                     </div>
                 </div>
-                <!-- End single blog -->
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-blog">
                         <div class="blog-content">
@@ -635,110 +374,18 @@ require_once 'tw/transaction/transactionBlog.php';
                         </div>
                     </div>
                 </div>
-                <!-- End single blog -->
-            </div>
-        </div>
-        <!-- End row -->
-    </div>
-</div>
-
-
-<div class="digital-services-area area-padding-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="section-headline text-center">
-                    <h3>Working platform</h3>
-                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="we-services">
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="digital-services">
-                        <div class="digital-wel s1-item">
-                            <div class="digital-img">
-                                <a class="digital-icon" href="#"><img src="img/icon/a.png" alt=""></a>
-                            </div>
-                            <div class="digital-content">
-                                <h4>Financial Services</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="digital-services">
-                        <div class="digital-wel s2-item">
-                            <div class="digital-img">
-                                <a class="digital-icon" href="#"><img src="img/icon/a2.png" alt=""></a>
-                            </div>
-                            <div class="digital-content">
-                                <h4>Tech & Education</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="digital-services">
-                        <div class="digital-wel s4-item">
-                            <div class="digital-img">
-                                <a class="digital-icon" href="#"><img src="img/icon/a3.png" alt=""></a>
-                            </div>
-                            <div class="digital-content">
-                                <h4>Creative & Media </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="digital-services">
-                        <div class="digital-wel s3-item">
-                            <div class="digital-img">
-                                <a class="digital-icon" href="#"><img src="img/icon/a4.png" alt=""></a>
-                            </div>
-                            <div class="digital-content">
-                                <h4>Solar & Energy</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-offset-3 col-md-3 col-sm-4 col-xs-12">
-                    <div class="digital-services">
-                        <div class="digital-wel s5-item">
-                            <div class="digital-img">
-                                <a class="digital-icon" href="#"><img src="img/icon/a5.png" alt=""></a>
-                            </div>
-                            <div class="digital-content">
-                                <h4>Health & Medichine</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="digital-services">
-                        <div class="digital-wel s5-item">
-                            <div class="digital-img">
-                                <a class="digital-icon" href="#"><img src="img/icon/a6.png" alt=""></a>
-                            </div>
-                            <div class="digital-content">
-                                <h4>Non-profit & Ragal</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="blog-area fix bg-color area-padding-2">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="section-headline text-center">
-                    <h3>Global investment plan news</h3>
-                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                    <h3>Últimas Notícias</h3>
+                    <p>Confira as últimas notícias do nosso Blog!</p>
                 </div>
             </div>
         </div>
@@ -754,9 +401,9 @@ require_once 'tw/transaction/transactionBlog.php';
                                     <img src="tw/uploads/blog/thumbnail/<?= $blog['BLOIMAGEM']; ?>" alt="">
                                 </a>
                             </div>
-                            <div class="blog-content">
+                            <div class="blog-contentIndex">
                                 <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
-                                    <h4><?= $blog['BLOTITULO']; ?></h4>
+                                    <h4><?= (strlen($blog['BLOTITULO']) > 40) ? substr($blog['BLOTITULO'], 0, 30) . '...' : $blog['BLOTITULO']; ?></h4>
                                 </a>
                             </div>
                         </div>

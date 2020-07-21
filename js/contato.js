@@ -20,7 +20,7 @@ $(function () {
 				required: 'Insira seu Nome!'
 			},
 			vSCONTELEFONE: {
-				required: 'Insira seu Nome!'
+				required: 'Insira seu Telefone!'
 			},
 			vSCONEMAIL: {
 				required: 'Insira seu E-mail!',

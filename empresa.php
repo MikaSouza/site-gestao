@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>A Empresa</h3>
+                        <h3>Gestão</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Home</li>
-                        <li>A Empresa</li>
+                        <li>Quem somos</li>
                     </ul>
                 </div>
             </div>
@@ -28,38 +28,34 @@ require_once 'header.php';
 <div class="welcome-area area-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="all-wel-services">
-                    <div class="well-services wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="services-img">
-                            <a class="big-icon" href="#missao"><i class="flaticon-052-project-plan"></i></a>
-                        </div>
-                        <div class="main-wel">
-                            <div class="wel-content">
-                                <h4>Nosso Missão</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="well-services wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="services-img">
-                            <a class="big-icon" href="#visao"><i class="flaticon-002-analysis"></i></a>
-                        </div>
-                        <div class="main-wel">
-                            <div class="wel-content">
-                                <h4>Nosso Visão</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="well-services wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="services-img">
-                            <a class="big-icon" href="#valores"><i class="flaticon-060-team-work"></i></a>
-                        </div>
-                        <div class="main-wel">
-                            <div class="wel-content">
-                                <h4>Nosso Valores</h4>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="overview-wrapper blue">
+                    <h4 class="blue-title">Nossa MISSÃO</h4>
+                    <p>
+                        Contribuir com a qualificação e eficiência da Administração Pública, disponibilizando excelência na modernização
+                        e aperfeiçoamento dos processos de controles.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="overview-wrapper blue">
+                    <h4 class="blue-title">Nossa VISÃO</h4>
+                    <p>
+                        Contribuir com a qualificação e eficiência da Administração Pública, disponibilizando excelência na modernização
+                        e aperfeiçoamento dos processos de controles.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="overview-wrapper blue">
+                    <h4 class="blue-title">Nossos VALORES</h4>
+                    <p>
+                        <b class="azul">Conhecimento, Experiência e Inovação</b>, para orientar com foco em resultados.
+                        <b class="azul">Transparência e Integridade</b> nas relações com os parceiros, colaboradores e sociedade.
+                        <b class="azul">Ética e Responsabilidade</b> na tomada de decisões.
+                        <b class="azul">Respeito</b> pela Administração Pública.
+                        <b class="azul">Humildade</b> para o constante aprendizado e evolução.
+                    </p>
                 </div>
             </div>
         </div>
@@ -112,9 +108,9 @@ require_once 'header.php';
             </div>
         </div>
     </div>
-</div><br><br>
+</div>
 
-<div class="overview-area bg-color area-padding mt-125">
+<!-- <div class="overview-area bg-color area-padding mt-125">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -139,16 +135,16 @@ require_once 'header.php';
                 <div class="overview-wrapper blue">
                     <h4 id="valores">Nossos VALORES</h4>
                     <p>
-                        Conhecimento, Experiência e Inovação, para orientar com foco em resultados.
-                        Transparência e Integridade nas relações com os parceiros, colaboradores e sociedade.
-                        Ética e Responsabilidade na tomada de decisões.
-                        Respeito pela Administração Pública.
-                        Humildade para o constante aprendizado e evolução.
+                        <b class="azul">Conhecimento, Experiência e Inovação</b>, para orientar com foco em resultados.
+                        <b class="azul">Transparência e Integridade</b> nas relações com os parceiros, colaboradores e sociedade.
+                        <b class="azul">Ética e Responsabilidade</b> na tomada de decisões.
+                        <b class="azul">Respeito</b> pela Administração Pública.
+                        <b class="azul">Humildade</b> para o constante aprendizado e evolução.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <?php require_once 'footer.php' ?>

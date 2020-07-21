@@ -4,7 +4,7 @@
 $vSTitulo = 'Entre em contato';
 $vSName = 'contato';
 require_once 'header.php';
-require_once 'tw/includes/constantes.php';
+// require_once 'tw/includes/constantes.php';
 
 ?>
 <!-- End Header via PHP -->
@@ -90,7 +90,7 @@ require_once 'tw/includes/constantes.php';
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input type="text" class="form-control" id="vSCONTELEFONE" name="vSCONTELEFONE" onkeypress="return onlynumber();" onKeyUp="mascara('TEL',this,event);" maxlength="14" placeholder="Telefone" required>
+                                <input type="text" class="form-control" id="vSCONTELEFONE" name="vSCONTELEFONE" onkeypress="return onlynumber();" onKeyUp="mascara('TEL',this,event);" maxlength="15" placeholder="Telefone" required>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -99,7 +99,7 @@ require_once 'tw/includes/constantes.php';
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <textarea class="form-control" id="vSCONMENSAGEM" name="vSCONMENSAGEM" rows="7" placeholder="Mensagem" required></textarea>
-                                <small style="color: rgb(255, 0, 0)">Todos os campos são obrigatórios!</small>
+                                <small style="color: #3078fb">Todos os campos são obrigatórios!</small>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
