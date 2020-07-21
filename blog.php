@@ -1,6 +1,6 @@
 <?php
 
-require_once 'tw/includes/constantes.php';
+// require_once 'tw/includes/constantes.php';
 require_once 'tw/transaction/transactionBlog.php';
 require_once 'tw/transaction/transactionCategorias.php';
 

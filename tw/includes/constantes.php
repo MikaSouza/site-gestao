@@ -10,7 +10,7 @@
 	define('db_pass', '0bZDmKcgWA');
 	define('db_host', 'mysql.teraware.net.br');
 
-	define('cSNomeEmpresa', 'Gestão LTDA');
+	define('cSNomeEmpresa', 'Gestão Ltda');
 	define('cSUrlSiteEmpresa', 'http://sites-gestao-srv.teraware.net.br/');
 	define('cSSegmentoAtendimento', 'Atendimento a Empresas');
 	define('cSTelefone1', '(51) 3541-3355');

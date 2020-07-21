@@ -1,49 +1,44 @@
         <footer class="footer1">
             <div class="footer-area">
                 <div class="container">
+                    <div class="" style="position:fixed;bottom:72px;right:11px;z-index:9999;">
+                        <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5551984432097">
+                            <img src="https://img.icons8.com/color/48/000000/whatsapp.png" />
+                        </a>
+                    </div>
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                        <a href="index"><img src="img/logo/novaLogo2.png" alt=""></a>
+                                        <a href="index"><img src="img/logo/teste.jpg" alt="Gestão LTDA"></a>
                                     </div>
-                                    <p>
+                                    <p id="justifica">
                                         A Gestão atua especificamente no segmento de Administração Pública Municipal desde o ano 2000.
                                         São 19 anos vivenciando a realidade dos municípios brasileiros. Durante esse período, muitas
                                         soluções foram encontradas para aumentar a eficiência dos órgãos públicos.
-                                    </p>
-                                    <div class="subs-feilds">
-                                        <div class="suscribe-input">
-                                            <input type="email" class="email form-control width-80" id="sus_email" placeholder="Type Email">
-                                            <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
-                                        </div>
+                                    </p><br>
+                                    <div class="footer-logoAlt">
+                                        <a href="index"><img src="img/logo/gestaoA.png" alt="Gestão A+ LTDA"></a>
                                     </div>
+                                    <h5 class="titleBot">Gestão A+ Desenvolvimento Ltda.</h5>
                                 </div>
                             </div>
                         </div>
-                        <!-- end single footer -->
                         <div class="col-md-4 col-sm-3 col-xs-12">
                             <div class="footer-content">
                                 <div class="footer-head">
                                     <h4>Links Rápidos</h4>
                                     <ul class="footer-list">
-                                        <li><a href="#">A Empresa</a></li>
-                                        <li><a href="#">Controle Interno </a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Capacitação</a></li>
-                                        <li><a href="#">Outras Atividades </a></li>
-                                        <li><a href="#">Contato </a></li>
-                                    </ul>
-                                    <ul class="footer-list hidden-sm">
-                                        <li><a href="controle-patrimonial">Controle<br> Patrimonial</a></li>
-                                        <li><a href="auditorias">Auditorias</a></li>
-                                        <li><a href="acessorias">Acessorias</a></li>
+                                        <li><a href="index">Início</a></li>
+                                        <li><a href="empresa">A Empresa</a></li>
+                                        <li><a href="solucoes">Serviços</a></li>
+                                        <li><a href="blog">Blog</a></li>
+                                        <li><a href="contato">Contato</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <!-- end single footer -->
                         <div class="col-md-3 col-sm-4 col-xs-12">
                             <div class="footer-content last-content">
                                 <div class="footer-head">
@@ -92,24 +87,21 @@
                     </div>
                 </div>
             </div>
-            <!-- Start Footer Bottom Area -->
             <div class="footer-area-bottom">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="copyright">
                                 <p>
-                                    Copyright <?php echo date('Y');?><a href="index"><?php echo cSNomeEmpresa;?></a> Todos direitos reservados<br>
-                                    Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img src="assets/imgs/icon-tw.svg" width="33px" alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware Soluções em Software e Internet LTDA</a>.
+                                    Copyright <?php echo date('Y'); ?> <a href="index"><?php echo cSNomeEmpresa; ?></a> Todos direitos reservados<br>
+                                    Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img src="img/logo/icon-tw.svg" width="33px" alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware Soluções em Software e Internet LTDA</a>.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End Footer Bottom Area -->
         </footer>
-        <!-- End Footer Area -->
 
         <!-- all js here -->
 
