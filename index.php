@@ -379,7 +379,7 @@ require_once 'tw/transaction/transactionBlog.php';
     </div>
 </div> -->
 
-<div class="blog-area fix bg-color area-padding-2">
+<div class="blog-area fix bg-color">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -403,6 +403,7 @@ require_once 'tw/transaction/transactionBlog.php';
                             </div>
                             <div class="blog-contentIndex">
                                 <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                    <span class="date-type"><i class="fa fa-calendar"></i><?= formatar_data($blog['BLODATA_INC']); ?></span>
                                     <h4><?= (strlen($blog['BLOTITULO']) > 40) ? substr($blog['BLOTITULO'], 0, 30) . '...' : $blog['BLOTITULO']; ?></h4>
                                 </a>
                             </div>

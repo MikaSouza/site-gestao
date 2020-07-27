@@ -11,7 +11,7 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                        <a href="index"><img src="img/logo/teste.jpg" alt="Gestão LTDA"></a>
+                                        <a href="index"><img src="img/logo/teste.png" alt="Gestão LTDA"></a>
                                     </div>
                                     <p id="justifica">
                                         A Gestão atua especificamente no segmento de Administração Pública Municipal desde o ano 2000.
@@ -20,21 +20,33 @@
                                     </p><br>
                                     <div class="footer-logoAlt">
                                         <a href="index"><img src="img/logo/gestaoA.png" alt="Gestão A+ LTDA"></a>
+                                    </div><br><br><br>
+                                    <div class="footer-titleA">
+                                        <p>Gestão A+ Desenvolvimento Ltda.</p>
                                     </div>
-                                    <h5 class="titleBot">Gestão A+ Desenvolvimento Ltda.</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-3 col-xs-12">
+                        <div class="col-md-4 col-sm-3 col-xs-12 pl-5P">
                             <div class="footer-content">
                                 <div class="footer-head">
                                     <h4>Links Rápidos</h4>
                                     <ul class="footer-list">
                                         <li><a href="index">Início</a></li>
-                                        <li><a href="empresa">A Empresa</a></li>
-                                        <li><a href="solucoes">Serviços</a></li>
+                                        <li><a href="empresa">A Gestão</a></li>
+                                        <li><a href="controle-interno">Controle Interno</a></li>
+                                        <li><a href="solucoes">Outras Atividades</a></li>
                                         <li><a href="blog">Blog</a></li>
                                         <li><a href="contato">Contato</a></li>
+                                        <br>
+                                        <a href="https://www.facebook.com/gestaoltda">
+                                            <i class="fa fa-facebook icons-footer"></i>
+                                        </a>
+                                        <p>Gestão Ltda.</p>
+                                        <a href="https://www.facebook.com/gestaoamais">
+                                            <i class="fa fa-facebook icons-footer"></i>
+                                        </a>
+                                        <p>Gestão A+</p>
                                     </ul>
                                 </div>
                             </div>
@@ -43,43 +55,20 @@
                             <div class="footer-content last-content">
                                 <div class="footer-head">
                                     <h4>Informações</h4>
+                                    <div class="footer-contactsAlt">
+                                        <p><span>Gestão Ltda</span><br>
+                                            CNPJ: 03.713.762/0001-23</p>
+                                        <p><span>Gestão A+ Desenvolvimento Ltda.</span><br>
+                                            CNPJ: 18.693.117/0001-63</p>
+                                    </div>
                                     <div class="footer-contacts">
-                                        <p><span>Endereço :</span><br>
+                                        <p><span>Localização :</span><br>
                                             Rua João Bayer, 744<br>
                                             Bairro Petrópolis - Taquara/RS<br>
                                             CEP: 95607-008</p>
                                         <p><span>Telefone :</span> (51) 3541-3355</p>
                                         <p><span>WhatsApp :</span> (51) 9 8443-2097</p>
                                         <p><span>E-mail :</span> gestao@gestao.srv.br</p>
-                                    </div>
-                                    <div class="footer-icons">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-pinterest"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +83,7 @@
                             <div class="copyright">
                                 <p>
                                     Copyright <?php echo date('Y'); ?> <a href="index"><?php echo cSNomeEmpresa; ?></a> Todos direitos reservados<br>
-                                    Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img src="img/logo/icon-tw.svg" width="33px" alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware Soluções em Software e Internet LTDA</a>.
+                                    Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img src="img/logo/icon-tw.svg" width="33px" alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware Soluções em Software e Internet Ltda</a>.
                                 </p>
                             </div>
                         </div>

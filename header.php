@@ -121,10 +121,9 @@
                                         <input type="text" placeholder="Search...">
                                         <button class="button" type="submit"><i class="fa fa-search"></i></button>
                                     </div>
-                                    <a class="main-search" href="#"><i class="fa fa-search"></i></a>
                                 </form>
                             </div>
-                            <a class="s-menu" href="login">Área Cliente</a>
+                            <a class="s-menu" href="http://helpdesk.teraware.com.br/login.php">Área Cliente</a>
                         </div>
                         <nav class="navbar navbar-default">
                             <div class="collapse navbar-collapse alinha" id="navbar-example">
@@ -134,19 +133,17 @@
                                             <a href="index">Início</a>
                                         </li>
                                         <li>
-                                            <a class="pages" href="empresa">A Gestão</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="empresa">A Empresa</a></li>
-                                                <!-- <li><a href="equipe">Equipe</a></li> -->
-                                            </ul>
+                                            <a href="empresa">A Gestão</a>
                                         </li>
                                         <li>
-                                            <a class="pages" href="servicos">Serviços</a>
+                                            <a href="controle-interno">Controle<br>Interno</a>
+                                        </li>
+                                        <li>
+                                            <a class="pages" href="auditoria">Outras<br> Atividades</a>
                                             <ul class="sub-menu">
-                                                <li><a href="controle-interno">Controle Interno Municipal</a></li>
-                                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                                                <li><a href="auditoria">Auditoria</a></li>
                                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                                 <li><a href="outros-servicos">Outros Serviços</a></li>
                                             </ul>
                                         </li>
@@ -178,18 +175,13 @@
                                         <a href="index">Início</a>
                                     </li>
                                     <li>
-                                        <a class="pages" href="empresa">A Gestão</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="empresa">A Empresa</a></li>
-                                            <!-- <li><a href="equipe">Equipe</a></li> -->
-                                        </ul>
+                                        <a href="empresa">A Gestão</a>
                                     </li>
                                     <li>
                                         <a class="pages" href="servicos">Serviços</a>
                                         <ul class="sub-menu">
-                                            <li><a href="controle-interno">Controle Interno Municipal</a></li>
                                             <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                            <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                                            <li><a href="auditoria">Auditoria</a></li>
                                             <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                             <li><a href="outros-servicos">Outros Serviços</a></li>
                                         </ul>

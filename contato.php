@@ -20,7 +20,7 @@ require_once 'header.php';
                         <h3>Contato</h3>
                     </div>
                     <ul>
-                        <li class="home-bread">Home</li>
+                        <li class="home-bread">Início</li>
                         <li>Contato</li>
                     </ul>
                 </div>
@@ -40,8 +40,11 @@ require_once 'header.php';
                         <div class="single-icon">
                             <i class="ti-mobile"></i>
                             <p>
-                                Ligue : (51) 3541-3355<br>
+                                Fone : (51) 3541-3355<br>
+                                Whats : (51) 9 8443-2097<br>
                                 <span>Seg - Sex: 08:00 - 17:00</span>
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
@@ -53,7 +56,9 @@ require_once 'header.php';
                             <i class="ti-email"></i>
                             <p>
                                 E-mail : gestao@gestao.srv.br<br>
-                                <span>Web: www.gestaoltda.com.br</span>
+                                <br>
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
@@ -64,8 +69,11 @@ require_once 'header.php';
                         <div class="single-icon">
                             <i class="ti-location-pin"></i>
                             <p>
-                                Endereço : Taquara/RS<br>
-                                <span>Rua João Bayer, 744</span>
+                                Rua João Bayer, 744<br>
+                                <span>Bairro Petrópolis CEP: 95607-008</span>
+                                <span>Taquara/RS</span>
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
@@ -85,11 +93,11 @@ require_once 'header.php';
                 <div class="contact-form">
                     <div class="row">
                         <form class="contact-form" id="formContato" name="formContato" method="POST" action="enviarContato">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
                                 <input type="text" class="form-control" id="vSCONNOME" name="vSCONNOME" placeholder="Nome" required>
                                 <div class="help-block with-errors"></div>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
                                 <input type="text" class="form-control" id="vSCONTELEFONE" name="vSCONTELEFONE" onkeypress="return onlynumber();" onKeyUp="mascara('TEL',this,event);" maxlength="15" placeholder="Telefone" required>
                                 <div class="help-block with-errors"></div>
                             </div>

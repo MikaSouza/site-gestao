@@ -16,7 +16,7 @@ require_once 'header.php';
                         <h3>Outros Servicos</h3>
                     </div>
                     <ul>
-                        <li class="home-bread">Home</li>
+                        <li class="home-bread">Início</li>
                         <li>Outros Servicos</li>
                     </ul>
                 </div>
@@ -33,10 +33,9 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li><a href="controle-interno">Controle Interno Municipal</a></li>
-                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                                <li><a href="auditoria">Auditoria</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li class="active"><a href="outros-servicos">Outros Serviços</a></li>
                             </ul>
                         </div>
