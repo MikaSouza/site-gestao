@@ -3,7 +3,8 @@ a.meanmenu-reveal{display:none}
   background: transparent none repeat scroll 0 0;
   float: left;
   min-height: 42px;
-  padding: 4px 0 0;
+  /* padding: 4px 0 0;*/
+  padding: 30px 0 0;
   position: relative;
   width: 100%;
   z-index: 999999;

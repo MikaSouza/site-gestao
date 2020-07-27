@@ -16,7 +16,7 @@ require_once 'header.php';
                         <h3>Controle Interno</h3>
                     </div>
                     <ul>
-                        <li class="home-bread">Home</li>
+                        <li class="home-bread">Início</li>
                         <li>Controle Interno</li>
                     </ul>
                 </div>
@@ -34,9 +34,12 @@ require_once 'header.php';
                         <div class="left-menu">
                             <ul>
                                 <li class="active"><a href="controle-interno">Controle Interno Municipal</a></li>
-                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                            </ul><br><br><br>
+                            <h5>Veja mais:</h5>
+                            <ul>
+                                <li><a href="auditoria">Auditoria</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li><a href="outros-servicos">Outros Serviços</a></li>
                             </ul>
                         </div>
@@ -57,9 +60,13 @@ require_once 'header.php';
                                 e consultoria permanente à UCI, com visitas presenciais, possibilitando aos gestores uma administração mais segura
                                 e eficiente.</p><br>
 
-                            <p id="centraliza"><h5 class="azul">17 ANOS DE EXPERIÊNCIA</h5></p><br>
+                            <p id="centraliza">
+                                <h5 class="azul">17 ANOS DE EXPERIÊNCIA</h5>
+                            </p><br>
 
-                            <p id="centraliza"><h5 class="azul">MAIS DE 100 CONTROLES INTERNOS ASSESSORADOS</h5></p><br>
+                            <p id="centraliza">
+                                <h5 class="azul">MAIS DE 100 CONTROLES INTERNOS ASSESSORADOS</h5>
+                            </p><br>
 
                             <p id="justifica"><b>Como funciona</b><br>
                                 A Gestão conta com uma equipe de profissionais com qualificação em diversas áreas de conhecimento, que realizam
@@ -70,7 +77,9 @@ require_once 'header.php';
                                 o suporte necessário para o desenvolvimento das tarefas dos controladores internos, através de telefone, e-mail,
                                 e aplicativos de conversação instantânea.</p><br>
 
-                            <p id="centraliza"><h5 class="azul">ATENDIMENTO PRESENCIAL EXCLUSIVIDADE PARA ATENDER AS MAIS VARIADAS DEMANDAS DA CONTROLADORIA INTERNA</h5></p><br>
+                            <p id="centraliza">
+                                <h5 class="azul">ATENDIMENTO PRESENCIAL EXCLUSIVIDADE PARA ATENDER AS MAIS VARIADAS DEMANDAS DA CONTROLADORIA INTERNA</h5>
+                            </p><br>
 
                             <ul>
                                 <li>
@@ -101,9 +110,13 @@ require_once 'header.php';
                                 </li></br>
                             </ul>
 
-                            <p id="centraliza"><h5 class="azul">ATENDIMENTO PRESENCIAL EXCLUSIVIDADE PARA ATENDER AS MAIS VARIADAS DEMANDAS DA CONTROLADORIA INTERNA</h5></p><br>
+                            <p id="centraliza">
+                                <h5 class="azul">ATENDIMENTO PRESENCIAL EXCLUSIVIDADE PARA ATENDER AS MAIS VARIADAS DEMANDAS DA CONTROLADORIA INTERNA</h5>
+                            </p><br>
 
-                            <p id="centraliza"><h5 class="azul">SUPORTE COMPLETO EM CONTROLADORIA</h5></p><br>
+                            <p id="centraliza">
+                                <h5 class="azul">SUPORTE COMPLETO EM CONTROLADORIA</h5>
+                            </p><br>
 
                             <p id="justifica">Para mais informações, entre em contato com um dos nossos consultores.</p>
                         </div>

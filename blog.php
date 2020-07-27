@@ -60,6 +60,7 @@ $miniBlog = comboBlog(0, 5);
                                             </div>
                                             <div class="blog-content">
                                                 <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                    <span class="date-type"><i class="fa fa-calendar"></i><?= formatar_data($blog['BLODATA_INC']); ?></span><br>
                                                     <h4><?= $blog['BLOTITULO']; ?></h4>
                                                 </a>
                                                 <p><?= (strlen($blog['BLOTEXTO']) > 450) ? substr($blog['BLOTEXTO'], 0, 400) . '...' : $blog['BLOTEXTO']; ?></p>

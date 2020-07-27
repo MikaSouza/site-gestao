@@ -421,6 +421,7 @@ div#preloader {
 
 .header-area {
     background: #fff;
+    /* height: 100px; */
 }
 
 .logo {
@@ -430,7 +431,7 @@ div#preloader {
 .logo a {
     display: inline-block;
     height: auto;
-    padding: 22px 0;
+    padding: 7px 0;
 }
 
 .main-menu ul.navbar-nav li {
@@ -441,7 +442,8 @@ div#preloader {
 .main-menu ul.navbar-nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #444;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 15px;
     font-weight: 500;
     padding: 35px 18px;
     /* text-transform: capitalize; */
@@ -691,12 +693,14 @@ div#preloader {
 .mobile-menu-area {
     background: #fff none repeat scroll 0 0;
     padding: 10px 0px;
+    height: 115px;
 }
 
 .mean-container .mean-nav {
     float: left;
     width: 100%;
     background: #fff;
+    padding-top: 4%;
 }
 
 .mean-container .mean-bar::after {
@@ -1671,7 +1675,7 @@ div#preloader {
 .blog-contentIndex {
     padding: 30px;
     /* position: fixed; */
-    height: 135px;
+    height: 150px;
     z-index: 1;
     transition: 0.5s;
     overflow: hidden;
@@ -1892,7 +1896,8 @@ div#preloader {
 /*----------------------------------------*/
 .footer-area {
     padding: 90px 0;
-    background: #fdfcfc;
+    background: #a5a5a5d7;
+    /* background: #cea92f; */
 }
 
 .footer-logo {
@@ -1920,6 +1925,21 @@ div#preloader {
 }
 
 .footer-icons ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 2px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #3078fb;
+    border-radius: 2px;
+    background: #3078fb;
+    transition: 0.4s;
+}
+
+.icons-footer {
     color: #fff;
     display: block;
     font-size: 16px;
@@ -1970,6 +1990,16 @@ div#preloader {
 .footer-contacts p span {
     color: #3078fb;
     font-weight: 500;
+}
+
+.footer-contactsAlt p span {
+    font-weight: 500;
+}
+
+.footer-titleA {
+    font-weight: 500;
+    float: right;
+    margin-top: -25px;
 }
 
 .subs-feilds {
@@ -2346,6 +2376,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
+    height: 815px;
 }
 
 .intro-area-3 .intro-content-2::after {
@@ -3254,6 +3285,7 @@ span.email-notes {
 .left-menu ul li.active a {
     color: #3078fb;
     position: relative;
+    font-size: 20px;
 }
 
 .left-menu ul li a:hover {
@@ -3267,7 +3299,7 @@ span.email-notes {
     padding: 13px 20px;
     position: relative;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     background: #f4f4f4;
 }
 
@@ -3893,6 +3925,11 @@ span.email-notes {
     .blue {
         height: auto;
     }
+
+    .header-video {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .blue p {
@@ -3933,8 +3970,12 @@ span.email-notes {
 }
 
 .titleBot {
+    color: #151b2c;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
     float: right;
-    color: #3078fb;
 }
 
 .footer-logoAlt {
@@ -3942,6 +3983,24 @@ span.email-notes {
     float: right;
 }
 
-.ajustaMenu {
-    padding-top: 2.4%;
+/* .ajustaMenu {
+    padding-top: 0.5%;
+} */
+
+.pl-5P {
+    padding-left: 5%;
+}
+
+.adj-Empresa-Title {
+    margin-top: -115px;
+}
+
+.texto-empresa {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.adj-Empresa-Bot-Tile {
+    margin-bottom: -100px;
+    color: #3078fb;
 }

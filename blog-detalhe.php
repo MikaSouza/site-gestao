@@ -25,10 +25,10 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Blog Detalhe</h3>
+                        <h3>Blog</h3>
                     </div>
                     <ul>
-                        <li class="home-bread">Home</li>
+                        <li class="home-bread">Início</li>
                         <li><?= $blog['BLOTITULO']; ?></li>
                     </ul>
                 </div>
@@ -48,6 +48,7 @@ require_once 'header.php';
                                 <img src="tw/uploads/blog/<?= $blog['BLOIMAGEM']; ?>" alt="<?= $blog['BLOTITULO']; ?>">
                             </a>
                             <div class="blog-content">
+                                <span class="date-type"><i class="fa fa-calendar"></i><?= formatar_data($blog['BLODATA_INC']); ?></span>
                                 <h4><?= $blog['BLOTITULO']; ?></h4>
                                 <p><?= $blog['BLOTEXTO']; ?></p>
                             </div>
