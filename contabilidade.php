@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Contabilidade</h3>
+                        <h3>Contabilidade e Finanças</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Início</li>
-                        <li>Contabilidade</li>
+                        <li>Contabilidade e Finanças</li>
                     </ul>
                 </div>
             </div>

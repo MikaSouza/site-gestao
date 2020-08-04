@@ -11,7 +11,7 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                        <a href="index"><img src="img/logo/teste.png" alt="Gestão LTDA"></a>
+                                        <a href="index"><img src="img/logo/teste.jpg" alt="Gestão LTDA"></a>
                                     </div>
                                     <p id="justifica">
                                         A Gestão atua especificamente no segmento de Administração Pública Municipal desde o ano 2000.
@@ -19,7 +19,7 @@
                                         soluções foram encontradas para aumentar a eficiência dos órgãos públicos.
                                     </p><br>
                                     <div class="footer-logoAlt">
-                                        <a href="index"><img src="img/logo/gestaoA.png" alt="Gestão A+ LTDA"></a>
+                                        <a href="index"><img src="img/logo/gestaoA1.png" alt="Gestão A+ LTDA"></a>
                                     </div><br><br><br>
                                     <div class="footer-titleA">
                                         <p>Gestão A+ Desenvolvimento Ltda.</p>
@@ -35,18 +35,20 @@
                                         <li><a href="index">Início</a></li>
                                         <li><a href="empresa">A Gestão</a></li>
                                         <li><a href="controle-interno">Controle Interno</a></li>
-                                        <li><a href="solucoes">Outras Atividades</a></li>
+                                        <li><a href="auditoria">Outras Atividades</a></li>
                                         <li><a href="blog">Blog</a></li>
                                         <li><a href="contato">Contato</a></li>
                                         <br>
                                         <a href="https://www.facebook.com/gestaoltda">
-                                            <i class="fa fa-facebook icons-footer"></i>
-                                        </a>
-                                        <p>Gestão Ltda.</p>
+                                            <i class="fa fa-facebook icons-footerAlt"></i>
+                                            <p id="novaLogo">Gestão</p>
+                                        </a><br>
+                                        <!-- <p class="icons-footerAlt-names">Gestão Ltda.</p> -->
                                         <a href="https://www.facebook.com/gestaoamais">
-                                            <i class="fa fa-facebook icons-footer"></i>
+                                            <i class="fa fa-facebook icons-footerAlt"></i>
+                                            <p id="novaLogo">Gestão A+</p>
                                         </a>
-                                        <p>Gestão A+</p>
+                                        <!-- <p class="icons-footerAlt-names">Gestão A+</p> -->
                                     </ul>
                                 </div>
                             </div>

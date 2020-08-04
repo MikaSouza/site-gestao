@@ -379,7 +379,7 @@ require_once 'tw/transaction/transactionBlog.php';
     </div>
 </div> -->
 
-<div class="blog-area fix bg-color">
+<div class="blog-area fix bg-color area-padding-adj">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">

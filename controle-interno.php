@@ -33,9 +33,9 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li class="active"><a href="controle-interno">Controle Interno Municipal</a></li>
-                            </ul><br><br><br>
-                            <h5>Veja mais:</h5>
+                                <li class="active menu-left-adj"><a href="controle-interno">Controle Interno Municipal</a></li>
+                            </ul>
+                            <h5 id="ajustaMenuLeft">Veja tambem:</h5>
                             <ul>
                                 <li><a href="auditoria">Auditoria</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
