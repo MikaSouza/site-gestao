@@ -1896,8 +1896,7 @@ div#preloader {
 /*----------------------------------------*/
 .footer-area {
     padding: 90px 0;
-    background: #a5a5a5d7;
-    /* background: #cea92f; */
+    background: #fdfcfc;
 }
 
 .footer-logo {
@@ -2480,7 +2479,7 @@ div#preloader {
 }
 
 .page-area {
-    background: url(img/background/bread.jpg);
+    background: url(img/background/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -3285,7 +3284,8 @@ span.email-notes {
 .left-menu ul li.active a {
     color: #3078fb;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 450;
 }
 
 .left-menu ul li a:hover {
@@ -4001,6 +4001,55 @@ span.email-notes {
 }
 
 .adj-Empresa-Bot-Tile {
-    margin-bottom: -100px;
+    margin-bottom: -50px;
     color: #3078fb;
+}
+
+.menu-left-adj {
+    padding-bottom: 15%;
+}
+
+.icons-footerAlt {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 2px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #3078fb;
+    border-radius: 2px;
+    background: #3078fb;
+    transition: 0.4s;
+}
+
+.icons-footerAlt-names {
+    background: #3078fb;
+    margin-top: 2%;
+    border: 1px solid #3078fb;
+    border-radius: 2px;
+    width: 100px;
+    text-align: center;
+}
+
+.area-padding-adj {
+    padding: 0px 0px 80px;
+}
+
+#ajustaMenuLeft {
+    padding: 0px 20px;
+}
+
+#novaLogo {
+    float: left;
+    padding-left: 40px;
+    margin-top: -30px;
+    color: #3078fb;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.center-text {
+    text-align: center;
 }

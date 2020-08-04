@@ -26,8 +26,10 @@
             </div>
         </div>
         <div class="intro-content-2 slide-2">
-            <div class="slider-images">
-                <img src="img/slider/h4.jpg" alt="">
+             <div id="header-video">
+                <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
+                    <source src="https://1h4hfe10xz8m3g3xkh2wb9lc-wpengine.netdna-ssl.com/wp-content/themes/resultados_digitais_2017/img/video.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="slider-content">
                 <div class="display-table">
@@ -49,8 +51,10 @@
             </div>
         </div>
         <div class="intro-content-2 slide-2">
-            <div class="slider-images">
-                <img src="img/slider/h4.jpg" alt="">
+             <div id="header-video">
+                <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
+                    <source src="https://1h4hfe10xz8m3g3xkh2wb9lc-wpengine.netdna-ssl.com/wp-content/themes/resultados_digitais_2017/img/video.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="slider-content">
                 <div class="display-table">
@@ -72,8 +76,10 @@
             </div>
         </div>
         <div class="intro-content-2 slide-2">
-            <div class="slider-images">
-                <img src="img/slider/h4.jpg" alt="">
+             <div id="header-video">
+                <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
+                    <source src="https://1h4hfe10xz8m3g3xkh2wb9lc-wpengine.netdna-ssl.com/wp-content/themes/resultados_digitais_2017/img/video.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="slider-content">
                 <div class="display-table">
