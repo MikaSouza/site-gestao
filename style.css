@@ -95,6 +95,11 @@ img {
     height: auto;
 }
 
+#logo {
+    max-width: 146px;
+    height: auto;
+}
+
 .fix {
     overflow: hidden;
 }
@@ -2375,7 +2380,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
-    height: 815px;
+    height: 970px;
 }
 
 .intro-area-3 .intro-content-2::after {
@@ -3930,6 +3935,11 @@ span.email-notes {
         width: 100%;
         height: auto;
     }
+
+    intro-area intro-area-3 {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .blue p {
@@ -4052,4 +4062,13 @@ span.email-notes {
 
 .center-text {
     text-align: center;
+}
+
+form label {
+    color: #243559;
+}
+
+form h5 {
+    color: #243559;
+    font-weight: bold;
 }
