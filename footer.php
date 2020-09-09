@@ -11,7 +11,7 @@
                             <div class="footer-content logo-footer">
                                 <div class="footer-head">
                                     <div class="footer-logo">
-                                        <a href="index"><img src="img/logo/teste.jpg" alt="Gestão LTDA"></a>
+                                        <a href="index"><img id="logo" src="img/logo/kk.png" alt="Gestão LTDA"></a>
                                     </div>
                                     <p id="justifica">
                                         A Gestão atua especificamente no segmento de Administração Pública Municipal desde o ano 2000.
@@ -102,6 +102,8 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- owl.carousel js -->
         <script src="js/owl.carousel.min.js"></script>
+        <!-- Comentado para single banner da index -->
+
         <!-- Counter js -->
         <script src="js/jquery.counterup.min.js"></script>
         <!-- waypoint js -->

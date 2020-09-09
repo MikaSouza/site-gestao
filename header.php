@@ -109,7 +109,8 @@
                     <div class="col-md-3 col-sm-3">
                         <div class="logo">
                             <a class="navbar-brand page-scroll black-logo" href="index">
-                                <img src="img/logo/teste.jpg" alt="Gestão LTDA">
+                                <!-- <img src="img/logo/ee.png" alt="Gestão LTDA"> -->
+                                <img id="logo" src="img/logo/kk.png" alt="Gestão LTDA">
                             </a>
                         </div>
                     </div>
@@ -167,7 +168,7 @@
                     <div class="col-md-12">
                         <div class="mobile-menu">
                             <div class="logo">
-                                <a href="index"><img src="img/logo/teste.jpg" alt="Gestão LTDA"></a>
+                                <a href="index"><img src="img/logo/ee.png" alt="Gestão LTDA"></a>
                             </div>
                             <nav id="dropdown">
                                 <ul>
