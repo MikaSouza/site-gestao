@@ -16,6 +16,18 @@ function conectarBanco(){
 	}
 }
 
+//Conexão com o banco do Sistema BY JORDAN
+function conectarBancoSistema(){
+	try{
+		$db = new PDO("mysql:host=".vGHostSite.";dbname=".vGBancoSite.";charset=UTF8", vGUsername, vGPassword);
+		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		$db->setAttribute(PDO::MYSQL_ATTR_INIT_COMMAND, 'SET NAMES utf8');
+		return $db;
+	}catch(Exception $e){
+		return $e;
+	}
+}
+
 //Teste de onexão com o banco
 function testarConexao(){
 	try{
@@ -118,13 +130,128 @@ function insertUpdate($dados){
 			$sql = "INSERT INTO ".$dados['tabela']." (".implode(', ', $campos).", ".$dados['prefixo']."DATA_{$tipoTransaction}) VALUES(".implode(', ', $params).", NOW())";
 		}
 		$sql .= ';';
-		
+
 		//Iniciando a conexão
 		$db = conectarBanco();
 
 		//Preparando a query
 		$query = $db->prepare($sql);
-		
+
+		//Filtrando os valores
+		foreach ($fields as $field => $opcoes) {
+			$query->BindValue(':'.strtolower($field), $opcoes['valor'], $opcoes['filtro']);
+		}
+
+		//Executando
+		$query->Execute();
+
+		//Retornando o Id inserido, ou modificado
+		if($tipoTransaction == 'INC')
+			return $db->lastInsertId();
+		else
+			return $fields[$dados['prefixo'].'CODIGO']['valor'];
+	}catch(PDOException $e){
+		return $e;
+	}
+}
+
+//Função para inserir ou alterar dados BY JORDAN
+function insertUpdateSistema($dados){
+	try{
+		//Removendo os dados do crop, se precisar
+		if(isset($dados['fields']['aspectRatioCrop'])) unset($dados['fields']['aspectRatioCrop']);
+		//Definindo o tipo de caractere pelo prefixo
+		foreach ($dados['fields'] as $key => $value) {
+			switch(substr($key, 0, 2)){
+				case 'vI':
+					$tipoFiltro = PDO::PARAM_INT;
+					$value = (int) $value;
+					break;
+				case 'vS':
+					$tipoFiltro = PDO::PARAM_STR;
+					$value = (String) $value;
+					break;
+				case 'vD':
+					$tipoFiltro = PDO::PARAM_STR;
+					$value = (String) formatar_data_banco($value);
+					break;
+				case 'vM':
+					$tipoFiltro = PDO::PARAM_STR;
+					if($value != '')
+						$value = (String) formatar_valor_monetario_banco($value);
+					else
+						$value = null;
+					break;
+				default:
+					$tipoFiltro = PDO::PARAM_STR;
+					$value = (String) $value;
+			}
+			$dados['fields'][$key] = array(
+										'valor'  => $value,
+										'filtro' => $tipoFiltro,
+									);
+		}
+
+		//Removendo o prefixo
+		$fields = array_combine(array_map('removePrefix', array_keys($dados['fields'])), $dados['fields']);
+		$tipoTransaction = 'INC';
+
+		//Definindo os parametros
+		foreach ($fields as $campo => $opcoes){
+			if($campo != $dados['prefixo'].'CODIGO'){
+				$campos[] = $campo;
+				$params[] = ':'.strtolower($campo);
+			}else{
+				if($fields[$dados['prefixo'].'CODIGO']['valor'] != ''){
+					$tipoTransaction = 'ALT';
+				}
+			}
+		}
+
+		//Inserindo data e usuário de inclusão/alteração
+		$campos[] = $dados['prefixo'].'USU_'.$tipoTransaction;
+		$params[] = ':'.strtolower($dados['prefixo']).'usu_'.strtolower($tipoTransaction);
+		$fields[$dados['prefixo'].'USU_'.$tipoTransaction] = array(
+													'valor'  => (int) $_SESSION['SI_USUCODIGO'],
+													'filtro' => PDO::PARAM_INT
+												);
+
+		//Verificando se foi informado o status, caso não, será definido com 'S'
+		if(!in_array($dados['prefixo'].'STATUS', $campos)){
+			$campos[] = $dados['prefixo'].'STATUS';
+			$params[] = ':'.strtolower($dados['prefixo'].'STATUS');
+			$fields[$dados['prefixo'].'STATUS'] = array(
+														'valor'  => 'S',
+														'filtro' => PDO::PARAM_STR
+													);
+		}
+
+		//Montando a query
+		if($tipoTransaction == 'ALT'){
+			$sql = "UPDATE ".$dados['tabela']." SET ";
+			if(count($campos) == count($params)){
+				foreach ($campos as $i => $campo) {
+					$sql .= "$campo = {$params[$i]}, ";
+				}
+			}else{
+				return false;
+			}
+			$sql .= $dados['prefixo']."DATA_{$tipoTransaction} = NOW() ";
+			$sql .= "WHERE ".$dados['prefixo']."CODIGO = :".strtolower($dados['prefixo'].'CODIGO');
+		}else{
+			if(isset($fields[$dados['prefixo'].'CODIGO'])){
+				unset($fields[$dados['prefixo'].'CODIGO']);
+			}
+			$sql = "INSERT INTO ".$dados['tabela']." (".implode(', ', $campos).", ".$dados['prefixo']."DATA_{$tipoTransaction}) VALUES(".implode(', ', $params).", NOW())";
+		}
+		$sql .= ';';
+
+		//Iniciando a conexão
+		$db = conectarBancoSistema();
+
+		//Preparando a query
+		$query = $db->prepare($sql);
+
 		//Filtrando os valores
 		foreach ($fields as $field => $opcoes) {
 			$query->BindValue(':'.strtolower($field), $opcoes['valor'], $opcoes['filtro']);
@@ -154,7 +281,7 @@ function fillUnico($dados){
 
 		//Preparando a query
 		$query = $db->prepare($sql);
-		
+
 		//Filtrando os valores
 		$query->BindValue(':codigo', $dados['codigo'], PDO::PARAM_INT);
 
@@ -182,7 +309,39 @@ function consultaComposta($dados){
 
 		//Preparando a query
 		$query = $db->prepare($sql);
-		
+
+		//Filtrando os valores
+		if(isset($dados['parametros']) && !empty($dados['parametros']))
+			foreach($dados['parametros'] as $i => $parametro){
+				$query->BindValue($i+1, $parametro[0], $parametro[1]);
+			}
+
+		//Executando
+		if($query->Execute()){
+			//Retornando os dados
+			$dados = ($query->rowCount() > 0) ? $query->fetchall(PDO::FETCH_ASSOC) : array();
+			return array(
+						'quantidadeRegistros' => $query->rowCount(),
+						'dados'               => $dados
+					);
+		}
+
+	}catch(Exception $e){
+		return $e;
+	}
+}
+
+//Função para consultas compostas
+function consultaCompostaSistema($dados){
+	try{
+		$sql = trim($dados['query']);
+
+		//Iniciando a conexão
+		$db = conectarBancoSistema();
+
+		//Preparando a query
+		$query = $db->prepare($sql);
+
 		//Filtrando os valores
 		if(isset($dados['parametros']) && !empty($dados['parametros']))
 			foreach($dados['parametros'] as $i => $parametro){
@@ -212,7 +371,7 @@ function deletarRegistro($dados){
 
 	//Preparando a query
 	$query = $db->prepare($sql);
-	
+
 	//Filtrando os valores
 	$query->BindValue(':codigo', $dados['codigo'], PDO::PARAM_INT);
 	$query->BindValue(':usuario', $_SESSION['SI_USUCODIGO'], PDO::PARAM_INT);
@@ -277,7 +436,7 @@ function deletarImagem($dados){
 
 	//Preparando a query
 	$query = $db->prepare($sql);
-	
+
 	//Filtrando os valores
 	$query->BindValue(':codigo', $dados['codigo'], PDO::PARAM_INT);
 	$query->BindValue(':usuario', $_SESSION['SI_USUCODIGO'], PDO::PARAM_INT);
@@ -317,4 +476,14 @@ function getConfig($field){
 	}catch(Exception $e){
 		return $e;
 	}
+}
+
+function sql_conectar_banco(){
+
+	//if(!isset($_SESSION['SI_ID_USUARIO']))
+	//	die("<script language='javaScript'>window.location.assign('".URL_LOGIN."')</script>");
+
+	$conexao = mysqli_connect(vGHostSite, vGUsername, vGPassword, vGBancoSite) or die(mysqli_error());
+	mysqli_set_charset($conexao, "utf8");
+	return $conexao;
 }

@@ -133,6 +133,26 @@
             <script src="js/mapcode.js"></script>
         <?php endif; ?>
 
+        <?php if ($vSName == 'formulario') : ?>
+            <script src="js/formulario.js"></script>
+            <!-- Scrip Validade do Login.php -->
+            <script src="js/jquery.validate.min.js"></script>
+        <?php endif; ?>
+
+        <?php if ($vSName == 'login') : ?>
+            <script src="js/login.js"></script>
+            <!-- Scrip Validade do Login.php -->
+            <!-- <script src="js/jquery.validate.min.js"></script> -->
+            <!-- Sweet-Alert  -->
+            <script src="assets/sweetalert2.min.js"></script>
+            <script src="assets/jquery.sweet-alert.init.js"></script>
+            <?php if ($_GET['vMGS'] == 'E') { ?>
+                <script type="text/javascript" DEFER="DEFER">
+                    Swal.fire('Opss..', 'Login ou Senha inválidos!', 'warning');
+                </script>
+            <?php } ?>
+        <?php endif; ?>
+
         </body>
 
         </html>
