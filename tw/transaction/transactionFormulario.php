@@ -1,16 +1,26 @@
 <?php
-function insertUpdateFormulario($dados)
+function insertUpdateFormulario($dados,  $arquivo)
 {
 	$dadosBanco = array(
 		'tabela'  => 'FORMULARIO',
 		'prefixo' => 'FOR',
 		'fields'  => $dados
 	);
-	return insertUpdate($dadosBanco);
-}
+	$id = insertUpdateSistema($dadosBanco);
 
-if (isset($_POST['insertContato'])) {
-	echo insertUpdateFormulario($_POST);
+	if (!empty($arquivo['vFFORANEXOLEGIS']['name'])) {
+		unset($dados);
+		$dados['vFFORANEXOLEGIS'] = uploadArquivoUnico("curriculos/{$id}", $id, $arquivo['vFFORANEXOLEGIS'], array('pdf', 'doc', 'docx', 'odt'));
+		$dados['vIFORCODIGO'] = $id;
+		$dadosBanco = array(
+			'tabela'  => 'FORMULARIO',
+			'prefixo' => 'FOR',
+			'fields'  => $dados
+		);
+		insertUpdateSistema($dadosBanco);
+	}
+
+	return $id;
 }
 
 function fillFormulario($codigo = null)
@@ -24,57 +34,7 @@ function fillFormulario($codigo = null)
 		return fillUnico($arrayFill);
 	} else {
 		return array(
-			'FORCODIGO'     => '',
-			'FORPERGUNTA1'  => '',
-			'FORPERGUNTA2'  => '',
-			'FORPERGUNTA3'  => '',
-			'FORPERGUNTA4'  => '',
-			'FORPERGUNTA5'  => '',
-			'FORPERGUNTA6'  => '',
-			'FORPERGUNTA7'  => '',
-			'FORPERGUNTA8'  => '',
-			'FORPERGUNTA9'  => '',
-			'FORPERGUNTA10' => '',
-			'FORPERGUNTA11' => '',
-			'FORPERGUNTA12' => '',
-			'FORPERGUNTA13' => '',
-			'FORPERGUNTA14' => '',
-			'FORPERGUNTA15' => '',
-			'FORPERGUNTA16' => '',
-			'FORPERGUNTA17' => '',
-			'FORPERGUNTA18' => '',
-			'FORPERGUNTA19' => '',
-			'FORPERGUNTA20' => '',
-			'FORPERGUNTA21' => '',
-			'FORPERGUNTA22' => '',
-			'FORPERGUNTA23' => '',
-			'FORPERGUNTA24' => '',
-			'FORPERGUNTA25' => '',
-			'FORPERGUNTA26' => '',
-			'FORPERGUNTA27' => '',
-			'FORPERGUNTA28' => '',
-			'FORPERGUNTA29' => '',
-			'FORPERGUNTA30' => '',
-			'FORPERGUNTA31' => '',
-			'FORPERGUNTA32' => '',
-			'FORPERGUNTA33' => '',
-			'FORPERGUNTA34' => '',
-			'FORPERGUNTA35' => '',
-			'FORPERGUNTA36' => '',
-			'FORPERGUNTA37' => '',
-			'FORPERGUNTA38' => '',
-			'FORPERGUNTA39' => '',
-			'FORPERGUNTA40' => '',
-			'FORPERGUNTA41' => '',
-			'FORPERGUNTA42' => '',
-			'FORPERGUNTA43' => '',
-			'FORPERGUNTA44' => '',
-			'FORPERGUNTA45' => '',
-			'FORPERGUNTA46' => '',
-			'FORPERGUNTA47' => '',
-			'FORPERGUNTA48' => '',
-			'FORPERGUNTA49' => '',
-			'FORPERGUNTA50' => ''
+			'FORCODIGO'     => ''
 		);
 	}
 }

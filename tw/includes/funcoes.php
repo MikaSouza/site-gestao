@@ -1830,3 +1830,47 @@
 		}
 		return $texto_escape;
 	}
+
+	function uploadArquivoUnico($namePage, $codigo, $arquivo, $extensoesPermitidas)
+	{
+		try{
+			if($arquivo['error'] == 0){
+				$extensao = pathinfo($arquivo['name'], PATHINFO_EXTENSION);
+				$extensao = strtolower($extensao);
+
+				if(in_array($extensao, $extensoesPermitidas)){
+					$nomeArquivo = $codigo.'.'.$extensao;
+					$arquivoUpload = $arquivo['tmp_name'];
+
+					$diretorio = __DIR__."/../uploads/{$namePage}";
+
+					if(!is_dir($diretorio)){
+						mkdir($diretorio, 0755, true);
+
+					}else{
+						chmod($diretorio, 0755);
+					}
+				//Verifica se o diretório foi criado
+					if(is_dir($diretorio)){
+					//Move a imagem para o diretório definido
+						if(move_uploaded_file($arquivoUpload, $diretorio.'/'.$nomeArquivo)){
+						//Retorna o nome do arquivo
+							return $nomeArquivo;
+						}else{
+							throw new Exception("Ocorreu uma falha ao realizar o upload do arquivo");
+						}
+					}else{
+						throw new Exception("Não foi possivel encontrar o diretório");
+					}
+				}else{
+					throw new Exception("Tipo de arquivo não permitido! ({$extensao})");
+				}
+			}else{
+				throw new Exception("Ocorreu uma falha ao realizar o upload do arquivo");
+			}
+
+		}catch(Exception $e){
+			echo 'Ocorreu um erro: '.$e->getMessage()."\n";
+			return false;
+		}
+	}

@@ -1,9 +1,9 @@
 <?php
 
-$vSTitulo = 'A Empresa';
-$vSName = 'empresa';
+$vSTitulo = 'Login';
+$vSName = 'login';
 require_once 'header.php';
-require_once 'tw/transaction/transactionUsuarios.php';
+require_once 'tw/transaction/transactionLogin.php';
 
 ?>
 
@@ -36,28 +36,28 @@ require_once 'tw/transaction/transactionUsuarios.php';
                     <div class="login-form">
                         <h4 class="login-title text-center">LOG IN</h4>
                         <div class="row">
-                            <form class="log-form" id="formUsuarios" name="formUsuarios" method="POST"">
-                                <div class="col-md-12 col-sm-12 col-xs-12 ajusta">
-                                    <input type="text" class="form-control" id="vSUSUUSUARIO" name="vSUSUUSUARIO" placeholder="Nome">
-                                    <input type="password" class="form-control" id="vSUSUSENHA" name="vSUSUSENHA" placeholder="Senha">
-                                    <div class="check-group flexbox">
-                                        <label class="check-box">
-                                            <input type="checkbox" class="check-box-input" checked>
-                                            <span class="remember-text">Lembrar de mim</span>
-                                        </label>
-                                        <a class="text-muted" href="#">Esqueceu a senha</a>
-                                    </div>
-                                    <button type="submit" id="submit" class="slide-btn login-btn">Entrar</button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
+                            <form class="log-form" id="formUsuarios" name="formUsuarios" method="POST" onsubmit="return validarForm();">
+                                <div class=" col-md-12 col-sm-12 col-xs-12 ajusta">
+                                <input type="text" class="form-control obrigatorio" id="vSUsuario" name="vSUsuario" placeholder="Nome">
+                                <input type="password" class="form-control obrigatorio" id="vSSenha" name="vSSenha" placeholder="Senha">
+                                <div class="check-group flexbox">
+                                    <label class="check-box">
+                                        <input type="checkbox" class="check-box-input" checked>
+                                        <span class="remember-text">Lembrar de mim</span>
+                                    </label>
+                                    <a class="text-muted" href="#">Esqueceu a senha</a>
                                 </div>
-                            </form>
+                                <button type="submit" id="submit" class="slide-btn login-btn">Entrar</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <?php require_once 'footer.php' ?>

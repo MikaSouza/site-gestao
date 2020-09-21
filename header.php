@@ -64,6 +64,10 @@
     <link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
     <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
 
+    <?php if ($vSName == 'login') : ?>
+        <link href="assets/sweetalert2.min.css" rel="stylesheet" type="text/css">
+    <?php endif; ?>
+
     <!-- Constantes do PHP -->
     <?php require_once 'tw/includes/constantes.php'; ?>
 
@@ -117,14 +121,14 @@
                     <div class="col-md-9 col-sm-9 ajustaMenu">
                         <div class="header-right-link">
                             <div class="search-inner">
-                                <form action="#">
+                                <!-- <form action="#">
                                     <div class="search-option">
                                         <input type="text" placeholder="Search...">
                                         <button class="button" type="submit"><i class="fa fa-search"></i></button>
                                     </div>
-                                </form>
+                                </form> -->
                             </div>
-                            <a class="s-menu" href="http://helpdesk.teraware.com.br/login.php">Área Cliente</a>
+                            <a class="s-menu" href="http://sites-gestao-srv.teraware.net.br/login.php">Área Cliente</a>
                         </div>
                         <nav class="navbar navbar-default">
                             <div class="collapse navbar-collapse alinha" id="navbar-example">
