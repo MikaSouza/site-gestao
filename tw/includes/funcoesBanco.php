@@ -300,12 +300,17 @@ function fillUnico($dados){
 
 
 //Função para consultas compostas
-function consultaComposta($dados){
+function consultaComposta($dados,$Tipo = ''){
 	try{
 		$sql = trim($dados['query']);
 
-		//Iniciando a conexão
-		$db = conectarBanco();
+
+		if($Tipo == 'SIS'){
+			$db = conectarBancoSistema();
+		}else{
+			$db = conectarBanco();
+		}
+
 
 		//Preparando a query
 		$query = $db->prepare($sql);

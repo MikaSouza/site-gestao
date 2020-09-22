@@ -38,26 +38,26 @@ require_once 'tw/transaction/transactionLogin.php';
                         <div class="row">
                             <form class="log-form" id="formUsuarios" name="formUsuarios" method="POST" onsubmit="return validarForm();">
                                 <div class=" col-md-12 col-sm-12 col-xs-12 ajusta">
-                                <input type="text" class="form-control obrigatorio" id="vSUsuario" name="vSUsuario" placeholder="Nome">
-                                <input type="password" class="form-control obrigatorio" id="vSSenha" name="vSSenha" placeholder="Senha">
-                                <div class="check-group flexbox">
-                                    <label class="check-box">
-                                        <input type="checkbox" class="check-box-input" checked>
-                                        <span class="remember-text">Lembrar de mim</span>
-                                    </label>
-                                    <a class="text-muted" href="#">Esqueceu a senha</a>
+                                    <input type="text" class="form-control obrigatorio" id="vSUsuario" name="vSUsuario" placeholder="Nome">
+                                    <input type="password" class="form-control obrigatorio" id="vSSenha" name="vSSenha" placeholder="Senha">
+                                    <div class="check-group flexbox">
+                                        <label class="check-box">
+                                            <input type="checkbox" class="check-box-input" checked>
+                                            <span class="remember-text">Lembrar de mim</span>
+                                        </label>
+                                        <a class="text-muted" href="#">Esqueceu a senha</a>
+                                    </div>
+                                    <button type="submit" id="submit" class="slide-btn login-btn">Entrar</button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
                                 </div>
-                                <button type="submit" id="submit" class="slide-btn login-btn">Entrar</button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
+                            </form>
                         </div>
-                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <?php require_once 'footer.php' ?>

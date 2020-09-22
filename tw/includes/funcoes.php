@@ -1874,3 +1874,24 @@
 			return false;
 		}
 	}
+
+	function sql_executa($pBanco, $pConexao, $pSql) {
+
+		if(empty($pConexao) or empty($pSql))
+			return "";
+		mysqli_select_db($pConexao, $pBanco);
+		$aux = mysqli_query($pConexao, $pSql);
+		if(!$aux){
+			echo "********* ERRO *********<BR>";
+			echo "SQL = ".nl2br($pSql)."<BR><BR>";
+			echo mysqli_error ($pConexao);
+			echo "<BR>*****<BR>";
+			return 0;
+		}
+		return $aux;
+	}
+
+	function sql_retorno_lista($pSql){
+		if(empty($pSql)) return "";
+			  return mysqli_fetch_array($pSql, MYSQLI_ASSOC);
+	}

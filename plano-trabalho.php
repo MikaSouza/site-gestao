@@ -3,7 +3,8 @@
 $vSTitulo = 'Plano de Trabalho';
 $vSName = 'plano-trabalho';
 require_once 'header.php';
-
+require_once 'tw/transaction/transactionLogin.php';
+// pre($_SESSION);
 ?>
         <!-- Start Bottom Header -->
         <div class="page-area">
@@ -62,9 +63,9 @@ require_once 'header.php';
                                             <img src="img/services/r1.jpg" alt="">
                                         </div>
                                         <div class="review-text">
-                                            <p>Prefeitura Municipal de Agudo</p>
-                                            <h4>Jordano Teste</h4>
-                                            <span class="guest-rev">contato@teraware.com.br <a href="#">(51) 306125 50</a></span>
+                                            <p><?= $_SESSION['SS_CLIRAZAOSOCIAL']; ?></p>
+                                            <h4><?php echo $_SESSION['SS_CONNOME']; ?></h4>
+                                            <span class="guest-rev"><?php echo $_SESSION['SS_CONEMAIL']; ?><br><a href="#"><?php echo $_SESSION['SS_CONFONE']; ?></a></span>
                                         </div>
                                     </div>
                                 </div>
@@ -91,7 +92,7 @@ require_once 'header.php';
 							<!-- Start Column Start -->
 							<div class="col-md-12 col-sm-12 col-xs-12">
 								<div class="company-faq left-faq">
-									<div class="single-faq"> 
+									<div class="single-faq">
 									   <h4><span class="number">1</span> <span class="q-text">SET/2020 - Elaboração de Manifestação Conclusiva ao TCE/RS, referente ao Poder Executivo e Poder Legislativo</span></h4>
 									   <p>Departamento: Obras - Responsável: João Pedro </p>
 									</div>
@@ -158,7 +159,7 @@ require_once 'header.php';
 									   <p>Departamento: Obras - Responsável: João Pedro </p>
 									</div>
 								</div>
-							</div>							
+							</div>
 						</div>
 
                     </div>
