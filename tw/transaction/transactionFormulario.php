@@ -34,13 +34,29 @@ function fillFormulario($codigo = null)
 		return fillUnico($arrayFill);
 	} else {
 		return array(
-			'FORCODIGO'     => ''
+			'FORCODIGO' => ''
 		);
 	}
 }
 
 if (isset($_GET['dadosList'])) {
 	echo listFormulario($_POST);
+}
+
+function fill_InformacoesPreliminares($IdUsuario){
+	$SqlMain = 'SELECT
+					c.*
+				FROM
+					FORMULARIO c
+				WHERE
+					c.CLICODIGO = '.$IdUsuario;
+	$arrayQuery = array(
+		'query' => $SqlMain,
+		'parametros' => array(
+		)
+	);
+	$registro = consultaComposta($arrayQuery,'SIS');
+	return $registro['dados'][0];
 }
 
 function listFormulario($dados)
