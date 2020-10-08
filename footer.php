@@ -3,9 +3,38 @@
                 <div class="container">
                     <div class="" style="position:fixed;bottom:72px;right:11px;z-index:9999;">
                         <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5551984432097">
-                            <img src="https://img.icons8.com/color/48/000000/whatsapp.png" />
+                        <img src="img/brand/whatsgestao.png" alt="Atendimento via WhatsApp" width="150px" height="80px">
                         </a>
                     </div>
+
+                    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+	<script>
+window.addEventListener("load", function(){
+ window.cookieconsent.initialise({
+   "palette": {
+     "popup": {
+       "background": "	#FFFFFF",
+       "text": "#243559"
+     },
+     "button": {
+       "background": "#3078FB"
+     }
+   },
+   "theme": "classic",
+   "position": "bottom-left",
+   "content": {
+     "message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
+     "dismiss": "Entendi!",
+     "link": "Leia mais…",
+     "href": ""
+   }
+ })});
+</script>
+
+
+
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="footer-content logo-footer">

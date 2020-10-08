@@ -28,7 +28,7 @@
         <div class="intro-content-2 slide-2">
              <div id="header-video">
                 <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
-                    <source src="img/video/kk.mp4" type="video/mp4">
+                    <source src="img/video/gestao_srv.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="slider-content">

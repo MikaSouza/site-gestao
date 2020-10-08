@@ -6,7 +6,7 @@ require_once 'header.php';
 require_once 'tw/transaction/transactionLogin.php';
 // pre($_SESSION);
 ?>
-        <!-- Start Bottom Header -->
+        <!-- Start Bottom Header 
         <div class="page-area">
             <div class="breadcumb-overlay"></div>
             <div class="container">
@@ -24,54 +24,15 @@ require_once 'tw/transaction/transactionLogin.php';
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
+		<br/><br/><br/>
         <!-- END Header -->
         <!-- End services Area -->
         <div class="single-services-page area-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="page-head-left">
-                           <!-- strat single area -->
-                            <div class="single-page-head">
-                                <div class="left-menu">
-                                    <ul>
-                                        <li class="active"><a href="formulario">Info Preliminares</a></li>
-                                        <li><a href="#">Dados Município</a></li>
-                                        <li><a href="plano-trabalho">Plano de Trabalho</a></li>
-										<li><a href="#">Calendário</a></li>
-										<li><a href="#">Pendências</a></li>
-                                        <li><a href="#">Documentos</a></li>
-                                        <li><a href="#">Ajuda</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- strat single area -->
-                            <div class="single-page-head">
-                                <div class="download-btn">
-                                    <div class="about-btn">
-                                        <a href="#" class="down-btn">Instruções Básicas <i class="fa fa-file-pdf-o"></i></a>
-                                        <a href="#" class="down-btn apli">Checklist <i class="fa fa-file-word-o"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- strat single area -->
-                            <div class="single-page-head">
-                                <div class="clients-testi">
-                                    <div class="single-review text-center">
-                                        <div class="review-img ">
-                                            <img src="img/services/r1.jpg" alt="">
-                                        </div>
-                                        <div class="review-text">
-                                            <p><?= $_SESSION['SS_CLIRAZAOSOCIAL']; ?></p>
-                                            <h4><?php echo $_SESSION['SS_CONNOME']; ?></h4>
-                                            <span class="guest-rev"><?php echo $_SESSION['SS_CONEMAIL']; ?><br><a href="#"><?php echo $_SESSION['SS_CONFONE']; ?></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end single area -->
-                        </div>
+                        <?php require_once 'menu_lateral.php'; ?> 
                     </div>
                     <!-- End left sidebar -->
                     <!-- Start service page -->
@@ -103,10 +64,10 @@ require_once 'tw/transaction/transactionLogin.php';
 													<h4>Checklist 1</h4>
 												</a>
 												<ul class="marker-list">
-													<li>Words is roughly being maintained</li>
-													<li>Letters or begins with a capital letter</li>
-													<li>Previous casing is maintained</li>
-													<li>Maintains the amount of lines</li>
+													<li>Item 1</li>
+													<li>Item 2</li>
+													<li>Item 3</li>
+													<li>Item 4</li>
 												</ul>
 											</div>
 										</div>
@@ -138,10 +99,10 @@ require_once 'tw/transaction/transactionLogin.php';
 													<h4>Checklist 1</h4>
 												</a>
 												<ul class="marker-list">
-													<li>Words is roughly being maintained</li>
-													<li>Letters or begins with a capital letter</li>
-													<li>Previous casing is maintained</li>
-													<li>Maintains the amount of lines</li>
+													<li>Item 1</li>
+													<li>Item 2</li>
+													<li>Item 3</li>
+													<li>Item 4</li>
 												</ul>
 											</div>
 										</div>
