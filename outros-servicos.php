@@ -33,10 +33,11 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li><a href="auditoria">Auditoria</a></li>
+                                <li><a href="auditorias-especiais">Auditoria Especiais</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                 <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li class="active"><a href="outros-servicos">Outros Serviços</a></li>
+                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
                             </ul>
                         </div>
                     </div>

@@ -41,6 +41,7 @@ require_once 'header.php';
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                 <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li><a href="outros-servicos">Outros Serviços</a></li>
+                                <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
                             </ul>
                         </div>
                     </div>
@@ -50,6 +51,7 @@ require_once 'header.php';
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-well mar-well">
+                            <img src="img/services/bannerEletronico.png" alt="Controle Interno"><br><br>
                             <a>
                                 <h3>Assessoria e Consultoria à Unidade de Controle Interno Municipal</h3>
                             </a>

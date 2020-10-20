@@ -3,35 +3,36 @@
                 <div class="container">
                     <div class="" style="position:fixed;bottom:72px;right:11px;z-index:9999;">
                         <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5551984432097">
-                        <img src="img/brand/whatsgestao.png" alt="Atendimento via WhatsApp" width="150px" height="80px">
+                            <img src="img/brand/whatsgestao.png" alt="Atendimento via WhatsApp" width="150px" height="80px">
                         </a>
                     </div>
 
                     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+                    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
-	<script>
-window.addEventListener("load", function(){
- window.cookieconsent.initialise({
-   "palette": {
-     "popup": {
-       "background": "	#FFFFFF",
-       "text": "#243559"
-     },
-     "button": {
-       "background": "#3078FB"
-     }
-   },
-   "theme": "classic",
-   "position": "bottom-left",
-   "content": {
-     "message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
-     "dismiss": "Entendi!",
-     "link": "Leia mais…",
-     "href": ""
-   }
- })});
-</script>
+                    <script>
+                        window.addEventListener("load", function() {
+                            window.cookieconsent.initialise({
+                                "palette": {
+                                    "popup": {
+                                        "background": "	#FFFFFF",
+                                        "text": "#243559"
+                                    },
+                                    "button": {
+                                        "background": "#3078FB"
+                                    }
+                                },
+                                "theme": "classic",
+                                "position": "bottom-left",
+                                "content": {
+                                    "message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
+                                    "dismiss": "Entendi!",
+                                    "link": "Leia mais…",
+                                    "href": ""
+                                }
+                            })
+                        });
+                    </script>
 
 
 
@@ -47,12 +48,12 @@ window.addEventListener("load", function(){
                                         São 19 anos vivenciando a realidade dos municípios brasileiros. Durante esse período, muitas
                                         soluções foram encontradas para aumentar a eficiência dos órgãos públicos.
                                     </p><br>
-                                    <div class="footer-logoAlt">
+                                    <!-- <div class="footer-logoAlt">
                                         <a href="index"><img src="img/logo/gestaoA1.png" alt="Gestão A+ LTDA"></a>
                                     </div><br><br><br>
                                     <div class="footer-titleA">
                                         <p>Gestão A+ Desenvolvimento Ltda.</p>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -62,9 +63,9 @@ window.addEventListener("load", function(){
                                     <h4>Links Rápidos</h4>
                                     <ul class="footer-list">
                                         <li><a href="index">Início</a></li>
-                                        <li><a href="empresa">A Gestão</a></li>
+                                        <li><a href="empresa">A Empresa</a></li>
                                         <li><a href="controle-interno">Controle Interno</a></li>
-                                        <li><a href="auditoria">Outras Atividades</a></li>
+                                        <li><a href="auditoria-especiais">Serviços Especiais</a></li>
                                         <li><a href="blog">Blog</a></li>
                                         <li><a href="contato">Contato</a></li>
                                         <br>
@@ -87,7 +88,7 @@ window.addEventListener("load", function(){
                                 <div class="footer-head">
                                     <h4>Informações</h4>
                                     <div class="footer-contactsAlt">
-                                        <p><span>Gestão Ltda</span><br>
+                                        <p><span>Gestão Assessoria e Consultoria em Administração Pública Ltda.</span><br>
                                             CNPJ: 03.713.762/0001-23</p>
                                         <p><span>Gestão A+ Desenvolvimento Ltda.</span><br>
                                             CNPJ: 18.693.117/0001-63</p>
