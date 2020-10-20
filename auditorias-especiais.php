@@ -1,7 +1,7 @@
 <?php
 
 $vSTitulo = 'Auditoria Especiais';
-$vSName = 'auditoria-especiais';
+$vSName = 'auditorias-especiais';
 require_once 'header.php';
 
 ?>
@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Auditorias</h3>
+                        <h3>Auditorias Especiais</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Início</li>
-                        <li>Auditorias</li>
+                        <li>Auditorias Especiais</li>
                     </ul>
                 </div>
             </div>
@@ -33,7 +33,7 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li class="active"><a href="auditoria-especiais">Auditoria Especiais</a></li>
+                                <li class="active"><a href="auditorisa-especiais">Auditoria Especiais</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                 <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li><a href="outros-servicos">Outros Serviços</a></li>
@@ -50,9 +50,9 @@ require_once 'header.php';
                             <a>
                                 <h3>Auditorias Especiais e Independentes</h3>
                             </a>
-                            <p id="justifica">Em razão das atividades desempenhadas junto aos órgãos públicos, situação que envolve diretamente as execuções de auditorias e fiscalizações, a Gestão foi se consolidando e angariando um conteúdo ímpar de experiências. A nossa equipe dispõe da expertise necessária e está preparada para o enfrentamento das demandas e desafios.</p><br>
+                            <p id="justifica">Em razão das atividades desempenhadas junto aos órgãos públicos, situação que envolve diretamente as execuções de auditorias e fiscalizações, a Gestão foi se consolidando e acumulando um conteúdo ímpar de experiências. A nossa equipe dispõe da expertise necessária e está preparada para o enfrentamento das demandas e desafios.</p><br>
 
-                            <p id="justifica">Neste segmento, dispomos de um modelo de auditoria inicial de governo que posiciona a administração do ente sobre a situação financeira, orçamentária e contábil, contratos, convênios, parcerias, estrutura de pessoal, almoxarifados, controle patrimonial, frota de máquinas e veículos, organização do sistema de controle interno, podendo ainda serem incluídos diversos outros objetos de análise no procedimento de auditoria, tudo com o objetivo de preparar um diagnóstico completo sobre a situação da entidade, facilitando o planejamento das primeiras ações de governo. Com o passar dos anos e as trocas de administração, identificamos as dificuldades enfrentadas no primeiro ano de mandato. Em razão disso, desenvolvemos essa ferramenta de facilitação e rápido conhecimento das informações.</p><br>
+                            <p id="justifica">Neste segmento, dispomos de um modelo de auditoria inicial de governo que posiciona a administração do ente sobre a situação financeira, orçamentária e contábil, contratos, convênios, parcerias, estrutura de pessoal, almoxarifados, controle patrimonial, frota de máquinas e veículos, organização do sistema de controle interno, podendo ainda serem incluídos diversos outros tipos de análise no procedimento de auditoria, tudo com o objetivo de preparar um diagnóstico completo sobre a situação da entidade, facilitando o planejamento das primeiras ações de governo. Com o passar dos anos e as trocas de administração, identificamos as dificuldades enfrentadas no primeiro ano de mandato. Em razão disso, desenvolvemos essa ferramenta de facilitação e rápido conhecimento das informações.</p><br>
 
                             <p id="justifica">Com relação aos procedimentos de auditorias setoriais independentes, atuamos nos mais diversos segmentos da administração pública. São procedimentos de auditoria nos Poderes Executivo e Legislativo, em secretarias e até por setorização, em Autarquias, Consórcios Públicos, Regimes Próprios de Previdência, além de Hospitais e Instituições Filantrópicas, entre outros.</p><br>
 

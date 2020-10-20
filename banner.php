@@ -13,7 +13,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Inteligência focada na Administração Pública</h2>
+                                        <h2 class="title2">Inteligência com foco na<br> Administração Pública</h2>
                                     </div>
                                     <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
                                         <p>Controle Interno eficiente e menos burocrático</p>

@@ -33,10 +33,11 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li><a href="auditoria">Auditoria</a></li>
+                                <li><a href="auditorias-especiais">Auditoria Especiais</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                 <li class="active"><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li><a href="outros-servicos">Outros Serviços</a></li>
+                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +75,7 @@ require_once 'header.php';
                                     <p>▪ <b>Cotejamento de Informações:</b> Realização do confronto de dados dos bens encontrados durante o inventário físico e os existentes no banco de dados do sistema informatizado.</p>
                                 </li></br>
                                 <li>
-                                    <p>▪ <b>Classificação dos Bens:</b> Classificação de todos os bens patrimoniais inventariados nas suas respectivas contas contábeis, observando a legislação pertinente.</p>
+                                    <p>▪ <b>Classificação dos Bens:</b> Classificação contábil de todos os bens patrimoniais inventariados, observando a legislação pertinente.</p>
                                 </li></br>
                                 <li>
                                     <p>▪ <b>Avaliação dos Bens Patrimoniais:</b> Atualização dos valores dos bens através da aplicação dos métodos de cálculo e avaliação patrimonial.</p>
