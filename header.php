@@ -150,13 +150,17 @@
                                         <li class="teste">
                                             <a href="index">Início</a>
                                         </li>
-                                        <li class="teste">
+
+                                        <li>
+
                                             <a href="empresa">A Empresa</a>
                                         </li>
                                         <li class="teste">
                                             <a href="controle-interno">Controle<br>Interno</a>
                                         </li>
-                                        <li class="teste">
+
+                                        <li>
+
                                             <a class="pages" href="auditoria">Serviços<br> Especiais</a>
                                             <ul class="sub-menu">
                                                 <li><a href="auditoria">Auditoria Especias</a></li>
