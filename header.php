@@ -147,16 +147,20 @@
                             <div class="collapse navbar-collapse alinha" id="navbar-example">
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li>
+                                        <li class="teste">
                                             <a href="index">Início</a>
                                         </li>
+
                                         <li>
+
                                             <a href="empresa">A Empresa</a>
                                         </li>
-                                        <li>
+                                        <li class="teste">
                                             <a href="controle-interno">Controle<br>Interno</a>
                                         </li>
+
                                         <li>
+
                                             <a class="pages" href="auditoria">Serviços<br> Especiais</a>
                                             <ul class="sub-menu">
                                                 <li><a href="auditoria">Auditoria Especias</a></li>
@@ -166,10 +170,10 @@
                                                 <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        <li class="teste">
                                             <a href="blog">Blog</a>
                                         </li>
-                                        <li>
+                                        <li class="teste">
                                             <a href="contato">Contato</a>
                                         </li>
                                     </ul>

@@ -96,7 +96,7 @@ img {
 }
 
 #logo {
-    max-width: 146px;
+    max-width: 80%;
     height: auto;
 }
 
@@ -371,8 +371,7 @@ div#preloader {
     margin-right: 20px;
     padding: 10px 0;
     text-decoration: none;
-    font-size: 12px;
-    letter-spacing: 0.60px;
+
 }
 
 .topbar-left ul li a i {
@@ -446,17 +445,18 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #444;
+    color: #fff;
     /* font-size: 16px; */
     font-size: 15px;
     font-weight: 500;
     padding: 35px 18px;
     /* text-transform: capitalize; */
     position: relative;
+    top: -10px;
 }
 
 .main-menu ul.navbar-nav li a:hover {
-    color: #3078fb;
+    color: #151b2c;
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
@@ -516,7 +516,7 @@ div#preloader {
 }
 
 .main-menu ul.nav>li>a.pages::after {
-    color: #444;
+    color: #fff;
     content: "\e64b";
     font-family: themify;
     font-size: 12px;
@@ -4012,6 +4012,8 @@ span.email-notes {
 
 .adj-Empresa-Bot-Tile {
     margin-bottom: -50px;
+    margin-left: 35%;
+    margin-right: 35%;
     color: #3078fb;
 }
 
