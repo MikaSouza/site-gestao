@@ -371,7 +371,7 @@ div#preloader {
     margin-right: 20px;
     padding: 10px 0;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.60px;
 }
 
@@ -633,9 +633,9 @@ div#preloader {
 
 .s-menu {
     padding: 12px 20px;
-    border: 1px solid #3078fb;
+    border: 1px solid #d6bb63;
     border-radius: 2px;
-    background: #3078fb;
+    background: #d6bb63;
     color: #fff;
     transition: 0.4s;
     font-size: 15px;
@@ -643,9 +643,9 @@ div#preloader {
 }
 
 .s-menu:hover {
-    border: 1px solid #3078fb;
+    border: 1px solid #d6bb63;
     background: transparent;
-    color: #3078fb;
+    color: #d6bb63;
     transition: 0.4s;
 }
 
@@ -4076,4 +4076,29 @@ form h5 {
 .ajusta {
     padding-left: 30%;
     padding-right: 30%;
+}
+
+.ajustaTitulo {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    color: white !important;
+}
+
+.ajusta01 {
+    margin-left: 21px !important;
+}
+
+.teste {
+        /* padding: 12px 20px; */
+        border: 1px solid #3078fb;
+        border-radius: 2px;
+        background: #3078fb;
+        color: #fff;
+        transition: 0.4s;
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 4px;
+        height: 87px;
+        margin-top: 19px;
+        margin-bottom: 10px;
 }

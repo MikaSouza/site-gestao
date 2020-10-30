@@ -3,17 +3,16 @@
 
 <head>
 
-
-<div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
 
     <!-- Gerenciamento PHP -->
@@ -104,17 +103,18 @@
                                 <li><a href="#"><i class="fa fa-envelope"></i> gestao@gestao.srv.br</a></li>
                                 <li><a href="#"><i class="fa fa-phone-square"></i> (51) 3541-3355</a></li>
                                 <li><a href="#"><i class="fa fa-whatsapp"></i> (51) 9 8443-2097</a></li>
-                                <li><a href="#"><i class="fa fa-clock-o"></i> Seg - Sex: 08:00 - 17:00</a></li>
+                                <li><a href="#"><i class="fa fa-clock-o"></i> Seg - Sex: 08:00 as 12:00h e das 13:30 as 18:00h</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-3">
                         <div class="top-social">
                             <ul>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                                <li><a href="https://www.facebook.com/gestaoltda"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/gestaoamais"><i class="fa fa-facebook"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-google"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -127,8 +127,7 @@
                     <div class="col-md-3 col-sm-3">
                         <div class="logo">
                             <a class="navbar-brand page-scroll black-logo" href="index">
-                                <!-- <img src="img/logo/ee.png" alt="Gestão LTDA"> -->
-                                <img id="logo" src="img/logo/kk.png" alt="Gestão LTDA">
+                                <img id="logo" src="img/logo/gestaoPreto.png" alt="Gestão LTDA">
                             </a>
                         </div>
                     </div>
@@ -152,18 +151,19 @@
                                             <a href="index">Início</a>
                                         </li>
                                         <li>
-                                            <a href="empresa">A Gestão</a>
+                                            <a href="empresa">A Empresa</a>
                                         </li>
                                         <li>
                                             <a href="controle-interno">Controle<br>Interno</a>
                                         </li>
                                         <li>
-                                            <a class="pages" href="auditoria">Outras<br> Atividades</a>
+                                            <a class="pages" href="auditoria">Serviços<br> Especiais</a>
                                             <ul class="sub-menu">
-                                                <li><a href="auditoria">Auditoria</a></li>
+                                                <li><a href="auditoria">Auditoria Especias</a></li>
                                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                                 <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                                 <li><a href="outros-servicos">Outros Serviços</a></li>
+                                                <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -194,15 +194,19 @@
                                         <a href="index">Início</a>
                                     </li>
                                     <li>
-                                        <a href="empresa">A Gestão</a>
+                                        <a href="empresa">A Empresa</a>
                                     </li>
                                     <li>
-                                        <a class="pages" href="servicos">Serviços</a>
+                                        <a href="controle-interno">Controle<br>Interno</a>
+                                    </li>
+                                    <li>
+                                        <a class="pages" href="auditoria">Serviços<br> Especiais</a>
                                         <ul class="sub-menu">
-                                            <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                            <li><a href="auditoria">Auditoria</a></li>
+                                            <li><a href="auditoria">Auditoria Especias</a></li>
                                             <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                            <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                             <li><a href="outros-servicos">Outros Serviços</a></li>
+                                            <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
                                         </ul>
                                     </li>
                                     <li>

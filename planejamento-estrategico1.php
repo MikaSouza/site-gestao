@@ -1,7 +1,7 @@
 <?php
 
-$vSTitulo = 'Auditoria Especiais';
-$vSName = 'auditoria-especiais';
+$vSTitulo = 'Planejamento Estratégico';
+$vSName = 'planejamento-estratégico';
 require_once 'header.php';
 
 ?>
@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Auditorias</h3>
+                        <h3>Planejamento Estratégico</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Início</li>
-                        <li>Auditorias</li>
+                        <li>Planejamento Estratégico</li>
                     </ul>
                 </div>
             </div>
@@ -33,11 +33,10 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li class="active"><a href="auditoria-especiais">Auditoria Especiais</a></li>
+                                <li class="active"><a href="auditoria">Auditoria</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
                                 <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li><a href="outros-servicos">Outros Serviços</a></li>
-                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
                             </ul>
                         </div>
                     </div>

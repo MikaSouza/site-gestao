@@ -33,11 +33,11 @@ require_once 'header.php';
                     <div class="single-page-head">
                         <div class="left-menu">
                             <ul>
-                                <li><a href="controle-interno">Controle Interno Municipal</a></li>
-                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                <li class="active"><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+                                <li><a href="auditorias-especiais">Auditoria Especiais</a></li>
                                 <li><a href="contabilidade">Contabilidade e Finanças</a></li>
+                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
                                 <li><a href="outros-servicos">Outros Serviços</a></li>
+                                <li class="active"><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,8 +55,10 @@ require_once 'header.php';
                                 estratégicas a fim de alcançar seus objetivos. Serve como um mapa para que a organização possa seguir seus caminhos
                                 da forma mais eficiente possível, buscando sempre a melhor concentração de esforços e recursos.</p><br>
 
-                            <p id="centraliza"><h5 class="azul">É UM INSTRUMENTO DE GESTÃO PARA ESTABELECER PARÂMETROS QUE IRÃO DIRECIONAR AS
-                                 INICIATIVAS DA PREFEITURA</h5></p><br>
+                            <p id="centraliza">
+                                <h5 class="azul">É UM INSTRUMENTO DE GESTÃO PARA ESTABELECER PARÂMETROS QUE IRÃO DIRECIONAR AS
+                                    INICIATIVAS DA PREFEITURA</h5>
+                            </p><br>
 
                             <p id="justifica"><b>Por que planejar?</b><br>
                                 O Planejamento Estratégico possibilita o controle e monitoramento dos esforços da organização na busca pelos seus
