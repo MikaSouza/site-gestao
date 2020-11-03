@@ -371,8 +371,10 @@ div#preloader {
     margin-right: 20px;
     padding: 10px 0;
     text-decoration: none;
+
     font-size: 12px;
     letter-spacing: 0.60px;
+
 }
 
 .topbar-left ul li a i {
