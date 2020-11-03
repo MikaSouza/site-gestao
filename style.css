@@ -2382,7 +2382,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
-    height: 970px;
+    height: 920px;
 }
 
 .intro-area-3 .intro-content-2::after {
@@ -2391,7 +2391,7 @@ div#preloader {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(4, 23, 46, 0.70) none repeat scroll 0 0;
+    /* background: rgba(4, 23, 46, 0.70) none repeat scroll 0 0; */
     content: "";
 }
 
@@ -3920,7 +3920,7 @@ span.email-notes {
     background-color: #243559;
     border-radius: 2px;
     padding: 15px;
-    height: 290px;
+    height: 395px;
 }
 
 .blue-title {
@@ -4103,4 +4103,8 @@ form h5 {
         height: 87px;
         margin-top: 19px;
         margin-bottom: 10px;
+}
+
+.pt-5 {
+    padding-top: 5%;
 }

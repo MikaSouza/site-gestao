@@ -70,12 +70,16 @@
     <!-- modernizr css -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <!-- Chave do RECAPTCHA -->
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <?php if ($vSName = 'contato') : ?>
 
-    <!-- SweetAlert -->
-    <link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
-    <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Chave do RECAPTCHA -->
+        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <!-- SweetAlert -->
+        <link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
+        <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
+
+    <?php endif; ?>
 
     <?php if ($vSName == 'login') : ?>
         <link href="assets/sweetalert2.min.css" rel="stylesheet" type="text/css">
