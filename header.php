@@ -147,16 +147,16 @@
                             <div class="collapse navbar-collapse alinha" id="navbar-example">
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="teste">
+                                        <li>
                                             <a href="index">Início</a>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="empresa">A Empresa</a>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="controle-interno">Controle<br>Interno</a>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a class="pages" href="auditoria">Serviços<br> Especiais</a>
                                             <ul class="sub-menu">
                                                 <li><a href="auditoria">Auditoria Especias</a></li>
@@ -166,10 +166,10 @@
                                                 <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
                                             </ul>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="blog">Blog</a>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="contato">Contato</a>
                                         </li>
                                     </ul>
