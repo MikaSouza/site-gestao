@@ -171,8 +171,6 @@
 
         <?php if ($vSName == 'login') : ?>
             <script src="js/login.js"></script>
-            <!-- Scrip Validade do Login.php -->
-            <!-- <script src="js/jquery.validate.min.js"></script> -->
             <!-- Sweet-Alert  -->
             <script src="assets/sweetalert2.min.js"></script>
             <script src="assets/jquery.sweet-alert.init.js"></script>

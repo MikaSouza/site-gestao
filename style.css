@@ -96,7 +96,7 @@ img {
 }
 
 #logo {
-    max-width: 80%;
+    max-width: 146px;
     height: auto;
 }
 
@@ -372,6 +372,9 @@ div#preloader {
     padding: 10px 0;
     text-decoration: none;
 
+    font-size: 12px;
+    letter-spacing: 0.60px;
+
 }
 
 .topbar-left ul li a i {
@@ -445,18 +448,17 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #fff;
+    color: #444;
     /* font-size: 16px; */
     font-size: 15px;
     font-weight: 500;
     padding: 35px 18px;
     /* text-transform: capitalize; */
     position: relative;
-    top: -10px;
 }
 
 .main-menu ul.navbar-nav li a:hover {
-    color: #151b2c;
+    color: #3078fb;
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
@@ -516,7 +518,7 @@ div#preloader {
 }
 
 .main-menu ul.nav>li>a.pages::after {
-    color: #fff;
+    color: #444;
     content: "\e64b";
     font-family: themify;
     font-size: 12px;
@@ -2380,7 +2382,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
-    height: 970px;
+    height: 920px;
 }
 
 .intro-area-3 .intro-content-2::after {
@@ -2389,7 +2391,7 @@ div#preloader {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(4, 23, 46, 0.70) none repeat scroll 0 0;
+    /* background: rgba(4, 23, 46, 0.70) none repeat scroll 0 0; */
     content: "";
 }
 
@@ -3918,7 +3920,7 @@ span.email-notes {
     background-color: #243559;
     border-radius: 2px;
     padding: 15px;
-    height: 290px;
+    height: 395px;
 }
 
 .blue-title {
@@ -4012,8 +4014,6 @@ span.email-notes {
 
 .adj-Empresa-Bot-Tile {
     margin-bottom: -50px;
-    margin-left: 35%;
-    margin-right: 35%;
     color: #3078fb;
 }
 
@@ -4105,6 +4105,6 @@ form h5 {
         margin-bottom: 10px;
 }
 
-.teste01 {
-    margin: auto;
+.pt-5 {
+    padding-top: 5%;
 }

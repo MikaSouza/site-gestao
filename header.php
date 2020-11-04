@@ -70,12 +70,16 @@
     <!-- modernizr css -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <!-- Chave do RECAPTCHA -->
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <?php if ($vSName = 'contato') : ?>
 
-    <!-- SweetAlert -->
-    <link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
-    <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Chave do RECAPTCHA -->
+        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <!-- SweetAlert -->
+        <link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
+        <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
+
+    <?php endif; ?>
 
     <?php if ($vSName == 'login') : ?>
         <link href="assets/sweetalert2.min.css" rel="stylesheet" type="text/css">
@@ -147,15 +151,13 @@
                             <div class="collapse navbar-collapse alinha" id="navbar-example">
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="teste">
+                                        <li>
                                             <a href="index">Início</a>
                                         </li>
-
                                         <li>
-
                                             <a href="empresa">A Empresa</a>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="controle-interno">Controle<br>Interno</a>
                                         </li>
 
@@ -170,10 +172,10 @@
                                                 <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
                                             </ul>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="blog">Blog</a>
                                         </li>
-                                        <li class="teste">
+                                        <li>
                                             <a href="contato">Contato</a>
                                         </li>
                                     </ul>
