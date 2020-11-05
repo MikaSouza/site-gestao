@@ -89,14 +89,14 @@
                     </a>
                 </div>
                 <div class="col-md-12 col-sm-6 col-xs-12">
-                    <a href="outros-servicos">
+                    <a href="servicos-especiais">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
                                 <span class="flaticon-041-network"></span>
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Outros Serviços</h4>
+                                    <h4>Serviços Especiais</h4>
                                     <!-- <a class="service-btn" href="outros-servicos"><i class="ti-arrow-right"></i></a> -->
                                 </div>
                             </div>

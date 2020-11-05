@@ -1,12 +1,7 @@
-
-
-
-
-
 <div class="intro-area intro-area-3">
     <div class="intro-carousel">
         <div class="intro-content-2">
-        <div id="header-video">
+            <div id="header-video">
                 <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
                     <source src="img/video/gestao_srv.mp4" type="video/mp4">
                 </video>
@@ -15,13 +10,14 @@
                 <div class="display-table">
                     <div class="display-table-cell">
                         <div class="container">
+                            <input type="hidden" id="flagText" value="0">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
-                                        <h2 class="title2">Inteligência com foco na<br> Administração Pública</h2>
+                                        <h2 class="title2" id="text-1">Inteligência com foco na<br> Administração Pública</h2>
                                     </div>
                                     <div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
-                                        <p>Controle Interno eficiente e menos burocrático</p>
+                                        <p id="text-2">Controle Interno eficiente e menos burocrático</p>
                                     </div>
                                 </div>
                             </div>
@@ -30,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="intro-content-2 slide-2">
+        <!-- <div class="intro-content-2 slide-2">
              <div id="header-video">
                 <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
                     <source src="img/video/gestao_srv.mp4" type="video/mp4">
@@ -54,8 +50,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="intro-content-2 slide-2">
+        </div> -->
+        <!-- <div class="intro-content-2 slide-2">
              <div id="header-video">
                 <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
                     <source src="https://1h4hfe10xz8m3g3xkh2wb9lc-wpengine.netdna-ssl.com/wp-content/themes/resultados_digitais_2017/img/video.mp4" type="video/mp4">
@@ -79,8 +75,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="intro-content-2 slide-2">
+        </div> -->
+        <!-- <div class="intro-content-2 slide-2">
              <div id="header-video">
                 <video poster="https://resultadosdigitais.com.br/wp-content/themes/resultados_digitais_2017/img/video-frame.jpg" playsinline="" autoplay="" muted="" loop="">
                     <source src="https://1h4hfe10xz8m3g3xkh2wb9lc-wpengine.netdna-ssl.com/wp-content/themes/resultados_digitais_2017/img/video.mp4" type="video/mp4">
@@ -101,6 +97,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>

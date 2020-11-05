@@ -3917,15 +3917,17 @@ span.email-notes {
 }
 
 .blue {
-    background-color: #243559;
+    background-color: #f5f8fb;
     border-radius: 2px;
     padding: 15px;
-    height: 395px;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.blue-title {
+.gold-title {
     text-align: center;
-    color: #3078fb;
+    color: #d6bb63;
 }
 
 @media all and (max-width: 800px) {
@@ -3945,7 +3947,7 @@ span.email-notes {
 }
 
 .blue p {
-    color: whitesmoke;
+    color: #7a7788;
     text-align: center;
 }
 
@@ -4015,6 +4017,7 @@ span.email-notes {
 .adj-Empresa-Bot-Tile {
     margin-bottom: -50px;
     color: #3078fb;
+    text-align: center;
 }
 
 .menu-left-adj {
@@ -4036,6 +4039,21 @@ span.email-notes {
     transition: 0.4s;
 }
 
+.icons-footerAlt2 {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 2px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #d6bb63;
+    border-radius: 2px;
+    background: #d6bb63;
+    transition: 0.4s;
+}
+
 .icons-footerAlt-names {
     background: #3078fb;
     margin-top: 2%;
@@ -4043,6 +4061,22 @@ span.email-notes {
     border-radius: 2px;
     width: 100px;
     text-align: center;
+}
+
+.icons-footerInsta {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 2px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid linear-gradient(342deg, rgba(254, 218, 117, 1) 0%, rgba(250, 126, 30, 1) 25%, rgba(214, 41, 118, 1) 50%, rgba(150, 47, 191, 1) 75%, rgba(79, 91, 213, 1) 100%) !important;
+    border-radius: 2px;
+    background: rgb(254, 218, 117) !important;
+    background: linear-gradient(342deg, rgba(254, 218, 117, 1) 0%, rgba(250, 126, 30, 1) 25%, rgba(214, 41, 118, 1) 50%, rgba(150, 47, 191, 1) 75%, rgba(79, 91, 213, 1) 100%) !important;
+    transition: 0.4s;
 }
 
 .area-padding-adj {
@@ -4058,6 +4092,15 @@ span.email-notes {
     padding-left: 40px;
     margin-top: -30px;
     color: #3078fb;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#novaLogo2 {
+    float: left;
+    padding-left: 40px;
+    margin-top: -30px;
+    color: #d6bb63;
     font-weight: 500;
     font-size: 16px;
 }
@@ -4091,20 +4134,39 @@ form h5 {
 }
 
 .teste {
-        /* padding: 12px 20px; */
-        border: 1px solid #3078fb;
-        border-radius: 2px;
-        background: #3078fb;
-        color: #fff;
-        transition: 0.4s;
-        font-size: 15px;
-        font-weight: 500;
-        margin-right: 4px;
-        height: 87px;
-        margin-top: 19px;
-        margin-bottom: 10px;
+    /* padding: 12px 20px; */
+    border: 1px solid #3078fb;
+    border-radius: 2px;
+    background: #3078fb;
+    color: #fff;
+    transition: 0.4s;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 4px;
+    height: 87px;
+    margin-top: 19px;
+    margin-bottom: 10px;
 }
 
 .pt-5 {
     padding-top: 5%;
+}
+
+.justify-content-end {
+    align-content: center !important;
+    margin: 0 auto !important;
+    display: flex !important;
+}
+
+.teste99 {
+    padding: 20px;
+}
+
+.faceAlt {
+    background-color: #d6bb63 !important;
+}
+
+.instaAlt {
+    background: rgb(254, 218, 117) !important;
+    background: linear-gradient(342deg, rgba(254, 218, 117, 1) 0%, rgba(250, 126, 30, 1) 25%, rgba(214, 41, 118, 1) 50%, rgba(150, 47, 191, 1) 75%, rgba(79, 91, 213, 1) 100%) !important;
 }
