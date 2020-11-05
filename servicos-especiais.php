@@ -1,7 +1,7 @@
 <?php
 
-$vSTitulo = 'Outros Servicos';
-$vSName = 'outros-servicos';
+$vSTitulo = 'Servicos Especiais';
+$pageName = 'servicos-especiais';
 require_once 'header.php';
 
 ?>
@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Outros Servicos</h3>
+                        <h3>Servicos Especiais</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Início</li>
-                        <li>Outros Servicos</li>
+                        <li>Servicos Especiais</li>
                     </ul>
                 </div>
             </div>
@@ -28,27 +28,13 @@ require_once 'header.php';
 <div class="single-services-page area-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="page-head-left">
-                    <div class="single-page-head">
-                        <div class="left-menu">
-                            <ul>
-                                <li><a href="auditorias-especiais">Auditoria Especiais</a></li>
-                                <li><a href="contabilidade">Contabilidade e Finanças</a></li>
-                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                <li class="active"><a href="outros-servicos">Outros Serviços</a></li>
-                                <li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php require_once 'menuServicos.php' ?>
             <div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-well mar-well">
                             <a>
-                                <h3>Outros Serviços</h3>
+                                <h3>Servicos Especiais</h3>
                             </a>
                             <p id="justifica"><b>Palestras e Treinamentos in-company</b><br>
                                 A Gestão dispõe de uma equipe técnica especializada no desenvolvimento e implementação de atividades

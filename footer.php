@@ -73,10 +73,14 @@
                                             <i class="fa fa-facebook icons-footerAlt"></i>
                                             <p id="novaLogo">Gestão</p>
                                         </a><br>
+                                        <a href="">
+                                            <i class="fa fa-instagram icons-footerInsta"></i>
+                                            <p id="novaLogo">Gestão</p>
+                                        </a><br>
                                         <!-- <p class="icons-footerAlt-names">Gestão Ltda.</p> -->
                                         <a href="https://www.facebook.com/gestaoamais">
-                                            <i class="fa fa-facebook icons-footerAlt"></i>
-                                            <p id="novaLogo">Gestão A+</p>
+                                            <i class="fa fa-facebook icons-footerAlt2"></i>
+                                            <p id="novaLogo2">Gestão A+</p>
                                         </a>
                                         <!-- <p class="icons-footerAlt-names">Gestão A+</p> -->
                                     </ul>
@@ -126,12 +130,41 @@
 
         <!-- all js here -->
 
+        <script>
+            let myGreeting = setInterval(function sayHi() {
+
+                var text1 = "",
+                    text2 = "";
+
+
+                if ($("#flagText").val() >= 2) {
+                    $("#flagText").val(0);
+                }
+
+                var val = $("#flagText").val();
+
+                if (val == 0) {
+                    text1 = "Inteligência com foco na Administração Pública";
+                    text2 = "Controle Interno eficiente e menos burocrático";
+                } else if (val == 1) {
+                    text1 = "Práticas de Compliance no âmbito da Administração Pública";
+                    text2 = "Experiência que ultrapassa 20 anos de assessoria à Órgãos Públicos";
+                }
+
+                $("#text-1").html(text1);
+                $("#text-2").html(text2);
+
+                $("#flagText").val(parseInt(val) + 1);
+
+            }, 4000)
+        </script>
+
         <!-- jquery latest version -->
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <!-- bootstrap js -->
         <script src="js/bootstrap.min.js"></script>
         <!-- owl.carousel js -->
-        <script src="js/owl.carousel.min.js"></script>
+        <!-- <script src="js/owl.carousel.min.js"></script> -->
         <!-- Comentado para single banner da index -->
 
         <!-- Counter js -->
