@@ -28,25 +28,7 @@ require_once 'header.php';
 <div class="single-services-page area-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="page-head-left">
-                    <div class="single-page-head">
-                        <div class="left-menu">
-                            <ul>
-                                <li class="active menu-left-adj"><a href="controle-interno">Controle Interno Municipal</a></li>
-                            </ul>
-                            <h5 id="ajustaMenuLeft">Veja tambem:</h5>
-                            <ul>
-                                <li><a href="auditoria">Auditoria</a></li>
-                                <li><a href="contabilidade">Contabilidade e Finanças</a></li>
-                                <li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-                                <li><a href="outros-servicos">Outros Serviços</a></li>
-                                <li><a href="planejamento-estratégico">Planejamento Estratégico</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php require_once 'menuServicos.php' ?>
             <div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">

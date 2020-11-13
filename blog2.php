@@ -58,7 +58,7 @@ $miniBlog = comboBlog(0, 5);
                                     <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="single-blog ">
                                             <div class="blog-image">
-                                                <a class="image-scale" href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                <a class="image-scale" href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
                                                     <img src="tw/uploads/blog/thumbnail/<?= $blog['BLOIMAGEM']; ?>" alt="">
                                                 </a>
                                             </div>
@@ -69,11 +69,11 @@ $miniBlog = comboBlog(0, 5);
                                                         <?= formatar_data($blog['BLODATA_INC']); ?>
                                                     </span>
                                                 </div>
-                                                <a href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
                                                     <h4><?= $blog['BLOTITULO']; ?></h4>
                                                 </a>
                                                 <p><?= (strlen($blog['BLOTEXTO']) > 350) ? substr($blog['BLOTEXTO'], 0, 300) . '...' : $blog['BLOTEXTO']; ?></p>
-                                                <a class="blog-btn" href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"> Leia Mais</a>
+                                                <a class="blog-btn" href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"> Leia Mais</a>
                                             </div>
                                         </div>
                                     </div>
@@ -116,12 +116,12 @@ $miniBlog = comboBlog(0, 5);
                                         <!-- start single post -->
                                         <div class="recent-single-post">
                                             <div class="post-img">
-                                                <a href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
                                                     <img src="tw/uploads/blog/thumbnail/<?= $blog['BLOIMAGEM']; ?>" alt="<?= $blog['BLOTITULO']; ?>">
                                                 </a>
                                             </div>
                                             <div class="pst-content">
-                                                <p><a href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"><?= ($blog['BLOTITULO']); ?></a></p>
+                                                <p><a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"><?= ($blog['BLOTITULO']); ?></a></p>
                                             </div>
                                         </div>
                                         <!-- End single post -->

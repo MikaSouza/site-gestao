@@ -1682,7 +1682,7 @@ div#preloader {
 .blog-contentIndex {
     padding: 30px;
     /* position: fixed; */
-    height: 150px;
+    max-height: 140px;
     z-index: 1;
     transition: 0.5s;
     overflow: hidden;
