@@ -18,11 +18,30 @@
 	<!-- Gerenciamento PHP -->
 	<base href="<?= $_SERVER['SCRIPT_NAME'] ?>" />
 
+	<!-- Anti-Cache -->
+	<?php require_once 'anti-cache.php' ?>
+
+	<!-- SEO Teraware -->
+	<title><?= $vSTitulo; ?> | Gestão LTDA</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title><?= $vSTitulo; ?> - Gestão LTDA</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Inteligência com foco na Administração Pública" />
+	<meta name="robots" content="index,follow">
+	<link rel="canonical" href="http://teraware.net.br/sites/sites-gestao-srv/" />
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:title" content="<?= $vSTitulo; ?>"/>
+	<meta property="og:url" content="http://teraware.net.br/sites/sites-gestao-srv/index/blog/<?= $vSURLFace; ?>" />
+	<meta property="og:description" content="<?= ($vSDescriptionFace == '' ? 'Inteligência com foco na Administração Pública' : $vSDescriptionFace); ?>"/>
+	<meta property="og:site_name" content="Gestão SRV"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="<?= $vSCaminhoImgFace; ?>" />
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta name="MobileOptimized" content="320" />
+	<meta name="keywords" content="gestão, administração pública, controle patrimonial, contabilidade e finanças, auditorias, serviços especiais  " />
+	<meta name="author" content="Teraware Soluções em Software e Internet">
+	<!-- SEO Teraware  -->
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -104,19 +123,19 @@
 					<div class=" col-md-9 col-sm-9">
 						<div class="topbar-left">
 							<ul>
-								<li><a href="#"><i class="fa fa-envelope"></i> gestao@gestao.srv.br</a></li>
-								<li><a href="#"><i class="fa fa-phone-square"></i> (51) 3541-3355</a></li>
-								<li><a href="#"><i class="fa fa-whatsapp"></i> (51) 9 8443-2097</a></li>
-								<li><a href="#"><i class="fa fa-clock-o"></i> Seg - Sex: 08:00 as 12:00h e das 13:30 as 18:00h</a></li>
+								<li><a href="contato"><i class="fa fa-envelope"></i> gestao@gestao.srv.br</a></li>
+								<li><a href="contato"><i class="fa fa-phone-square"></i> (51) 3541-3355</a></li>
+								<li><a href="contato"><i class="fa fa-whatsapp"></i> (51) 9 8443-2097</a></li>
+								<li><a href="contato"><i class="fa fa-clock-o"></i> Seg - Sex: 08:00 as 12:00h e das 13:30 as 18:00h</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-3">
 						<div class="top-social">
 							<ul>
-								<li><a href="https://www.facebook.com/gestaoltda"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="instaAlt" href="#" alt="Instagram"><i class="fa fa-instagram"></i></a></li>
-								<li><a class="faceAlt" href="https://www.facebook.com/gestaoamais"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.facebook.com/gestaoltda" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="instaAlt" href="#"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<li><a class="faceAlt" href="https://www.facebook.com/gestaoamais" target="_blank"><i class="fa fa-facebook"></i></a></li>
 							</ul>
 						</div>
 					</div>
