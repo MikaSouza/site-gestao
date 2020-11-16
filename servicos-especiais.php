@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Servicos Especiais</h3>
+                        <h3>Serviços Especiais</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Início</li>
-                        <li>Servicos Especiais</li>
+                        <li>Serviços Especiais</li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +34,7 @@ require_once 'header.php';
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-well mar-well">
                             <a>
-                                <h3>Servicos Especiais</h3>
+                                <h3>Serviços Especiais</h3>
                             </a>
                             <p id="justifica"><b>Palestras e Treinamentos in-company</b><br>
                                 A Gestão dispõe de uma equipe técnica especializada no desenvolvimento e implementação de atividades

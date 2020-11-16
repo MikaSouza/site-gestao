@@ -49,7 +49,7 @@ require_once 'header.php';
                             <p id="justifica"><b>Por que planejar?</b><br>
                                 O Planejamento Estratégico possibilita o controle e monitoramento dos esforços da organização na busca pelos seus
                                 objetivos. Abrange a instituição como um todo, exigindo a dedicação e o comportamento proativo de todos os envolvidos
-                                no processo, orientados pela definição préia da finalidade da organização, dos valores e do estado de futuro desejado.</p><br>
+                                no processo, orientados pela definição prévia da finalidade da organização, dos valores e do estado de futuro desejado.</p><br>
                             <p id="justifica"><b>Quais são os benefícios do Planejamento Estratégico?</b></p><br>
                             <ul>
                                 <li>
