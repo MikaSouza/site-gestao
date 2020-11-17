@@ -29,15 +29,6 @@
 	<meta name="description" content="Inteligência com foco na Administração Pública" />
 	<meta name="robots" content="index,follow">
 	<link rel="canonical" href="http://teraware.net.br/sites/sites-gestao-srv/" />
-	<meta property="og:locale" content="pt_BR">
-	<meta property="og:title" content="<?= $vSTitulo; ?>"/>
-	<meta property="og:url" content="http://teraware.net.br/sites/sites-gestao-srv/index/blog/<?= $vSURLFace; ?>" />
-	<meta property="og:description" content="<?= ($vSDescriptionFace == '' ? 'Inteligência com foco na Administração Pública' : $vSDescriptionFace); ?>"/>
-	<meta property="og:site_name" content="Gestão SRV"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="<?= $vSCaminhoImgFace; ?>" />
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
 	<meta name="MobileOptimized" content="320" />
 	<meta name="keywords" content="gestão, administração pública, controle patrimonial, contabilidade e finanças, auditorias, serviços especiais  " />
 	<meta name="author" content="Teraware Soluções em Software e Internet">
@@ -162,7 +153,8 @@
                                     </div>
                                 </form> -->
 							</div>
-							<a class="s-menu" href="http://sites-gestao-srv.teraware.net.br/login.php">InfoGestão</a>
+							<!-- <a class="s-menu" href="http://sites-gestao-srv.teraware.net.br/login.php">InfoGestão</a> -->
+							<a class="s-menu" href="index">InfoGestão</a>
 						</div>
 						<nav class="navbar navbar-default">
 							<div class="collapse navbar-collapse alinha" id="navbar-example">

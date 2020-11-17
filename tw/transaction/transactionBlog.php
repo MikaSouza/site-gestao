@@ -82,6 +82,7 @@ function listBlog($dados)
 				WHERE
 				(n.BLOTIPO LIKE ? OR
 				n.CATCODIGO LIKE ? OR
+				c.CATCATEGORIA LIKE ? OR
 				n.BLOTITULO LIKE ? ) AND
 				n.BLOSTATUS = 'S'
 				ORDER BY ";
@@ -92,6 +93,7 @@ function listBlog($dados)
 		'parametros' => array(
 			array("%$pesquisa%", PDO::PARAM_STR),
 			array("%$pesquisa%", PDO::PARAM_INT),
+			array("%$pesquisa%", PDO::PARAM_STR),
 			array("%$pesquisa%", PDO::PARAM_STR)
 		)
 	);
@@ -182,8 +184,8 @@ function getNoticiaByTermoPesquisa($termoPesquisa)
 	$arrayQuery = array(
 		'query' => $sql,
 		'parametros' => array(
-			array("%$termoPesquisa%", PDO::PARAM_STR),
-			array("%$termoPesquisa%", PDO::PARAM_STR)
+			array($termoPesquisa, PDO::PARAM_STR),
+			array($termoPesquisa, PDO::PARAM_STR)
 		)
 	);
 

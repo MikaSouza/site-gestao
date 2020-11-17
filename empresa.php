@@ -109,7 +109,7 @@ require_once 'header.php';
 					<div class="overview-wrapper blue">
 						<h4 class="gold-title">Negócio</h4>
 						<p>
-							Aessoria e consultoria à Órgãos Públicos<br><br>
+							Acessoria e consultoria à Órgãos Públicos<br><br>
 						</p>
 					</div>
 				</div>

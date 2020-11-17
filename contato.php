@@ -42,7 +42,7 @@ require_once 'header.php';
                             <p>
                                 Fone : (51) 3541-3355<br>
                                 Whats : (51) 9 8443-2097<br>
-                                <span>Seg - Sex: 08:00 - 17:00</span>
+                                <span>Seg - Sex: 08:00 - 18:00h</span>
                                 <br>
                                 <br>
                             </p>

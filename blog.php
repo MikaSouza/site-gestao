@@ -89,7 +89,7 @@ $miniBlog = comboBlog(0, 5);
                     <div class="left-head-blog right-side">
                         <div class="left-blog-page">
                             <!-- search option start -->
-                            <form action="blog-procurar.php" method="POST">
+                            <form action="blog-procurar" method="POST">
                                 <div class="blog-search-option">
                                     <input type="text" id="inp_pesquisa" name="inp_pesquisa" placeholder="Pesquisar...">
                                     <button class="button" type="submit">

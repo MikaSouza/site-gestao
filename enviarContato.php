@@ -19,7 +19,8 @@ if (verificacaoGoogleRecaptcha($_POST['g-recaptcha-response'])) {
         'titulo'        => 'Uma solicitação de contato enviada por | ' . cSNomeEmpresa,
         'descricao'     => '',
         'destinatarios' => array(
-            'ADMIN'
+            'ADMIN',
+            'marlo.schuster@teraware.com.br'
         ),
         'fields' => array(
             'Nome' => $nome,

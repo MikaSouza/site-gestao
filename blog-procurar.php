@@ -47,16 +47,16 @@ $miniBlog = comboBlog(0, 5);
                                     <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="single-blog ">
                                             <div class="blog-image">
-                                                <a class="image-scale" href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                <a class="image-scale" href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
                                                     <img src="tw/uploads/blog/thumbnail/<?= $blog['BLOIMAGEM']; ?>" alt="">
                                                 </a>
                                             </div>
                                             <div class="blog-content">
-                                                <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                <a href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
                                                     <h4><?= $blog['BLOTITULO']; ?></h4>
                                                 </a>
-                                                <p><?= (strlen($blog['BLOTEXTO']) > 450) ? substr($blog['BLOTEXTO'], 0, 400) . '...' : $blog['BLOTEXTO']; ?></p>
-                                                <a class="blog-btn" href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"> Leia Mais</a>
+                                                <p><?= (strlen($blog['BLOTEXTO']) > 350) ? substr($blog['BLOTEXTO'], 0, 300) . '...' : $blog['BLOTEXTO']; ?></p>
+                                                <a class="blog-btn" href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"> Leia Mais</a>
                                             </div>
                                         </div>
                                     </div>
@@ -69,7 +69,7 @@ $miniBlog = comboBlog(0, 5);
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="left-head-blog right-side">
                         <div class="left-blog-page">
-                            <form action="blog-procurar.php" method="POST">
+                            <form action="blog-procurar" method="POST">
                                 <div class="blog-search-option">
                                     <input type="text" id="inp_pesquisa" name="inp_pesquisa" placeholder="Pesquisar...">
                                     <button class="button" type="submit">
@@ -93,12 +93,12 @@ $miniBlog = comboBlog(0, 5);
                                     <div class="recent-post">
                                         <div class="recent-single-post">
                                             <div class="post-img">
-                                                <a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
+                                                <a href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>">
                                                     <img src="tw/uploads/blog/thumbnail/<?= $blog['BLOIMAGEM']; ?>" alt="<?= $blog['BLOTITULO']; ?>">
                                                 </a>
                                             </div>
                                             <div class="pst-content">
-                                                <p><a href="/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"><?= ($blog['BLOTITULO']); ?></a></p>
+                                                <p><a href="/sites/sites-gestao-srv/blog-detalhe/<?= $blog['BLOURLAMIG']; ?>"><?= ($blog['BLOTITULO']); ?></a></p>
                                             </div>
                                         </div>
                                     </div>

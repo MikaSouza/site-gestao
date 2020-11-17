@@ -28,7 +28,7 @@
                                     "message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
                                     "dismiss": "Entendi!",
                                     "link": "Leia mais…",
-                                    "href": ""
+                                    "href": "politicaPrivacidade"
                                 }
                             })
                         });
@@ -45,7 +45,7 @@
                                     </div>
                                     <p id="justifica">
                                         A Gestão atua especificamente no segmento de Administração Pública Municipal desde o ano 2000.
-                                        São 19 anos vivenciando a realidade dos municípios brasileiros. Durante esse período, muitas
+                                        São 20 anos vivenciando a realidade dos municípios brasileiros. Durante esse período, muitas
                                         soluções foram encontradas para aumentar a eficiência dos órgãos públicos.
                                     </p><br>
                                     <!-- <div class="footer-logoAlt">
@@ -68,6 +68,7 @@
                                         <li><a href="auditoria-especiais">Serviços Especiais</a></li>
                                         <li><a href="blog">Blog</a></li>
                                         <li><a href="contato">Contato</a></li>
+                                        <li><a href="politicaPrivacidade">Políticade de Privacidade</a></li>
                                         <br>
                                         <a href="https://www.facebook.com/gestaoltda">
                                             <i class="fa fa-facebook icons-footerAlt"></i>

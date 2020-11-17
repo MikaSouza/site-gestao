@@ -8,9 +8,9 @@
 				 submenu   -> repete a estrutura
 */
 $menus = array(
-	array(
-		'namePage' => 'banners'
-	),
+	// array(
+	// 	'namePage' => 'banners'
+	// ),
 	array(
 		'namePage' => 'blog',
 		'url'      => 'listBlog.php',
@@ -28,9 +28,9 @@ $menus = array(
 	array(
 		'namePage' => 'contatos'
 	),
-	array(
-		'namePage' => 'parceiros'
-	),
+	// array(
+	// 	'namePage' => 'parceiros'
+	// ),
 	array(
 		'namePage' => 'config',
 		'url'      => 'cadConfig.php?oid=1',

@@ -1,7 +1,7 @@
-<?php 
+<?php
 $namePage = 'admin';
 $titlePage = 'Admin';
-require_once '../app/header.php'; 
+require_once '../app/header.php';
 ?>
 <div class="container">
 	<div class="row">
