@@ -74,16 +74,14 @@
                                             <i class="fa fa-facebook icons-footerAlt"></i>
                                             <p id="novaLogo">Gestão</p>
                                         </a><br>
-                                        <a href="">
+                                        <a href="https://www.instagram.com/gestaoucci/?igshid=1k3hozxycimd7">
                                             <i class="fa fa-instagram icons-footerInsta"></i>
                                             <p id="novaLogo">Gestão</p>
                                         </a><br>
-                                        <!-- <p class="icons-footerAlt-names">Gestão Ltda.</p> -->
                                         <a href="https://www.facebook.com/gestaoamais">
                                             <i class="fa fa-facebook icons-footerAlt2"></i>
                                             <p id="novaLogo2">Gestão A+</p>
                                         </a>
-                                        <!-- <p class="icons-footerAlt-names">Gestão A+</p> -->
                                     </ul>
                                 </div>
                             </div>

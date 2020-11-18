@@ -3,24 +3,6 @@
 
 <head>
 
-	<div vw class="enabled">
-		<div vw-access-button class="active"></div>
-		<div vw-plugin-wrapper>
-			<div class="vw-plugin-top-wrapper"></div>
-		</div>
-	</div>
-	<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-	<script>
-		new window.VLibras.Widget('https://vlibras.gov.br/app');
-	</script>
-
-
-	<!-- Gerenciamento PHP -->
-	<base href="<?= $_SERVER['SCRIPT_NAME'] ?>" />
-
-	<!-- Anti-Cache -->
-	<?php require_once 'anti-cache.php' ?>
-
 	<!-- SEO Teraware -->
 	<title><?= $vSTitulo; ?> | Gestão LTDA</title>
 	<meta charset="utf-8">
@@ -33,6 +15,12 @@
 	<meta name="keywords" content="gestão, administração pública, controle patrimonial, contabilidade e finanças, auditorias, serviços especiais  " />
 	<meta name="author" content="Teraware Soluções em Software e Internet">
 	<!-- SEO Teraware  -->
+
+	<!-- Gerenciamento PHP -->
+	<base href="<?= $_SERVER['SCRIPT_NAME'] ?>" />
+
+	<!-- Anti-Cache -->
+	<?php require_once 'anti-cache.php' ?>
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -80,6 +68,19 @@
 	<!-- modernizr css -->
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
+	<!-- Libras -->
+	<div vw class="enabled">
+		<div vw-access-button class="active"></div>
+		<div vw-plugin-wrapper>
+			<div class="vw-plugin-top-wrapper"></div>
+		</div>
+	</div>
+	<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+	<script>
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
+	</script>
+	<!-- Libras -->
+
 	<?php if ($vSName = 'contato') : ?>
 
 		<!-- Chave do RECAPTCHA -->
@@ -117,7 +118,7 @@
 								<li><a href="contato"><i class="fa fa-envelope"></i> gestao@gestao.srv.br</a></li>
 								<li><a href="contato"><i class="fa fa-phone-square"></i> (51) 3541-3355</a></li>
 								<li><a href="contato"><i class="fa fa-whatsapp"></i> (51) 9 8443-2097</a></li>
-								<li><a href="contato"><i class="fa fa-clock-o"></i> Seg - Sex: 08:00 as 12:00h e das 13:30 as 18:00h</a></li>
+								<li><a href="contato"><i class="fa fa-clock-o"></i> Seg - Sex: 08h às 12h e das 13:30h às 18h</a></li>
 							</ul>
 						</div>
 					</div>
@@ -125,7 +126,7 @@
 						<div class="top-social">
 							<ul>
 								<li><a href="https://www.facebook.com/gestaoltda" target="_blank"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="instaAlt" href="#"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<li><a class="instaAlt" href="https://www.instagram.com/gestaoucci/?igshid=1k3hozxycimd7" target="_blank"><i class="fa fa-instagram"></i></a></li>
 								<li><a class="faceAlt" href="https://www.facebook.com/gestaoamais" target="_blank"><i class="fa fa-facebook"></i></a></li>
 							</ul>
 						</div>

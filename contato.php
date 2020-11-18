@@ -42,7 +42,8 @@ require_once 'header.php';
                             <p>
                                 Fone : (51) 3541-3355<br>
                                 Whats : (51) 9 8443-2097<br>
-                                <span>Seg - Sex: 08:00 - 18:00h</span>
+                                <span>Seg - Sex: 8h às 12h</span><br>
+                                <span>e das 13:30h às 18h</span>
                                 <br>
                                 <br>
                             </p>
@@ -59,6 +60,7 @@ require_once 'header.php';
                                 <br>
                                 <br>
                                 <br>
+                                <br>
                             </p>
                         </div>
                     </div>
@@ -72,6 +74,7 @@ require_once 'header.php';
                                 Rua João Bayer, 744<br>
                                 <span>Bairro Petrópolis CEP: 95607-008</span>
                                 <span>Taquara/RS</span>
+                                <br>
                                 <br>
                                 <br>
                             </p>
