@@ -218,7 +218,7 @@
 									<li>
 										<a class="pages" href="auditoria">Serviços<br> Especiais</a>
 										<ul class="sub-menu">
-											<li><a href="auditoria">Auditorias Especiais</a></li>
+											<li><a href="auditorias-especiais">Auditorias Especiais</a></li>
 											<li><a href="contabilidade">Contabilidade e Finanças</a></li>
 											<li><a href="controle-patrimonial">Controle Patrimonial</a></li>
 											<li><a href="outros-servicos">Serviços Especiais</a></li>

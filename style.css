@@ -1094,7 +1094,7 @@ div#preloader {
     text-align: left;
     padding: 40px 40px;
     border: 1px solid rgba(48, 120, 251, 0.4);
-    max-height: 300px;
+    /* max-height: 300px; */
 }
 
 .single-service::after {
@@ -3930,7 +3930,7 @@ span.email-notes {
     color: #d6bb63;
 }
 
-@media all and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .blue {
         height: auto;
     }
@@ -3940,7 +3940,14 @@ span.email-notes {
         height: auto;
     }
 
-    intro-area intro-area-3 {
+    .service-content,
+    .single-service {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .intro-area,
+    .intro-area-3 {
         width: 100%;
         height: auto;
     }
