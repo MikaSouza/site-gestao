@@ -337,36 +337,36 @@ function consultaComposta($dados,$Tipo = ''){
 }
 
 //Função para consultas compostas
-function consultaCompostaSistema($dados){
-	try{
-		$sql = trim($dados['query']);
+// function consultaCompostaSistema($dados){
+// 	try{
+// 		$sql = trim($dados['query']);
 
-		//Iniciando a conexão
-		$db = conectarBancoSistema();
+// 		//Iniciando a conexão
+// 		$db = conectarBancoSistema();
 
-		//Preparando a query
-		$query = $db->prepare($sql);
+// 		//Preparando a query
+// 		$query = $db->prepare($sql);
 
-		//Filtrando os valores
-		if(isset($dados['parametros']) && !empty($dados['parametros']))
-			foreach($dados['parametros'] as $i => $parametro){
-				$query->BindValue($i+1, $parametro[0], $parametro[1]);
-			}
+// 		//Filtrando os valores
+// 		if(isset($dados['parametros']) && !empty($dados['parametros']))
+// 			foreach($dados['parametros'] as $i => $parametro){
+// 				$query->BindValue($i+1, $parametro[0], $parametro[1]);
+// 			}
 
-		//Executando
-		if($query->Execute()){
-			//Retornando os dados
-			$dados = ($query->rowCount() > 0) ? $query->fetchall(PDO::FETCH_ASSOC) : array();
-			return array(
-						'quantidadeRegistros' => $query->rowCount(),
-						'dados'               => $dados
-					);
-		}
+// 		//Executando
+// 		if($query->Execute()){
+// 			//Retornando os dados
+// 			$dados = ($query->rowCount() > 0) ? $query->fetchall(PDO::FETCH_ASSOC) : array();
+// 			return array(
+// 						'quantidadeRegistros' => $query->rowCount(),
+// 						'dados'               => $dados
+// 					);
+// 		}
 
-	}catch(Exception $e){
-		return $e;
-	}
-}
+// 	}catch(Exception $e){
+// 		return $e;
+// 	}
+// }
 
 //Função para "DELETAR" registros
 function deletarRegistro($dados){

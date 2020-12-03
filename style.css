@@ -1234,7 +1234,7 @@ div#preloader {
 }
 
 .banner-area:before {
-    position: absolute;
+    position: 100%;
     left: 0;
     top: 0;
     width: 100%;
@@ -2383,6 +2383,7 @@ div#preloader {
     position: relative;
     z-index: 1;
     height: 920px;
+	top: 160px;
 }
 
 .intro-area-3 .intro-content-2::after {

@@ -82,7 +82,7 @@ require_once 'header.php';
 						<h4 class="gold-title">Propósito</h4>
 						<p>
 							Desenvolver e aperfeiçoar técnicas que modernizem os processos da Adminstração Pública, elevando
-							o nível de cinhecimento e capacitação dos agentes públicos.
+							o nível de conhecimento e capacitação dos agentes públicos.
 						</p>
 					</div>
 				</div>
@@ -109,7 +109,7 @@ require_once 'header.php';
 					<div class="overview-wrapper blue">
 						<h4 class="gold-title">Negócio</h4>
 						<p>
-							Acessoria e consultoria à Órgãos Públicos<br><br>
+							Assessoria e consultoria à Órgãos Públicos<br><br>
 						</p>
 					</div>
 				</div>

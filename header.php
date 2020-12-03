@@ -117,7 +117,7 @@
 							<ul>
 								<li><a href="contato"><i class="fa fa-envelope"></i> gestao@gestao.srv.br</a></li>
 								<li><a href="contato"><i class="fa fa-phone-square"></i> (51) 3541-3355</a></li>
-								<li><a href="contato"><i class="fa fa-whatsapp"></i> (51) 9 8443-2097</a></li>
+								<li><a href="contato"><i class="fa fa-whatsapp"></i> (51) 98443-2097</a></li>
 								<li><a href="contato"><i class="fa fa-clock-o"></i> Seg - Sex: 08h às 12h e das 13:30h às 18h</a></li>
 							</ul>
 						</div>
@@ -155,7 +155,7 @@
                                 </form> -->
 							</div>
 							<!-- <a class="s-menu" href="http://sites-gestao-srv.teraware.net.br/login.php">InfoGestão</a> -->
-							<a class="s-menu" href="index">InfoGestão</a>
+							<a class="s-menu" href="index" alt="Software para as UCCIs em construção" title="Software para as UCCIs em construção">InfoGestão</a>
 						</div>
 						<nav class="navbar navbar-default">
 							<div class="collapse navbar-collapse alinha" id="navbar-example">
