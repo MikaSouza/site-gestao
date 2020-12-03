@@ -34,7 +34,7 @@ require_once 'header.php';
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-well mar-well">
                             <img src="img/services/bannerEletronico.png" alt="Controle Interno"><br><br>
-                            <a>
+                           <!-- <a>
                                 <h3>Assessoria e Consultoria à Unidade de Controle Interno Municipal</h3>
                             </a>
                             <p id="justifica"><b>Introdução</b><br>
@@ -102,7 +102,7 @@ require_once 'header.php';
                                 <h5 class="azul">SUPORTE COMPLETO EM CONTROLADORIA</h5>
                             </p><br>
 
-                            <p id="justifica">Para mais informações, entre em contato com um dos nossos consultores.</p>
+                            <p id="justifica">Para mais informações, entre em contato com um dos nossos consultores.</p>-->
                         </div>
                     </div>
                 </div>
