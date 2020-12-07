@@ -55,7 +55,12 @@ function enviarContato() {
 		url: "enviarContato.php",
 		data: dados,
 		dataType: 'json',
+		beforeSend: function () {
+			swal("Aguarde!", "Sua mensagem está sendo enviada...", "warning");
+		},
+
 		success: function (data) {
+
 			if (data[0])
 				swal("", "A mensagem foi enviada com sucesso!", "success");
 			else
