@@ -86,9 +86,7 @@ require_once 'header.php';
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <!-- Start Map -->
-                <div class="map-area">
-                    <div id="googleMap" style="width:100%;height:420px;"></div>
-                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.3027687182444!2d-50.77752668515862!3d-29.65298738202635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95191925d56de887%3A0xb56534d5a694628c!2sRua%20Jo%C3%A3o%20Bayer%2C%20744%20-%20Petr%C3%B3polis%2C%20Taquara%20-%20RS%2C%2095600-000!5e0!3m2!1spt-BR!2sbr!4v1607371743610!5m2!1spt-BR!2sbr" width="550" height="490" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 <!-- End Map -->
             </div>
             <!-- Start Left contact -->
@@ -115,7 +113,7 @@ require_once 'header.php';
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                                 <button type="submit" class="add-btn contact-btn" id="submit">Enviar Mensagem</button>
-                                <button id="recaptcha" class="g-recaptcha" data-sitekey="<?= getConfig('CFGRECAPTCHASITEKEY') ?>" data-callback="enviarContato" data-badge="bottomleft" style="display: none;"></button>
+                                <button id="recaptcha" class="g-recaptcha" data-sitekey="<?= getConfig('CFGRECAPTCHASITEKEY') ?>" data-callback="enviarContato" data-theme="dark" data-badge="bottomleft" style="display: none;"></button>
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="clearfix"></div>
                             </div>

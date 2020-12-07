@@ -10,7 +10,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="Inteligência com foco na Administração Pública" />
 	<meta name="robots" content="index,follow">
-	<link rel="canonical" href="http://teraware.net.br/sites/sites-gestao-srv/" />
+	<link rel="canonical" href="http://gestao.srv.br/" />
 	<meta name="MobileOptimized" content="320" />
 	<meta name="keywords" content="gestão, administração pública, controle patrimonial, contabilidade e finanças, auditorias, serviços especiais  " />
 	<meta name="author" content="Teraware Soluções em Software e Internet">
@@ -18,9 +18,6 @@
 
 	<!-- Gerenciamento PHP -->
 	<base href="<?= $_SERVER['SCRIPT_NAME'] ?>" />
-
-	<!-- Anti-Cache -->
-	<?php require_once 'anti-cache.php' ?>
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">

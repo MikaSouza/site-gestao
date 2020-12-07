@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://gestao.srv.br/</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/empresa</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/blog</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/controle-interno</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/auditoria</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/contabilidade</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/controle-patrimonial</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/servicos-especiais</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/planejamento-estrategico</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/contato</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/blog-detalhe/parabens-servidor-publico</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gestao.srv.br/blog-detalhe/novidade-no-tce-rs</loc>
+  <lastmod>2020-12-07T19:44:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

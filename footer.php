@@ -191,8 +191,8 @@
             <!-- Scrip Validade do Contato.php -->
             <script src="js/jquery.validate.min.js"></script>
             <!-- Google Map js -->
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBceNl50o3BU6LrsIGJxSL9tKKvqBKIeVs"></script>
-            <script src="js/mapcode.js"></script>
+            <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi9Pk2eVdtRieM2cuz6LHDntXp1jfCqR0"></script>
+            <script src="js/mapcode.js"></script> -->
         <?php endif; ?>
 
         <?php if ($vSName == 'formulario') : ?>

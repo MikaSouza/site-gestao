@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /tw/
+Allow: /.css$
+allow: /.js$
+
+Sitemap: https://gestao.srv.br/sitemap.xml
