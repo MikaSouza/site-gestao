@@ -10,7 +10,9 @@ function getOrientacoesTecnicas()
 			FROM
 				ORIENTACAOTECNICA
 			WHERE
-				OXTSTATUS = 'S'";
+				OXTSTATUS = 'S'
+            ORDER BY
+                OXTDATA_INC desc";
     $dadosBanco = array(
         'query' => $sql,
         'parametros' => array()

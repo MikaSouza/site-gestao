@@ -3,25 +3,18 @@ $vSTitulo = 'Dados do Município';
 $vSName = 'dados-municipio';
 require_once 'header.php';
 require_once 'tw/transaction/site/transactionDadosMunicipio.php';
-
 $municipio = getDadosMunicipio();
 $endereco = getEndereco();
 ?>
-
 <br /><br /><br />
-<!-- END Header -->
-<!-- End services Area -->
 <div class="single-services-page area-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-12">
 				<?php require_once 'menu_lateral.php'; ?>
 			</div>
-			<!-- End left sidebar -->
-			<!-- Start service page -->
 			<div class="col-md-8 col-sm-8 col-xs-12">
 				<div class="row">
-					<!-- single-well start-->
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="single-well mar-well">
 							<a href="#">
@@ -30,17 +23,11 @@ $endereco = getEndereco();
 						</div>
 					</div>
 				</div>
-				<!-- end Row -->
 				<div class="contact-form">
-					<!-- <form class="contact-form" id="formFormulario" name="formFormulario" method="POST"
-						action="enviarFormulario"> -->
 					<div class="row">
-						<!-- Start Column Start -->
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<div class="company-faq left-faq">
 								<div class="row">
-									<!-- Dados Gerais -->
-
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<label>Razão Social</label><br>
 										<input class="form-control obrigatorio" name="vSCLIRAZAOSOCIAL"
@@ -119,11 +106,9 @@ $endereco = getEndereco();
 							</div>
 						</div>
 					</div>
-					<!-- </form> -->
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Start Quote Area -->
 <?php require_once 'footer.php' ?>
