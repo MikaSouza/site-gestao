@@ -13,11 +13,11 @@ require_once 'header.php';
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="breadcrumb text-center">
                     <div class="section-headline white-headline text-center">
-                        <h3>Serviços Especiais</h3>
+                        <h3>Outros Serviços</h3>
                     </div>
                     <ul>
                         <li class="home-bread">Início</li>
-                        <li>Serviços Especiais</li>
+                        <li>Outros Serviços</li>
                     </ul>
                 </div>
             </div>
@@ -34,15 +34,15 @@ require_once 'header.php';
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="single-well mar-well">
                             <a>
-                                <h3>Serviços Especiais</h3>
+                                <h3>Outros Serviços</h3>
                             </a>
                             <p id="justifica"><b>Palestras e Treinamentos in-company</b><br>
                                 A Gestão dispõe de uma equipe técnica especializada no desenvolvimento e implementação de atividades
                                 de reestruturação do Controle Patrimonial, envolvendo todas as atividades necessárias para a correta realização de
                                 inventário e avaliação patrimonial voltada para a Administração Pública.</p><br>
-                            <p id="justifica"><b>Auditorias Especiais</b><br>
+                            <!--<p id="justifica"><b>Auditorias Especiais</b><br>
                                 Com larga experiência e diversos cases de sucesso, a empresa já auxiliou uma série de órgãos públicos
-                                a regularizarem de forma eficaz o Controle dos seus ativos.</p><br>
+                                a regularizarem de forma eficaz o Controle dos seus ativos.</p><br>-->
                             <p id="justifica"><b>Reforma Administrativa</b><br>
                                 Para a realização dos processos de reestruturação do controle patrimonial, a metodologia desenvolvida
                                 pela Gestão é objetiva e inovadora, e nossas modalidades de contratação ofertam capacitação e suporte técnico em

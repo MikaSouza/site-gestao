@@ -1945,7 +1945,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
-    height: 920px;
+    height: 620px;
     top: 160px;
 }
 .intro-area-3 .intro-content-2::after {
@@ -1964,7 +1964,7 @@ div#preloader {
     z-index: 3;
     left: 0;
     margin: 0 auto;
-    margin-top: -80px;
+    margin-top: -185px;
 }
 .intro-area-3 .layer-1 h2 {
     color: #fff;
@@ -2213,6 +2213,7 @@ span.q-text {
 .blog-search-option button {
     background: 0 0;
     border: none;
+    padding-left: 102px;
 }
 .blog-search-option button i {
     line-height: 16px;

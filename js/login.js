@@ -53,7 +53,7 @@ $("document").ready(function () {
                         )
                         .prop("disabled");
                     setTimeout(
-                        'window.location.href = "dados-municipio.php";',
+                        'window.location.href = "orientacoes-tecnicas";',
                         4000
                     );
                 } else {
