@@ -15,7 +15,8 @@
                     <a href="controle-interno">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
-                                <span class="flaticon-031-financial"></span>
+                                <!--<span class="flaticon-031-financial"></span>-->
+								<span class="fa fa-clone"></span>
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
@@ -28,41 +29,48 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a href="controle-patrimonial">
+				
+				<div class="col-md-12 col-sm-6 col-xs-12">
+                    <a href="orientacao-tecnica">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
-                                <span class="flaticon-031-financial"></span>
+							<!--<span class="flaticon-041-network"></span>-->
+                                <span class="fa fa-pencil-square"></span>
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Controle Patrimonial</h4><br>
-                                    <!-- <a class="service-btn" href="controle-patrimonial"><i class="ti-arrow-right"></i></a> -->
+                                    <h4>Orientações Técnicas</h4>
+                                    <!-- <a class="service-btn" href="outros-servicos"><i class="ti-arrow-right"></i></a> -->
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+				
+				
+				<div class="col-md-3 col-sm-6 col-xs-12">
                     <a href="auditorias-especiais">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
-                                <span class="flaticon-057-statistics"></span>
+                                <!--<span class="flaticon-057-statistics"></span>-->
+								<span class="fa fa-edit"></span>
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Auditoria Especiais</h4><br>
+                                    <h4>Auditorias Especiais</h4><br>
                                     <!-- <a class="service-btn" href="auditoria"><i class="ti-arrow-right"></i></a> -->
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
+				
+				 <div class="col-md-3 col-sm-6 col-xs-12">
                     <a href="contabilidade">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
-                                <span class="flaticon-012-business"></span>
+							<span class="fa fa-calculator">
+                                <!--<span class="flaticon-012-business"></span>-->
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
@@ -73,11 +81,31 @@
                         </div>
                     </a>
                 </div>
+				
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a href="controle-patrimonial">
+                        <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-icon">
+                                <!--<span class="flaticon-031-financial"></span>-->
+								<span class="fa fa-list-ul"></span>
+                            </div>
+                            <div class="service-inner">
+                                <div class="service-content">
+                                    <h4>Controle Patrimonial</h4><br>
+                                    <!-- <a class="service-btn" href="controle-patrimonial"><i class="ti-arrow-right"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+               
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <a href="planejamento-estrategico">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
-                                <span class="flaticon-012-business"></span>
+							<span class="fa fa-line-chart"></span>
+                                <!--<span class="flaticon-012-business"></span>-->
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
@@ -88,15 +116,17 @@
                         </div>
                     </a>
                 </div>
+				
                 <div class="col-md-12 col-sm-6 col-xs-12">
                     <a href="servicos-especiais">
                         <div class="single-service wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-icon">
-                                <span class="flaticon-041-network"></span>
+							<!--<span class="flaticon-041-network"></span>-->
+                                <span class="fa fa-tasks"></span>
                             </div>
                             <div class="service-inner">
                                 <div class="service-content">
-                                    <h4>Serviços Especiais</h4>
+                                    <h4>Outros Serviços</h4>
                                     <!-- <a class="service-btn" href="outros-servicos"><i class="ti-arrow-right"></i></a> -->
                                 </div>
                             </div>

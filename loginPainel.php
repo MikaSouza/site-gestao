@@ -1,6 +1,6 @@
 <?php
-$vSTitulo = 'Login';
-$vSName = 'login';
+$vSName = 'loginPainel';
+$vSTitulo = 'Login Paínel';
 require_once 'header.php';
 ?>
 <div class="page-area">
@@ -35,12 +35,8 @@ require_once 'header.php';
 								<div id="error" class="col-md-12 col-sm-12 col-xs-12 ajusta">
 								</div>
 								<div class="col-md-12 col-sm-12 col-xs-12 ajusta">
-									<input type="text" class="form-control obrigatorio"
-										style="margin-bottom:10px !important;" id="vSUsuario" name="vSUsuario"
-										placeholder="E-mail">
-									<input type="password" class="form-control obrigatorio"
-										style="margin-bottom:10px !important;" id="vSSenha" name="vSSenha"
-										placeholder="Senha">
+									<input type="text" class="form-control obrigatorio" style="margin-bottom:10px !important;" id="vSUsuario" name="vSUsuario" placeholder="E-mail">
+									<input type="password" class="form-control obrigatorio" style="margin-bottom:10px !important;" id="vSSenha" name="vSSenha" placeholder="Senha">
 									<div class="check-group flexbox">
 										<label class="check-box">
 											<input type="checkbox" class="check-box-input" checked>

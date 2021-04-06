@@ -11,8 +11,7 @@
 	<meta name="robots" content="index,follow">
 	<link rel="canonical" href="http://gestao.srv.br/" />
 	<meta name="MobileOptimized" content="320" />
-	<meta name="keywords"
-		content="gestão, administração pública, controle patrimonial, contabilidade e finanças, auditorias, serviços especiais  " />
+	<meta name="keywords" content="gestão, administração pública, controle patrimonial, contabilidade e finanças, auditorias, serviços especiais  " />
 	<meta name="author" content="Teraware Soluções em Software e Internet">
 	<!-- SEO Teraware  -->
 
@@ -76,39 +75,37 @@
 	</div>
 	<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 	<script>
-	new window.VLibras.Widget('https://vlibras.gov.br/app');
+		new window.VLibras.Widget('https://vlibras.gov.br/app');
 	</script>
 	<!-- Libras -->
 
 	<?php if ($vSName = 'contato') : ?>
-
-	<!-- Chave do RECAPTCHA -->
-	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<!-- SweetAlert -->
+		<link rel="stylesheet" type="text/css" href="tw/libs/sweetalert/dist/sweetalert.css">
+		<script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script>
+		<!-- Chave do RECAPTCHA -->
+		<script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<?php endif; ?>
 
-
-	<!-- <script type="text/javascript" src="tw/libs/sweetalert/dist/sweetalert.min.js"></script> -->
-
-
 	<style>
-	.log-form label.error {
-		color: red !important;
-		font-weight: 100 !important;
-		margin-top: -5px !important;
-	}
+		.log-form label.error {
+			color: red !important;
+			font-weight: 100 !important;
+			margin-top: -5px !important;
+		}
 
-	.log-form input.error,
-	.log-form textarea.error {
-		border-color: red !important;
-	}
+		.log-form input.error,
+		.log-form textarea.error {
+			border-color: red !important;
+		}
 	</style>
 
-	<?php if ($vSName == 'login') : ?>
-	<link href="assets/sweetalert2.min.css" rel="stylesheet" type="text/css">
+	<?php if ($vSName == 'loginPainel') : ?>
+		<link href="assets/sweetalert2.min.css" rel="stylesheet" type="text/css">
 	<?php endif; ?>
 
 	<!-- Constantes do PHP -->
-	<?php require_once 'tw/includes/constantes.php';?>
+	<?php require_once 'tw/includes/constantes.php'; ?>
 
 </head>
 
@@ -137,13 +134,9 @@
 					<div class="col-md-3 col-sm-3">
 						<div class="top-social">
 							<ul>
-								<li><a href="https://www.facebook.com/gestaoltda" target="_blank"><i
-											class="fa fa-facebook"></i></a></li>
-								<li><a class="instaAlt"
-										href="https://www.instagram.com/gestaoucci/?igshid=1k3hozxycimd7"
-										target="_blank"><i class="fa fa-instagram"></i></a></li>
-								<li><a class="faceAlt" href="https://www.facebook.com/gestaoamais" target="_blank"><i
-											class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.facebook.com/gestaoltda" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="instaAlt" href="https://www.instagram.com/gestaoucci/?igshid=1k3hozxycimd7" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<li><a class="faceAlt" href="https://www.facebook.com/gestaoamais" target="_blank"><i class="fa fa-facebook"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -171,8 +164,7 @@
                                 </form> -->
 							</div>
 							<!-- <a class="s-menu" href="http://sites-gestao-srv.teraware.net.br/login.php">InfoGestão</a> -->
-							<a class="s-menu" href="login" alt="Software para as UCCIs em construção"
-								title="Software para as UCCIs em construção">InfoGestão</a>
+							<a class="s-menu" href="loginPainel" alt="Software para as UCCIs em construção" title="Software para as UCCIs em construção">InfoGestão</a>
 						</div>
 						<nav class="navbar navbar-default">
 							<div class="collapse navbar-collapse alinha" id="navbar-example">
@@ -196,8 +188,9 @@
 												<li><a href="auditorias-especiais">Auditorias Especiais</a></li>
 												<li><a href="contabilidade">Contabilidade e Finanças</a></li>
 												<li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-												<li><a href="servicos-especiais">Serviços Especiais</a></li>
 												<li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+												<li><a href="servicos-especiais">Outros Serviços</a></li>
+
 											</ul>
 										</li>
 										<li>
@@ -238,13 +231,11 @@
 									</li>
 									<li>
 										<a class="pages" href="auditoria">Serviços<br> Especiais</a>
-										<ul class="sub-menu">
-											<li><a href="auditorias-especiais">Auditorias Especiais</a></li>
-											<li><a href="contabilidade">Contabilidade e Finanças</a></li>
-											<li><a href="controle-patrimonial">Controle Patrimonial</a></li>
-											<li><a href="outros-servicos">Serviços Especiais</a></li>
-											<li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
-										</ul>
+										<li><a href="auditorias-especiais">Auditorias Especiais</a></li>
+												<li><a href="contabilidade">Contabilidade e Finanças</a></li>
+												<li><a href="controle-patrimonial">Controle Patrimonial</a></li>
+												<li><a href="planejamento-estrategico">Planejamento Estratégico</a></li>
+												<li><a href="servicos-especiais">Outros Serviços</a></li>
 									</li>
 									<li>
 										<a href="blog">Blog</a>

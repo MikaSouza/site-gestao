@@ -8,19 +8,18 @@ if (verificacaoGoogleRecaptcha($_POST['g-recaptcha-response'])) {
 
     unset($_POST['g-recaptcha-response']);
 
+    $id = insertUpdateContatos($_POST);
+
     $nome = filter_input(INPUT_POST, 'vSCONNOME', FILTER_SANITIZE_STRING);
     $telefone = filter_input(INPUT_POST, 'vSCONTELEFONE', FILTER_SANITIZE_STRING);
     $email = filter_input(INPUT_POST, 'vSCONEMAIL', FILTER_SANITIZE_EMAIL);
     $mensagem = filter_input(INPUT_POST, 'vSCONMENSAGEM', FILTER_SANITIZE_STRING);
 
-    $id = insertUpdateContatos($_POST);
-
     $dadosEmail = array(
         'titulo'        => 'Uma solicitação de contato enviada por | ' . cSNomeEmpresa,
         'descricao'     => '',
         'destinatarios' => array(
-            'ADMIN',
-            'marlo.schuster@teraware.com.br'
+            'ADMIN'
         ),
         'fields' => array(
             'Nome' => $nome,
