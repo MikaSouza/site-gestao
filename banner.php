@@ -2,7 +2,7 @@
     <div class="intro-carousel">
         <div class="intro-content-2">
             <div id="header-video">
-                <video poster="https://teraware.net.br/sites/sites-gestao-srv/img/video/gestao_srv.mp4" playsinline="" autoplay="" muted="" loop="">
+                <video id="video" poster="https://teraware.net.br/sites/sites-gestao-srv/img/video/gestao_srv.mp4" playsinline="" autoplay="" muted="" loop="">
                     <source src="img/video/gestao_srv.mp4" type="video/mp4">
                 </video>
             </div>

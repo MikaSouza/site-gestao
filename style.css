@@ -1945,7 +1945,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
-    height: 620px;
+    height: 520px;
     top: 160px;
 }
 .intro-area-3 .intro-content-2::after {
@@ -3453,4 +3453,24 @@ form h5 {
         rgba(150, 47, 191, 1) 75%,
         rgba(79, 91, 213, 1) 100%
     ) !important;
+}
+
+#video {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    #video {
+        width: auto;
+        height: 100%;
+        position: absolute;
+        bottom: 15%;
+        left: -90%;
+    }
+}
+
+.intro-carousel {
+    background: #f5f8fb;
 }
