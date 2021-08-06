@@ -1945,7 +1945,7 @@ div#preloader {
 .intro-area-3 .intro-content-2 {
     position: relative;
     z-index: 1;
-    height: 520px;
+    height: 620px;
     top: 160px;
 }
 .intro-area-3 .intro-content-2::after {
@@ -3457,7 +3457,7 @@ form h5 {
 
 #video {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     width: 100%;
 }
 
@@ -3466,7 +3466,7 @@ form h5 {
         width: auto;
         height: 100%;
         position: absolute;
-        bottom: 15%;
+        bottom: 10%;
         left: -90%;
     }
 }
