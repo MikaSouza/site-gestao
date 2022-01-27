@@ -18,6 +18,7 @@ function envioEmail($pSTitulo, $pSMensagem, $pSAddAddress, $anexos=null){
 		$mail->From = getConfig('CFGEMAILENVIO');
 		$mail->FromName = cSNomeEmpresa;
 		$mail->addAddress($pSAddAddress, cSNomeEmpresa);
+		// $mail->SMTPDebug=4;
 
 		$mail->isHTML(true);
 		$mail->Subject = $pSTitulo;

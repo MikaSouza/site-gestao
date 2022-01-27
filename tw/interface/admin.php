@@ -33,4 +33,5 @@ require_once '../app/header.php';
 		</div>
 	</div>
 </div>
+
 <?php require_once '../app/footer.php'; ?>

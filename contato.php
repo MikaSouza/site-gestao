@@ -4,7 +4,6 @@
 $vSTitulo = 'Entre em contato';
 $vSName = 'contato';
 require_once 'header.php';
-// require_once 'tw/includes/constantes.php';
 
 ?>
 <!-- End Header via PHP -->

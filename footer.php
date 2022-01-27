@@ -3,37 +3,35 @@
         		<div class="container">
         			<div class="" style="position:fixed;bottom:72px;right:11px;z-index:9999;">
         				<a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5551984432097">
-        					<img src="img/brand/whatsgestao.png" alt="Atendimento via WhatsApp" width="150px"
-        						height="80px">
+        					<img src="img/brand/whatsgestao.png" alt="Atendimento via WhatsApp" width="150px" height="80px">
         				</a>
         			</div>
 
-        			<link rel="stylesheet"
-        				href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
         			<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
         			<script>
-        			window.addEventListener("load", function() {
-        				window.cookieconsent.initialise({
-        					"palette": {
-        						"popup": {
-        							"background": "	#FFFFFF",
-        							"text": "#243559"
+        				window.addEventListener("load", function() {
+        					window.cookieconsent.initialise({
+        						"palette": {
+        							"popup": {
+        								"background": "	#FFFFFF",
+        								"text": "#243559"
+        							},
+        							"button": {
+        								"background": "#3078FB"
+        							}
         						},
-        						"button": {
-        							"background": "#3078FB"
+        						"theme": "classic",
+        						"position": "bottom-left",
+        						"content": {
+        							"message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
+        							"dismiss": "Entendi!",
+        							"link": "Leia mais…",
+        							"href": "politicaPrivacidade"
         						}
-        					},
-        					"theme": "classic",
-        					"position": "bottom-left",
-        					"content": {
-        						"message": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
-        						"dismiss": "Entendi!",
-        						"link": "Leia mais…",
-        						"href": "politicaPrivacidade"
-        					}
-        				})
-        			});
+        					})
+        				});
         			</script>
 
 
@@ -124,10 +122,7 @@
         						<p>
         							Copyright <?php echo date('Y'); ?> <a href="index"><?php echo cSNomeEmpresa; ?></a>
         							Todos direitos reservados<br>
-        							Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img
-        									src="img/logo/tw-icone.png" width="70px"
-        									alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais"
-        									title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware
+        							Desenvolvido por <a href="http://portal.teraware.com.br/" target="_blank"><img src="img/logo/tw-icone.png" width="70px" alt="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" title="Teraware - ERP | E-commerce | Web Sites | Outsourcing | Projetos Especiais" /></a>Teraware
         							Soluções em Software e Internet</a>.
         						</p>
         					</div>
@@ -140,32 +135,32 @@
         <!-- all js here -->
 
         <script>
-let myGreeting = setInterval(function sayHi() {
+        	let myGreeting = setInterval(function sayHi() {
 
-	var text1 = "",
-		text2 = "";
+        		var text1 = "",
+        			text2 = "";
 
 
-	if ($("#flagText").val() >= 2) {
-		$("#flagText").val(0);
-	}
+        		if ($("#flagText").val() >= 2) {
+        			$("#flagText").val(0);
+        		}
 
-	var val = $("#flagText").val();
+        		var val = $("#flagText").val();
 
-	if (val == 0) {
-		text1 = "Inteligência com foco na Administração Pública";
-		text2 = "Controle Interno eficiente e menos burocrático";
-	} else if (val == 1) {
-		text1 = "Práticas de Compliance no âmbito da Administração Pública";
-		text2 = "Experiência que ultrapassa 20 anos de assessoria à Órgãos Públicos";
-	}
+        		if (val == 0) {
+        			text1 = "Inteligência com foco na Administração Pública";
+        			text2 = "Controle Interno eficiente e menos burocrático";
+        		} else if (val == 1) {
+        			text1 = "Práticas de Compliance no âmbito da Administração Pública";
+        			text2 = "Experiência que ultrapassa 20 anos de assessoria à Órgãos Públicos";
+        		}
 
-	$("#text-1").html(text1);
-	$("#text-2").html(text2);
+        		$("#text-1").html(text1);
+        		$("#text-2").html(text2);
 
-	$("#flagText").val(parseInt(val) + 1);
+        		$("#flagText").val(parseInt(val) + 1);
 
-}, 4000)
+        	}, 4000)
         </script>
 
         <!-- jquery latest version -->
@@ -196,19 +191,20 @@ let myGreeting = setInterval(function sayHi() {
         <script src="js/main.js"></script>
 
         <?php if ($vSName == 'contato') : ?>
-        <script src="js/contato.js"></script>
-        <script src="js/mascaras.js"></script>
-        <!-- Scrip Validade do Contato.php -->
-        <script src="js/jquery.validate.min.js"></script>
-        <!-- Google Map js -->
-        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi9Pk2eVdtRieM2cuz6LHDntXp1jfCqR0"></script>
-            <script src="js/mapcode.js"></script> -->
+        	<script src="js/contato.js"></script>
+        	<script src="js/mascaras.js"></script>
+        	<script src="js/jquery.validate.min.js"></script>
         <?php endif; ?>
 
+        <?//php if ($vSName == 'teste') : ?>
+        	<!-- <script src="js/ebook.js"></script>
+        	<script src="js/mascaras.js"></script>
+        	<script src="js/jquery.validate.min.js"></script> -->
+        <?//php endif; ?>
+
         <?php if ($vSName == 'formulario') : ?>
-        <script src="js/formulario.js"></script>
-        <!-- Scrip Validade do Login.php -->
-        <script src="js/jquery.validate.min.js"></script>
+        	<script src="js/formulario.js"></script>
+        	<script src="js/jquery.validate.min.js"></script>
         <?php endif; ?>
         </body>
 

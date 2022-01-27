@@ -16,8 +16,8 @@ require_once '../app/header.php';
 						<tr>
 							<th>Data Inclusão</th>
 							<th>Nome</th>
-							<th>E-mail</th>
 							<th>Telefone</th>
+							<th>E-mail</th>
 							<th>Ações</th>
 						</tr>
 					</thead>

@@ -35,3 +35,6 @@
 	<?php 	endif;
 		endif;
 	?>
+	<!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=af96b062-0118-4830-8057-059fc7ceca25"> </script>
+<!-- End of  Zendesk Widget script -->

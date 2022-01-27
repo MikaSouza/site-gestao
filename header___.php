@@ -2,23 +2,13 @@
 <html class="no-js" lang="pt-br">
 
 <head>
-	<!-- Google Tag Manager -->
-
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-
-})(window,document,'script','dataLayer','GTM-K8JMX59');</script>
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({ gtm.start :
+new Date().getTime(),event: gtm.js });var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!= dataLayer ? &l= +l:  ;j.async=true;j.src=
+ https://www.googletagmanager.com/gtm.js?id= +i+dl;f.parentNode.insertBefore(j,f);
+})(window,document, script , dataLayer , GTM-K8JMX59 );</script>
 <!-- End Google Tag Manager -->
-
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-K8JMX59 height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 
 
 	<!-- SEO Teraware -->
@@ -132,13 +122,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
-	<!-- Google Tag Manager (noscript) -->
-
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8JMX59"
-
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src= https://www.googletagmanager.com/ns.html?id=GTM-K8JMX59 
+height= 0  width= 0  style= display:none;visibility:hidden ></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 	<!--[if lt IE 8]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
@@ -192,7 +180,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </form> -->
 							</div>
 							<!-- <a class="s-menu" href="http://sites-gestao-srv.teraware.net.br/login.php">InfoGestão</a> -->
-							<a class="s-menu" href="https://gestao-srv.twflex.com.br/" alt="Sistema InfoGestão" title="Sistema InfoGestão">InfoGestão</a>
+							<a class="s-menu" href="https://gestao-srv.twflex.com.br/" alt="Software para as UCCIs em construção" title="Software para as UCCIs em construção">InfoGestão</a>
 						</div>
 						<nav class="navbar navbar-default">
 							<div class="collapse navbar-collapse alinha" id="navbar-example">

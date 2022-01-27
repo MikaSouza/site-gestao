@@ -41,7 +41,7 @@ define('cSTelefone1', '(51) 3541-3355');
 define('cSTelefone2', '(51) 98443-2097');
 define('cSTelefone3', '');
 define('cSEncriptacao', 'gestaoltda');
-define('cSSiteEmpresa', 'sites-gestao-srv.teraware.net.br');
+define('cSSiteEmpresa', 'https://gestao.srv.br/');
 
 define('cSLogoMarca', 'logotipo.jpg');
 
